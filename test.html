@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title></title>
+      <head>
+         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+         <style type="text/css">
+            /*.carousel-showmanymoveone .carousel-control {
+   width: 4%;
+   background-image: none;
+}
+
+.carousel-showmanymoveone .carousel-control.left {
+   margin-left: 0;
+}
+
+.carousel-showmanymoveone .carousel-control.right {
+   margin-right: 0;
+}*/
+
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3 {
+   display: none;
+}
+
+/*.carousel .item .col-xs-12 {
+   padding: 0;
+}*/
+
+
+/* Medium Devices, Desktops */
+
+/*@media only screen and (max-width: 992px) {
+   .carousel .item .col-xs-12:nth-last-child(-n+2) {
+      display: none;
+   }
+}*/
+
+/*@media all and (min-width: 768px) {
+   .carousel-showmanymoveone .carousel-inner > .active.left,
+   .carousel-showmanymoveone .carousel-inner > .prev {
+      left: -50%;
+   }
+   .carousel-showmanymoveone .carousel-inner > .active.right,
+   .carousel-showmanymoveone .carousel-inner > .next {
+      left: 50%;
+   }
+   .carousel-showmanymoveone .carousel-inner > .left,
+   .carousel-showmanymoveone .carousel-inner > .prev.right,
+   .carousel-showmanymoveone .carousel-inner > .active {
+      left: 0;
+   }
+   .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+      display: block;
+   }
+}
+
+@media all and (min-width: 768px) and (transform-3d),
+all and (min-width: 768px) and (-webkit-transform-3d) {
+   .carousel-showmanymoveone .carousel-inner > .item.active.right,
+   .carousel-showmanymoveone .carousel-inner > .item.next {
+      -webkit-transform: translate3d(50%, 0, 0);
+      transform: translate3d(50%, 0, 0);
+      left: 0;
+   }
+   .carousel-showmanymoveone .carousel-inner > .item.active.left,
+   .carousel-showmanymoveone .carousel-inner > .item.prev {
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
+      left: 0;
+   }
+   .carousel-showmanymoveone .carousel-inner > .item.left,
+   .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+   .carousel-showmanymoveone .carousel-inner > .item.active {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      left: 0;
+   }
+}*/
+
+@media all and (min-width: 992px) {
+   .carousel-showmanymoveone .carousel-inner > .active.left,
+   .carousel-showmanymoveone .carousel-inner > .prev {
+      left: -16.6%;
+   }
+   .carousel-showmanymoveone .carousel-inner > .active.right,
+   .carousel-showmanymoveone .carousel-inner > .next {
+      left: 16.6%;
+   }
+   .carousel-showmanymoveone .carousel-inner > .left,
+   .carousel-showmanymoveone .carousel-inner > .prev.right,
+   .carousel-showmanymoveone .carousel-inner > .active {
+      left: 0;
+   }
+   .carousel-showmanymoveone .carousel-inner .cloneditem-1,
+   .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+   .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+      display: block;
+   }
+}
+
+@media all and (min-width: 992px) and (transform-3d),
+all and (min-width: 992px) and (-webkit-transform-3d) {
+   .carousel-showmanymoveone .carousel-inner > .item.active.right,
+   .carousel-showmanymoveone .carousel-inner > .item.next {
+      -webkit-transform: translate3d(16.6%, 0, 0);
+      transform: translate3d(16.6%, 0, 0);
+      left: 0;
+   }
+   .carousel-showmanymoveone .carousel-inner > .item.active.left,
+   .carousel-showmanymoveone .carousel-inner > .item.prev {
+      -webkit-transform: translate3d(-16.6%, 0, 0);
+      transform: translate3d(-16.6%, 0, 0);
+      left: 0;
+   }
+   .carousel-showmanymoveone .carousel-inner > .item.left,
+   .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+   .carousel-showmanymoveone .carousel-inner > .item.active {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      left: 0;
+   }
+}
+
+ h1{
+  margin-bottom: 0.5em;
+}
+
+ p.testimonial_header_text{
+      font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #b8b8b8;
+    margin-bottom: 2em;
+}
+
+ .testimonial_item_text_block{
+    padding: 2em 0 1em;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.06);
+}
+
+ .testimonial_item h5{
+      font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #82a3bf;
+}
+
+ .testimonial_item h5:after{
+    content:' ';
+    display:  block;
+    border: 1px solid #2b90d9;
+    width: 14%;
+    margin: 0.2em auto 1em;
+}
+
+ .testimonial_item p{
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: center;
+  color: #9b9b9b;
+}
+ .quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+}
+ .testimonial_item{
+  position: relative;
+  margin: 3em 1.5em 1.5em;
+}
+.carousel .carousel-indicators > li {
+  background-color: #b4c6d3;
+  border: none;
+}
+ blockquote {
+    text-align: center;
+    border: none;
+    margin-bottom: 0;
+    padding-top: 6px;
+    margin-bottom: 0.7em;
+}
+ .profile-circle {
+  top: -41px;
+  position: absolute;
+  background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03d/22e/245b071.jpg) no-repeat center center;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 70px;
+  left: 0px;
+  right: 0px;
+}
+         </style>
+   </head>
+   </head>
+   <body>
+        <div class="container">
+  
+    <h1>Bootstrap 3 Carousel Multiple Items Increment by 1</h1>
+
+<div class="row">
+   <div class="col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="carousel-tilenav" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner">
+                           <div class="item active">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>1111111111111111 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>222222222222222222222 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>33333333333333333333 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>444444444444444444444 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>,55555555555555555555 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>666666666666666666666 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>777777777777777777777 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="item">
+                               <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                                   <div class="testimonial_item text-center">
+                                       <div class="profile-circle"></div>
+                                       <div class="testimonial_item_text_block">
+                                           <h5>Nitish Anand</h5>
+                                           <div class="quote"><i class="fa fa-quote-left fa-2x"></i></div>
+                                           <blockquote>
+                                               <p>88888888888888888888888 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                           </blockquote>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+         <a class="left carousel-control" href="#carousel-tilenav" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+         <a class="right carousel-control" href="#carousel-tilenav" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+   </div>
+</div>
+
+   
+</div>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+        (function(){
+  $('.carousel-showmanymoveone .item').each(function(){
+    var itemToClone = $(this);
+
+    for (var i=1;i<3;i++) {
+      itemToClone = itemToClone.next();
+
+      // wrap around if at end of item collection
+      if (!itemToClone.length) {
+        itemToClone = $(this).siblings(':first');
+      }
+
+      // grab item, clone, add marker class, add to collection
+      itemToClone.children(':first-child').clone()
+        .addClass("cloneditem-"+(i))
+        .appendTo($(this));
+    }
+  });
+}());
+
+
+
+
+// $(window).load(function() {
+// console.log("window is loaded");
+// });
+
+
+
+      </script>
+   </body>
+</html>
