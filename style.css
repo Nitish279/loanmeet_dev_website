@@ -570,7 +570,7 @@ footer .footer_download_link_block img {
   color: #282c37;*/
     
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     /* line-height: 1.58; */
     
@@ -780,7 +780,7 @@ footer .footer_download_link_block img {
     margin-bottom: 2em;
 }
 #testimonial-section-singleItem .testimonial_item_text_block {
-    padding: 2em 0 0.5em;
+    padding: 2em 1em 0.5em;
     /*border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.06);*/
@@ -792,7 +792,7 @@ footer .footer_download_link_block img {
   margin-bottom: 0.1em;*/
     
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     text-align: center;
     color: #82a3bf;
@@ -810,7 +810,7 @@ footer .footer_download_link_block img {
   font-size: 15px;*/
     
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.44;
     text-align: center;
     color: #9b9b9b;
@@ -1126,7 +1126,7 @@ transform: scale(1);*/
     border: 1px solid #4392d9;
     border-right: none;
 }
-#download_app_section .download_app_form button {
+#download_app_section .download_app_form .app_link_btn {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0;
@@ -1139,4 +1139,49 @@ transform: scale(1);*/
 }
 #download_app_section .download_img_block img {
     margin: 0 auto;
+}
+
+
+
+
+/*Modal Starts from here*/
+
+#app-link-modal .bs-example{
+    margin: 20px;
+}
+
+#app-link-modal .modal_logo_block{
+    margin: 1em auto;
+}
+
+#app-link-modal .modal-header,
+#app-link-modal .modal-footer
+{
+    border: none;
+}
+
+#app-link-modal .modal-body p{
+    /* font-family: 'Marck Script', cursive; */
+    /* font-weight: bold; */
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;;
+}
+
+/*#app-link-modal .modal-body img,
+#app-link-modal .modal-body h1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 49.5%;
+    margin: 0 auto;
+}
+
+#app-link-modal .modal-body img{
+
+}*/
+
+#app-link-modal .modal-body h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5em;
 }

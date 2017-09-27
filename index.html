@@ -5,6 +5,7 @@
       <head>
          <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Marck+Script|Rock+Salt" rel="stylesheet">
          <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
          <link rel="stylesheet" type="text/css" href="style.css">
    </head>
@@ -447,7 +448,7 @@
                   
                   <div class="carousel-inner">
                      <div class="active item">
-                        <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="col-md-6 col-md-offset-3 text-center">
                            <div class="testimonial_item text-center">
                               <div class="profile-circle">
                                  <img src="https://loanmeet.com/assets/images/lisa.jpg" alt="">
@@ -472,7 +473,7 @@
                         </div>
                      </div>
                      <div class="item">
-                        <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="col-md-6 col-md-offset-3 text-center">
                            <div class="testimonial_item text-center">
                               <div class="profile-circle">
                                  <img src="https://loanmeet.com/assets/images/ashim.jpg" alt="">
@@ -497,7 +498,7 @@
                         </div>
                      </div>
                      <div class="item">
-                        <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="col-md-6 col-md-offset-3 text-center">
                            <div class="testimonial_item text-center">
                               <div class="profile-circle">
                                  <img src="https://loanmeet.com/assets/images/mahalakshmi.jpg" alt="">
@@ -687,7 +688,8 @@
                   <form class="download_app_form form-inline">
                      <div class="form-group">
                         <input type="number" min="1" max="10" class="form-control" id="mobile_number" placeholder="Enter Mobile Number"  name="mobileNumber">
-                        <button type="submit" class="btn btn-default">Send Link</button>
+                        <a href="#app-link-modal" class="btn app_link_btn" data-toggle="modal">Send Link</a>
+                        <!-- <a href="#myModal"><button type="submit" class="btn btn-default">Send Link</button></a> -->
                      </div>
                   </form>
                </div>
@@ -739,6 +741,26 @@
             </div>
          </div>
       </section>
+      <!-- Modal HTML -->
+      <div id="app-link-modal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="modal_logo_block text-center">
+                     <img src="https://loanmeet.com/assets/images/loanmeet-logo.png" alt="loanmeet Logo">
+                  </div>
+                </div>
+                <div class="modal-body">
+                    <p>Voila !! We have sent you a link to download our mobile app on your mobile phone. Kindly doenload our appto avail credit instantly</p><br>
+
+                    <!-- <img src="thumbs_up.png" alt="loanmeet Logo"> -->
+                    <h1 class="text-center">Thank You</h1><br><br>
+                </div>
+                  
+            </div>
+        </div>
+       </div>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="main.js"></script>
