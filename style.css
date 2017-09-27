@@ -666,7 +666,7 @@ footer .footer_download_link_block img {
 }
 #testimonial-section .testimonial_item {
     position: relative;
-    width: 26%;
+    width: 24%;
     display: inline-block;
     vertical-align: middle;
     height: 310px;
@@ -674,7 +674,7 @@ footer .footer_download_link_block img {
     /*background-color: aqua;*/
 }
 #testimonial-section .testimonial_item:first-child {
-    margin-left: 3.5em;
+    margin-left: 6em;
 }
 #testimonial-section .testimonial_item:last-child {
     margin-right: 3.5em;
@@ -718,8 +718,8 @@ footer .footer_download_link_block img {
     /*background-color: antiquewhite;*/
     /*display: block;*/
     height: 160px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     margin: 0;
     font-size: 14px;
 }
@@ -734,6 +734,7 @@ footer .footer_download_link_block img {
     border-radius: 70px;
     left: 0px;
     right: 0px;
+    z-index: 10;
 }
 
 .loanmeet_testimonial_carousel .carousel-inner > .item {
@@ -780,7 +781,7 @@ footer .footer_download_link_block img {
 #loanmeet-testimonial a.left{
     position: absolute;
     top: 42px;
-    left: -64px;
+    left: -25px;
 
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -792,7 +793,7 @@ footer .footer_download_link_block img {
 #loanmeet-testimonial a.right{
     position: absolute;
     top: 42px;
-    right: -42px;
+    right: -15px;
         /*background-color: red;*/
 }
 
