@@ -403,9 +403,9 @@ footer .footer_download_link_block img {
     background-color: transparent;
     /*background-color: #fff;*/
     
-    transition: background .7s ease-in-out;
-    -moz-transition: background .7s ease-in-out;
-    -webkit-transition: background .7s ease-in-out;
+    transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
 }
 #features-section .num_indicator span {
     display: inline-block;
@@ -424,9 +424,9 @@ footer .footer_download_link_block img {
     border-radius: 12px;
     background-color: #fff;
 
-    transition: background .7s ease-in-out;
-    -moz-transition: background .7s ease-in-out;
-    -webkit-transition: background .7s ease-in-out;
+    transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
 }
 #features-section .indv_feature_block {} #features-section .indv_feature_text h5 {
     font-size: 20px;
@@ -533,20 +533,20 @@ footer .footer_download_link_block img {
 }
 #product-video-section .line {
     width: 3px;
-    height: 52px;
+    height: 48px;
     background-color: #979797;
     position: absolute;
 }
 #product-video-section .line#line1 {
-    top: 46px;
+    top: 45px;
     left: 11px;
 }
 #product-video-section .line#line2 {
-    top: 118px;
+    top: 112px;
     left: 11px;
 }
 #product-video-section .line#line3 {
-    top: 190px;
+    top: 181px;
     left: 11px;
 }
 #product-video-section .app_flow_step_text {} #product-video-section .app_flow_indicator span {
@@ -827,6 +827,31 @@ footer .footer_download_link_block img {
 .invd_newsfeed_item.p2p_banking {
     margin-top: 2.4em;
 }
+.invd_newsfeed_item.medianama {
+    margin-top: 1.7em;
+}
+.invd_newsfeed_item.the_economics_times2 {
+    margin-top: 2.4em;
+}
+.invd_newsfeed_item.forbes {
+    margin-top: 0.8em;
+}
+
+#newsfeeds-section .carousel-inner .item{
+
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -o-transition: -o-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+
+
+    /*transition: transform 1s ease-in-out left;*/
+    /*transition: 1s linear left !important;*/
+    /*transform: none !important;*/
+}
 /*-------------------------------*/
 /*   Download Block   */
 /*-------------------------------*/
@@ -969,9 +994,11 @@ footer .footer_download_link_block img {
     margin: 0 auto;
 }
 
-#app-link-modal .modal-body img{
+*/
 
-}*/
+#app-link-modal .modal-body img{
+    margin: 0 auto 1.5em;
+}
 
 #app-link-modal .modal-body h1{
     font-family: 'Rock Salt', cursive;
