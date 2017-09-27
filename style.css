@@ -344,7 +344,7 @@ footer .footer_download_link_block img {
     text-transform: capitalize;
 }
 #product-section .indv_prod p {
-    height: 35px;
+    height: 50px;
     opacity: 0.8;
     font-family: Roboto;
     font-size: 14px;
@@ -623,7 +623,7 @@ footer .footer_download_link_block img {
     letter-spacing: 0.8px;
     text-align: center;
     color: #b8b8b8;
-    margin-bottom: 2em;
+    margin-bottom: 2.2em;
 }
 #testimonial-section .testimonial_item_text_block {
     padding: 2em 0 1em;
@@ -653,10 +653,10 @@ footer .footer_download_link_block img {
     /*color: #9b9b9b;
   line-height: 23px;
   font-size: 15px;*/
-    
+
     font-family: Roboto;
-    font-size: 16px;
-    line-height: 1.44;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: center;
     color: #9b9b9b;
 }
@@ -667,23 +667,24 @@ footer .footer_download_link_block img {
 #testimonial-section .testimonial_item {
     position: relative;
     width: 26%;
-  display: inline-block;
-  vertical-align: middle;
-    
+    display: inline-block;
+    vertical-align: middle;
+    height: 310px;
     margin: 3em 2.5em 1.5em;
+    /*background-color: aqua;*/
 }
 #testimonial-section .testimonial_item:first-child {
-    margin-left: 0;
+    margin-left: 3.5em;
 }
 #testimonial-section .testimonial_item:last-child {
-    margin-right: 0;
+    margin-right: 3.5em;
 }
 #loanmeet-testimonial.carousel {
-    padding-bottom: 60px;
+    padding-bottom: 2em;
     clear: both;
     overflow: hidden;
 }
-#loanmeet-testimonial.carousel .carousel-inner .item {
+/*#loanmeet-testimonial.carousel .carousel-inner .item {
     opacity: 0;
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
@@ -694,7 +695,7 @@ footer .footer_download_link_block img {
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
           transition-property: opacity;
-}
+}*/
 #loanmeet-testimonial.carousel .carousel-indicators {
     /*bottom: 10px;*/
 }
@@ -703,220 +704,26 @@ footer .footer_download_link_block img {
     border: none;
 }
 #loanmeet-testimonial blockquote {
+    /*text-align: center;
+    border: none;
+    margin-bottom: 0;
+    padding-top: 6px;
+    margin-bottom: 0.7em;*/
+
+
     text-align: center;
     border: none;
     margin-bottom: 0;
     padding-top: 6px;
-    margin-bottom: 0.7em;
+    /*background-color: antiquewhite;*/
+    /*display: block;*/
+    height: 160px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: 0;
+    font-size: 14px;
 }
-#loanmeet-testimonial .profile-circle {
-    top: -41px;
-    position: absolute;
-    background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03d/22e/245b071.jpg) no-repeat center center;
-    background-size: contain;
-    width: 70px;
-    height: 70px;
-    margin: 0 auto;
-    border-radius: 70px;
-    left: 0px;
-    right: 0px;
-}
-#testimonial-section .carousel-inner .active.left {
-    left: -33%;
-}
-#testimonial-section .carousel-inner .next {
-    left: 33%;
-}
-#testimonial-section .carousel-inner .prev {
-    left: -33%;
-}
-#testimonial-section .carousel-control.left,
-#testimonial-section .carousel-control.right {
-    background-image: none;
-}
-#testimonial-section .item:not(.prev) {
-    visibility: visible;
-}
-#testimonial-section .item.right:not(.prev) {
-    visibility: hidden;
-}
-#testimonial-section .rightest {
-    visibility: visible;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------*/
-/*   Testimonial Block   */
-/*-------------------------------*/
-
-#testimonial-section-singleItem h1 {
-    margin-bottom: 0.5em;
-}
-#testimonial-section-singleItem p.testimonial_header_text {
-    /*color: #b8b8b8;
-  font-size: 16px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
-  margin-bottom: 2em;*/
-    
-    font-family: Roboto;
-    font-size: 20px;
-    letter-spacing: 0.8px;
-    text-align: center;
-    color: #b8b8b8;
-    margin-bottom: 2em;
-}
-#testimonial-section-singleItem .testimonial_item_text_block {
-    padding: 2em 1em 0.5em;
-    /*border-radius: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.06);*/
-}
-
-#testimonial-section-singleItem .testimonial_item h5 {
-    /*color: #82a3bf;
-  word-spacing: 1px;
-  margin-bottom: 0.1em;*/
-    
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-    color: #82a3bf;
-}
-#testimonial-section-singleItem .testimonial_item h5:after {
-    content: ' ';
-    display: block;
-    border: 1px solid #2b90d9;
-    width: 6%;
-    margin: 0.2em auto 1em;
-}
-#testimonial-section-singleItem .testimonial_item p {
-    /*color: #9b9b9b;
-  line-height: 23px;
-  font-size: 15px;*/
-    
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 1.44;
-    text-align: center;
-    color: #9b9b9b;
-}
-#testimonial-section-singleItem .quote {
-    color: rgba(0, 0, 0, .1);
-    text-align: center;
-}
-#testimonial-section-singleItem .testimonial_item {
-position: relative;
-/*width: 26%;*/
-/*display: inline-block;*/
-/*vertical-align: middle;*/
-margin: 3.5em 2.5em 6em;
-box-shadow: 0 3px 21px 0 rgba(0, 0, 0, 0.06);
-border: 1px solid rgba(0, 0, 0, 0.06);
-border-radius: 12px;
-cursor: pointer;
-
-/*-webkit-transition: all 1000ms ease-in;
--webkit-transform: scale(1);
--ms-transition: all 1000ms ease-in;
--ms-transform: scale(1);   
--moz-transition: all 1000ms ease-in;
--moz-transform: scale(1);
-transition: all 1000ms ease-in;
-transform: scale(1);*/
-}
-
-#testimonial-section-singleItem .testimonial_item:hover{
-    /*box-shadow: 0 3px 21px 0 rgba(0, 0, 0, 0.06);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-radius: 12px;*/
-
-    /*-webkit-transition: all 1000ms ease-in;
-    -webkit-transform: scale(1.1);
-    -ms-transition: all 1000ms ease-in;
-    -ms-transform: scale(1.1);   
-    -moz-transition: all 1000ms ease-in;
-    -moz-transform: scale(1.1);
-    transition: all 1000ms ease-in;
-    transform: scale(1.1);*/
-
-    /*cursor: pointer;*/
-    
-}
-#testimonial-section-singleItem .testimonial_item:first-child {
-    margin-left: 0;
-}
-#testimonial-section-singleItem .testimonial_item:last-child {
-    margin-right: 0;
-}
-#loanmeet-testimonial-singleItem.carousel {
-    padding-bottom: 2em;
-    clear: both;
-    overflow: hidden;
-}
-#loanmeet-testimonial-singleItem.carousel .carousel-inner .item {
-    /*opacity: 0;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;*/
-
-    opacity: 0;
-    -webkit-transition: all 4000ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 4000ms ease-in;
-    -ms-transform: scale(1);   
-    -moz-transition: all 4000ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 4000ms ease-in;
-    transform: scale(1);
-}
-#loanmeet-testimonial-singleItem.carousel .carousel-inner .active {
-    /*opacity: 1;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;*/
-
-
-
-    opacity: 1;
-    -webkit-transition: all 4000ms ease-in;
-    -webkit-transform: scale(1.2);
-    -ms-transition: all 4000ms ease-in;
-    -ms-transform: scale(1.2);   
-    -moz-transition: all 4000ms ease-in;
-    -moz-transform: scale(1.2);
-    transition: all 4000ms ease-in;
-    transform: scale(1.2);
-}
-#loanmeet-testimonial-singleItem.carousel .carousel-indicators {
-    /*bottom: 10px;*/
-}
-#loanmeet-testimonial-singleItem.carousel .carousel-indicators > li {
-    background-color: #b4c6d3;
-    border: none;
-}
-#loanmeet-testimonial-singleItem blockquote {
-    text-align: center;
-    border: none;
-    margin-bottom: 0;
-    /*padding-top: 6px;*/
-    margin-bottom: 0em;
-}
-#loanmeet-testimonial-singleItem .profile-circle img {
+#loanmeet-testimonial .profile-circle img{
     top: -41px;
     position: absolute;
     /*background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03d/22e/245b071.jpg) no-repeat center center;
@@ -929,85 +736,57 @@ transform: scale(1);*/
     right: 0px;
 }
 
-#loanmeet-testimonial-singleItem .rating_block{
-    padding-bottom: 1.5em;
+.loanmeet_testimonial_carousel .carousel-inner > .item {
+  transition: 1200ms ease-in-out left;
+  /*background-color: pink;*/
+}
+.loanmeet_testimonial_carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.loanmeet_testimonial_carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.loanmeet_testimonial_carousel .carousel-inner .next {
+  left: 33%;
+}
+.loanmeet_testimonial_carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .loanmeet_testimonial_carousel .carousel-inner > .item {
+    transition: 1200ms ease-in-out left;
+    transition: 1200ms ease-in-out all;
+    backface-visibility: visible;
+    transform: none!important;
+  }
+}
+.loanmeet_testimonial_carousel .carouse-control.left,
+.loanmeet_testimonial_carousel .carouse-control.right {
+  background-image: none;
 }
 
-#loanmeet-testimonial-singleItem .rating_block ul li {
-    display: inline-block;
-    margin-right: 0.4em;
-    /*color: #ffd500;*/
-    color: #ea3e0f;
+#loanmeet-testimonial a.left{
+    position: absolute;
+    top: 42px;
+    left: -64px;
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+        /*background-color: red;*/
 }
 
-#loanmeet-testimonial-singleItem .rating_block ul li i{
-    font-size: 1.5em;
+#loanmeet-testimonial a.right{
+    position: absolute;
+    top: 42px;
+    right: -42px;
+        /*background-color: red;*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#loanmeet-testimonial .item:hover a{
+    text-decoration: none;
+}
 
 
 
