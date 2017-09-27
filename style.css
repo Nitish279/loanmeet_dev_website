@@ -737,7 +737,12 @@ footer .footer_download_link_block img {
 }
 
 .loanmeet_testimonial_carousel .carousel-inner > .item {
-  transition: 1200ms ease-in-out left;
+  /*transition: 1200ms ease-in-out left;*/
+
+  transition: 2s ease-in-out left;
+-moz-transition: all 2s ease-in-out left;
+-ms-transform: scale(1);
+-webkit-transform: scale(1);
   /*background-color: pink;*/
 }
 .loanmeet_testimonial_carousel .carousel-inner .active.left {
@@ -754,10 +759,17 @@ footer .footer_download_link_block img {
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .loanmeet_testimonial_carousel .carousel-inner > .item {
-    transition: 1200ms ease-in-out left;
+
+    transition: 2s ease-in-out left;
+-moz-transition: all 2s ease-in-out left;
+-ms-transform: scale(1);
+-webkit-transform: scale(1);
+
+
+    /*transition: 1200ms ease-in-out left;
     transition: 1200ms ease-in-out all;
     backface-visibility: visible;
-    transform: none!important;
+    transform: none!important;*/
   }
 }
 .loanmeet_testimonial_carousel .carouse-control.left,
