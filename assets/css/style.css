@@ -104,9 +104,6 @@ header .nav_block ul li.sign_up_btn a {
     border-radius: 90px;
 }
 header .nav_block ul li a {
-    /*color: #838383;
-  letter-spacing: 1px;*/
-    
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -119,6 +116,8 @@ header .nav_block ul li a:hover,
 header .nav_block ul li a:visited {
     text-decoration: none;
 }
+
+
 /*-------------------------------*/
 /*   banner Block   */
 /*-------------------------------*/
@@ -129,30 +128,6 @@ header .nav_block ul li a:visited {
 #banner-section .banner_textual_block {
     margin-bottom: 0;
 }
-/*.vertical_center {
-  
-  min-height: 100%;
-  min-height: 100vh;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; 
-
-  -webkit-box-align : center;
-  -webkit-align-items : center;
-  -moz-box-align : center;
-  -ms-flex-align : center;
-  align-items : center;
-  
-  -webkit-box-pack : center;
-  -moz-box-pack : center;
-  -ms-flex-pack : center;
-  -webkit-justify-content : center;
-  justify-content : center;
-}*/
-
 #banner-section .banner_textual_inner_block {
     margin-top: 12em;
 }
@@ -177,41 +152,15 @@ header .nav_block ul li a:visited {
     width: 165px;
     text-align: center;
     word-spacing: 1px;
-    /*-webkit-transition: all 300ms ease-in;
-  -webkit-transform: scale(1);
-  -ms-transition: all 300ms ease-in;
-  -ms-transform: scale(1);   
-  -moz-transition: all 300ms ease-in;
-  -moz-transform: scale(1);
-  transition: all 300ms ease-in;
-  transform: scale(1);*/
 }
 #banner-section .banner_btn_block .apply_btn:hover {
     box-shadow: 0 2px 0 #2b90d9;
-    /*border: 1px solid #2b90d9;*/
-    
     transform: translateY(2px);
 }
 #banner-section .banner_btn_block .know_more_btn:hover {
     box-shadow: 0 3px 0 #333;
-    /*border: 1px solid #2b90d9;*/
-    /*color: #2b90d9;*/
-    /*background-color: #ffffff;*/
-    
     transform: translateY(2px);
 }
-/*#banner-section .banner_btn_block .apply_btn:hover,
-#banner-section .banner_btn_block .know_more_btn:hover{
-  -webkit-transition: all 300ms ease-in;
-  -webkit-transform: scale(1.1);
-  -ms-transition: all 300ms ease-in;
-  -ms-transform: scale(1.1);   
-  -moz-transition: all 300ms ease-in;
-  -moz-transform: scale(1.1);
-  transition: all 300ms ease-in;
-  transform: scale(1.1);
-}*/
-
 #banner-section .banner_btn_block .apply_btn {
     background-color: #fff;
     border: 1px solid #2b90d9;
@@ -219,113 +168,6 @@ header .nav_block ul li a:visited {
 }
 #banner-section .banner_btn_block .know_more_btn {
     background-color: #2b90d9;
-}
-/*-------------------------------*/
-/*   Invest with us Block   */
-/*-------------------------------*/
-
-#invest-with-us-section .invest_with_us_btn {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 100px;
-    padding: 1em 4em;
-    background-color: #2b90d9;
-    margin: 2em 0;
-}
-#invest-with-us-section .indv_reason_block {
-    clear: both;
-    overflow: hidden;
-    text-align: center;
-}
-#invest-with-us-section .indv_reason_block h4 {
-    /*font-size: 16px;
-  margin-bottom: 0.5em;
-  color: #282c37;*/
-    
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.58;
-    text-align: center;
-    color: #282c37;
-    text-transform: capitalize;
-}
-#invest-with-us-section .indv_reason_block p {
-    /*height: 60px;*/
-    /*color: #9baec8;
-  padding: 0 1em;*/
-    
-    opacity: 0.8;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.54;
-    text-align: center;
-    color: #9baec8;
-}
-/*#invest-with-us-section .indv_prod a span.icon{
-  display: inline-block;
-  margin-left: 2em;
-  font-size: 12px;
-  color: rgba(41, 127, 202, 0.61);
-  padding-top: 3px;
-}*/
-
-#invest-with-us-section{
-    padding-bottom: 0.5em;
-}
-/*-------------------------------*/
-/*   Footer   */
-/*-------------------------------*/
-
-footer .container {
-    padding: 2em 0 4em;
-    border-bottom: 2px solid #d9e1e8;
-}
-footer .footer_textual_block h5 {
-    /*font-size: 16px;*/
-    
-    font-family: Roboto;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 0.84;
-    text-align: left;
-    color: #8e8e8e;
-    margin-bottom: 1.2em;
-}
-footer .footer_textual_block p {
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1;
-    text-align: left;
-    color: #8e8e8e;
-}
-footer .footer_download_link_block p,
-footer .footer_download_link_block img {
-    display: inline-block;
-    , vertical-align: middle;
-}
-footer .footer_download_link_block img {
-    margin-left: 0.3em;
-}
-/*-------------------------------*/
-/*copyright and disclaimer block*/
-/*-------------------------------*/
-
-#copyright-and-disclaimer-section .copyright_and_disclaimer_block p {
-    /*margin-bottom: .25em;*/
-    
-    text-align: center;
-    opacity: 0.8;
-    font-family: Roboto;
-    font-size: 12px;
-    /*line-height: 1.56;*/
-    
-    color: #8e8e8e;
-    margin-bottom: 0px;
-}
-#copyright-and-disclaimer-section .copyright_and_disclaimer_block {
-    padding: 1em 0 4em;
 }
 /*-------------------------------*/
 /*   product Block   */
@@ -362,7 +204,6 @@ footer .footer_download_link_block img {
 #product-section .indv_prod a:hover {
     text-decoration: none;
 }
-
 /*-------------------------------*/
 /*   Features Block   */
 /*-------------------------------*/
@@ -374,7 +215,7 @@ footer .footer_download_link_block img {
     padding: 0px;
 }
 #features-section .features_img_block {
-    background: url(features_bg.png) no-repeat center center;
+    background: url(../img/features_bg.png) no-repeat center center;
     background-size: contain;
     height: 320px;
     margin-top: 4em;
@@ -396,13 +237,10 @@ footer .footer_download_link_block img {
     padding: 0 1.5em 0em;
     margin-bottom: 1em;
     border-radius: 6px;
-
     box-shadow: 0 0 0 0 transparent;
     border: 1px solid transparent;
     border-radius: 12px;
     background-color: transparent;
-    /*background-color: #fff;*/
-    
     transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     -webkit-transition: background .3s ease-in-out;
@@ -423,7 +261,6 @@ footer .footer_download_link_block img {
     border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: 12px;
     background-color: #fff;
-
     transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     -webkit-transition: background .3s ease-in-out;
@@ -493,18 +330,12 @@ footer .footer_download_link_block img {
     margin-bottom: 0.9em;
     animation: fadein .25s;
     -moz-animation: fadein .25s;
-    /* Firefox */
-    
     -webkit-animation: fadein .25s;
-    /* Safari and Chrome */
-    
     -o-animation: fadein .25s;
-    /* Opera */
 }
 /*-------------------------------*/
 /*   product-video Block   */
 /*-------------------------------*/
-
 #product-video-section {
     padding-bottom: 2em;
 }
@@ -561,31 +392,19 @@ footer .footer_download_link_block img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#product-video-section .app_flow_steps_block .app_flow_step_text {
-    /*margin-bottom: 2em;*/
-}
+#product-video-section .app_flow_steps_block .app_flow_step_text {}
 #product-video-section .app_flow_steps_block h5 {
-    /*font-size: 16px;
-  margin-bottom: 0.5em;
-  color: #282c37;*/
-    
     font-family: Roboto;
     font-size: 20px;
     font-weight: 300;
-    /* line-height: 1.58; */
-    
     text-align: left;
     color: #282c37;
     margin-bottom: 6px;
 }
 #product-video-section .app_flow_steps_block p.small {
-    /*color: #9baec8;*/
-    
     opacity: 0.8;
     font-family: Roboto;
     font-size: 14px;
-    /* line-height: 1.92; */
-    
     text-align: left;
     color: #9baec8;
 }
@@ -605,6 +424,44 @@ footer .footer_download_link_block img {
     padding-bottom: 1.5em;
 }
 /*-------------------------------*/
+/*   Invest with us Block   */
+/*-------------------------------*/
+
+#invest-with-us-section .invest_with_us_btn {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 1em 4em;
+    background-color: #2b90d9;
+    margin: 2em 0;
+}
+#invest-with-us-section .indv_reason_block {
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+}
+#invest-with-us-section .indv_reason_block h4 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.58;
+    text-align: center;
+    color: #282c37;
+    text-transform: capitalize;
+}
+#invest-with-us-section .indv_reason_block p {
+    opacity: 0.8;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.54;
+    text-align: center;
+    color: #9baec8;
+}
+#invest-with-us-section{
+    padding-bottom: 0.5em;
+}
+/*-------------------------------*/
 /*   Testimonial Block   */
 /*-------------------------------*/
 
@@ -612,12 +469,6 @@ footer .footer_download_link_block img {
     margin-bottom: 0.5em;
 }
 #testimonial-section p.testimonial_header_text {
-    /*color: #b8b8b8;
-  font-size: 16px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
-  margin-bottom: 2em;*/
-    
     font-family: Roboto;
     font-size: 20px;
     letter-spacing: 0.8px;
@@ -632,10 +483,6 @@ footer .footer_download_link_block img {
     box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.06);
 }
 #testimonial-section .testimonial_item h5 {
-    /*color: #82a3bf;
-  word-spacing: 1px;
-  margin-bottom: 0.1em;*/
-    
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -650,10 +497,6 @@ footer .footer_download_link_block img {
     margin: 0.2em auto 1em;
 }
 #testimonial-section .testimonial_item p {
-    /*color: #9b9b9b;
-  line-height: 23px;
-  font-size: 15px;*/
-
     font-family: Roboto;
     font-size: 14px;
     line-height: 1.5;
@@ -671,7 +514,6 @@ footer .footer_download_link_block img {
     vertical-align: middle;
     height: 310px;
     margin: 3em 2.5em 1.5em;
-    /*background-color: aqua;*/
 }
 #testimonial-section .testimonial_item:first-child {
     margin-left: 6em;
@@ -684,39 +526,16 @@ footer .footer_download_link_block img {
     clear: both;
     overflow: hidden;
 }
-/*#loanmeet-testimonial.carousel .carousel-inner .item {
-    opacity: 0;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
-}
-#loanmeet-testimonial.carousel .carousel-inner .active {
-    opacity: 1;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
-}*/
-#loanmeet-testimonial.carousel .carousel-indicators {
-    /*bottom: 10px;*/
-}
+#loanmeet-testimonial.carousel .carousel-indicators {}
 #loanmeet-testimonial.carousel .carousel-indicators > li {
     background-color: #b4c6d3;
     border: none;
 }
 #loanmeet-testimonial blockquote {
-    /*text-align: center;
+   text-align: center;
     border: none;
     margin-bottom: 0;
     padding-top: 6px;
-    margin-bottom: 0.7em;*/
-
-
-    text-align: center;
-    border: none;
-    margin-bottom: 0;
-    padding-top: 6px;
-    /*background-color: antiquewhite;*/
-    /*display: block;*/
     height: 160px;
     padding-left: 1em;
     padding-right: 1em;
@@ -726,8 +545,6 @@ footer .footer_download_link_block img {
 #loanmeet-testimonial .profile-circle img{
     top: -41px;
     position: absolute;
-    /*background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03d/22e/245b071.jpg) no-repeat center center;
-    background-size: contain;*/
     width: 70px;
     height: 70px;
     margin: 0 auto;
@@ -738,13 +555,10 @@ footer .footer_download_link_block img {
 }
 
 .loanmeet_testimonial_carousel .carousel-inner > .item {
-  /*transition: 1200ms ease-in-out left;*/
-
-  transition: 2s ease-in-out left;
--moz-transition: all 2s ease-in-out left;
--ms-transform: scale(1);
--webkit-transform: scale(1);
-  /*background-color: pink;*/
+    transition: 2s ease-in-out left;
+    -moz-transition: all 2s ease-in-out left;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
 }
 .loanmeet_testimonial_carousel .carousel-inner .active.left {
   left: -33%;
@@ -760,17 +574,10 @@ footer .footer_download_link_block img {
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .loanmeet_testimonial_carousel .carousel-inner > .item {
-
     transition: 2s ease-in-out left;
--moz-transition: all 2s ease-in-out left;
--ms-transform: scale(1);
--webkit-transform: scale(1);
-
-
-    /*transition: 1200ms ease-in-out left;
-    transition: 1200ms ease-in-out all;
-    backface-visibility: visible;
-    transform: none!important;*/
+    -moz-transition: all 2s ease-in-out left;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
   }
 }
 .loanmeet_testimonial_carousel .carouse-control.left,
@@ -782,33 +589,24 @@ footer .footer_download_link_block img {
     position: absolute;
     top: 42px;
     left: -25px;
-
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-        /*background-color: red;*/
 }
 
 #loanmeet-testimonial a.right{
     position: absolute;
     top: 42px;
     right: -15px;
-        /*background-color: red;*/
 }
 
 #loanmeet-testimonial .item:hover a{
     text-decoration: none;
 }
-
-
-
-
-
 /*-------------------------------*/
 /*   News Feed Block   */
 /*-------------------------------*/
-
 #newsfeeds-section h1 {
     margin-bottom: 0;
 }
@@ -836,9 +634,7 @@ footer .footer_download_link_block img {
 .invd_newsfeed_item.forbes {
     margin-top: 0.8em;
 }
-
 #newsfeeds-section .carousel-inner .item{
-
     -webkit-transition: -webkit-transform .8s ease-in-out;
     -o-transition: -o-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
@@ -846,11 +642,6 @@ footer .footer_download_link_block img {
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
     perspective: 1000px;
-
-
-    /*transition: transform 1s ease-in-out left;*/
-    /*transition: 1s linear left !important;*/
-    /*transform: none !important;*/
 }
 /*-------------------------------*/
 /*   Download Block   */
@@ -864,8 +655,6 @@ footer .footer_download_link_block img {
     padding-left: 3em;
 }
 #download_app_section .download_textual_block h1 {
-    /*font-weight: 300;*/
-    
     font-family: Roboto;
     font-size: 48px;
     font-weight: 300;
@@ -887,16 +676,10 @@ footer .footer_download_link_block img {
     display: inline-block;
 }
 #download_app_section .rating_textual_block h3 {
-    /*margin-top: .7em;
-  margin-right: 0.5em;
-  margin-bottom: 0.2em;*/
-    
     font-size: 36px;
     color: #282c37;
 }
 #download_app_section .rating_textual_block p {
-    /*color: #9baec8;*/
-    
     margin-bottom: 0;
     font-family: Roboto;
     font-size: 18px;
@@ -917,13 +700,9 @@ footer .footer_download_link_block img {
     color: #2b90d9 !important;
 }
 #download_app_section .download_app_form input:-moz-placeholder {
-    /* Firefox 18- */
-    
     color: #2b90d9 !important;
 }
 #download_app_section .download_app_form input::-moz-placeholder {
-    /* Firefox 19+ */
-    
     color: #2b90d9 !important;
 }
 #download_app_section .download_app_form input:-ms-input-placeholder {
@@ -957,10 +736,54 @@ footer .footer_download_link_block img {
 #download_app_section .download_img_block img {
     margin: 0 auto;
 }
+/*-------------------------------*/
+/*   Footer   */
+/*-------------------------------*/
 
+footer .container {
+    padding: 2em 0 4em;
+    border-bottom: 2px solid #d9e1e8;
+}
+footer .footer_textual_block h5 {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 0.84;
+    text-align: left;
+    color: #8e8e8e;
+    margin-bottom: 1.2em;
+}
+footer .footer_textual_block p {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1;
+    text-align: left;
+    color: #8e8e8e;
+}
+footer .footer_download_link_block p,
+footer .footer_download_link_block img {
+    display: inline-block;
+    , vertical-align: middle;
+}
+footer .footer_download_link_block img {
+    margin-left: 0.3em;
+}
 
+/*-------------------------------*/
+/*copyright and disclaimer block*/
+/*-------------------------------*/
 
-
+#copyright-and-disclaimer-section .copyright_and_disclaimer_block p {
+    text-align: center;
+    opacity: 0.8;
+    font-family: Roboto;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-bottom: 0px;
+}
+#copyright-and-disclaimer-section .copyright_and_disclaimer_block {
+    padding: 1em 0 4em;
+}
 /*Modal Starts from here*/
 
 #app-link-modal .bs-example{
@@ -978,24 +801,11 @@ footer .footer_download_link_block img {
 }
 
 #app-link-modal .modal-body p{
-    /* font-family: 'Marck Script', cursive; */
-    /* font-weight: bold; */
     font-size: 18px;
     text-align: center;
     padding: 0;
     margin-bottom: 0;;
 }
-
-/*#app-link-modal .modal-body img,
-#app-link-modal .modal-body h1{
-    display: inline-block;
-    vertical-align: middle;
-    width: 49.5%;
-    margin: 0 auto;
-}
-
-*/
-
 #app-link-modal .modal-body img{
     margin: 0 auto 1.5em;
 }
