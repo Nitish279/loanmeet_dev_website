@@ -18,6 +18,10 @@ $(document).ready(function(){
         interval: 5000
     });
 
+    $('.loanmeet_testimonial_carousel_small').carousel({
+        interval: 5000
+    });
+
     $('.loanmeet_testimonial_carousel .item').each(function() {
         var next = $(this).next();
         if (!next.length) {
@@ -31,5 +35,32 @@ $(document).ready(function(){
             $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
         }
     });
-       
+
+    if ($(this).width() < 992) {
+        // console.log("small",$(this).width());
+        $('#loanmeet-testimonial').addClass('loanmeet_testimonial_carousel_small');
+        $('#loanmeet-testimonial').removeClass('loanmeet_testimonial_carousel');
+
+      } else {
+        // console.log("Large",$(this).width());
+        $('#loanmeet-testimonial').removeClass('loanmeet_testimonial_carousel_small');
+        $('#loanmeet-testimonial').addClass('loanmeet_testimonial_carousel');
+
+    }
+   
+});
+
+$(window).resize(function() {
+
+    if ($(this).width() < 992) {
+        // console.log("small",$(this).width());
+        $('#loanmeet-testimonial').addClass('loanmeet_testimonial_carousel_small');
+        $('#loanmeet-testimonial').removeClass('loanmeet_testimonial_carousel');
+
+      } else {
+        // console.log("Large",$(this).width());
+        $('#loanmeet-testimonial').removeClass('loanmeet_testimonial_carousel_small');
+        $('#loanmeet-testimonial').addClass('loanmeet_testimonial_carousel');
+    }
+
 });

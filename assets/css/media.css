@@ -1,0 +1,32 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	/*#banner-section .banner_textual_inner_block {
+		margin-top: 9em;
+	}
+	#banner-section .banner_textual_block h1 {
+	    font-size: 32px;
+	}
+	#banner-section .banner_textual_block p {
+	    font-size: 14px;
+	}*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
