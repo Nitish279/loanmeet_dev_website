@@ -9,13 +9,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.p-init{
+    padding: 0px !important;
+}
+
+.m-init{
+    margin: 0px !important;
+}
+
 header#loanmeet-header,
 section#banner-section,
 section#features-section,
 section#invest-with-us-section,
 section#newsfeeds-section,
 section#copyright-and-disclaimer-section,
-footer#loanmeet-footer {
+footer#loanmeet-footer,
+section#cashCreditLineHIWSection,
+section#cashCreditLineBenefitsSection,
+section#cashCreditLineDocsRequiredSection {
     background-color: rgba(217, 225, 232, 0.19);
 }
 #product-section h1,
@@ -24,7 +35,14 @@ footer#loanmeet-footer {
 #invest-with-us-section h1,
 #testimonial-section h1,
 #testimonial-section-singleItem h1,
-#newsfeeds-section h1 {
+#newsfeeds-section h1,
+#cashCreditLineBannerSection h1,
+#cashCreditLineHIWSection h1,
+#cashCreditLineFeaturesSection h1,
+#cashCreditLineBenefitsSection h1,
+#cashCreditLineEligibilitySection h1,
+#cashCreditLineDocsRequiredSection h1
+ {
     font-size: 36px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
@@ -40,7 +58,13 @@ footer#loanmeet-footer {
 #invest-with-us-section h1:after,
 #testimonial-section h1:after,
 #testimonial-section-singleItem h1:after,
-#newsfeeds-section h1:after {
+#newsfeeds-section h1:after,
+#cashCreditLineBannerSection h1:after,
+#cashCreditLineHIWSection h1:after,
+#cashCreditLineFeaturesSection h1:after,
+#cashCreditLineBenefitsSection h1:after,
+#cashCreditLineEligibilitySection h1:after,
+#cashCreditLineDocsRequiredSection h1:after {
     content: ' ';
     display: block;
     border: 1px solid #2b90d9;
@@ -430,7 +454,7 @@ header .nav_block ul li a:visited {
 #product-video-section .video_block iframe {
     position: absolute;
     top: 32px;
-    left: 162px;
+    left: 160px;
 }
 
 #product-video-section{
@@ -691,6 +715,7 @@ header .nav_block ul li a:visited {
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
     perspective: 1000px;
+    height: 75px;
 }
 /*-------------------------------*/
 /*   Download Block   */
