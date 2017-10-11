@@ -17,6 +17,10 @@ body {
     margin: 0px !important;
 }
 
+.hide_from_screen{
+    visibility: hidden;
+}
+
 header#loanmeet-header,
 section#banner-section,
 section#features-section,
@@ -25,8 +29,9 @@ section#newsfeeds-section,
 section#copyright-and-disclaimer-section,
 footer#loanmeet-footer,
 section#cashCreditLineHIWSection,
-section#cashCreditLineBenefitsSection,
-section#cashCreditLineDocsRequiredSection {
+section#cashCreditLineFormSection,
+section#cashCreditLineDocsRequiredSection,
+section#cashCreditLineFeaturesSection {
     background-color: rgba(217, 225, 232, 0.19);
 }
 #product-section h1,
@@ -36,12 +41,13 @@ section#cashCreditLineDocsRequiredSection {
 #testimonial-section h1,
 #testimonial-section-singleItem h1,
 #newsfeeds-section h1,
-#cashCreditLineBannerSection h1,
+#cashCreditLineContentSection h1,
 #cashCreditLineHIWSection h1,
 #cashCreditLineFeaturesSection h1,
 #cashCreditLineBenefitsSection h1,
 #cashCreditLineEligibilitySection h1,
-#cashCreditLineDocsRequiredSection h1
+#cashCreditLineDocsRequiredSection h1,
+#cashCreditLineFormSection h1
  {
     font-size: 36px;
     font-weight: 100;
@@ -59,12 +65,13 @@ section#cashCreditLineDocsRequiredSection {
 #testimonial-section h1:after,
 #testimonial-section-singleItem h1:after,
 #newsfeeds-section h1:after,
-#cashCreditLineBannerSection h1:after,
+#cashCreditLineContentSection h1:after,
 #cashCreditLineHIWSection h1:after,
 #cashCreditLineFeaturesSection h1:after,
 #cashCreditLineBenefitsSection h1:after,
 #cashCreditLineEligibilitySection h1:after,
-#cashCreditLineDocsRequiredSection h1:after {
+#cashCreditLineDocsRequiredSection h1:after,
+#cashCreditLineFormSection h1:after {
     content: ' ';
     display: block;
     border: 1px solid #2b90d9;
@@ -179,7 +186,10 @@ header .nav_block ul li a:visited {
     color: #9baec8;
 }
 #banner-section .banner_btn_block .apply_btn,
-#banner-section .banner_btn_block .know_more_btn {
+#banner-section .banner_btn_block .know_more_btn,
+#cashCreditLineFormSection .form_btn_block .apply_btn,
+#cashCreditLineFormSection .form_btn_block .reach_us_btn
+ {
     margin-right: 1em;
     color: #ffffff;
     font-weight: bold;
@@ -190,20 +200,24 @@ header .nav_block ul li a:visited {
     text-align: center;
     word-spacing: 1px;
 }
-#banner-section .banner_btn_block .apply_btn:hover {
+#banner-section .banner_btn_block .apply_btn:hover,
+#cashCreditLineFormSection .form_btn_block .apply_btn:hover {
     box-shadow: 0 2px 0 #2b90d9;
     transform: translateY(2px);
 }
-#banner-section .banner_btn_block .know_more_btn:hover {
+#banner-section .banner_btn_block .know_more_btn:hover,
+#cashCreditLineFormSection .form_btn_block .reach_us_btn:hover {
     box-shadow: 0 3px 0 #333;
     transform: translateY(2px);
 }
-#banner-section .banner_btn_block .apply_btn {
+#banner-section .banner_btn_block .apply_btn,
+#cashCreditLineFormSection .form_btn_block .apply_btn {
     background-color: #fff;
     border: 1px solid #2b90d9;
     color: #4291d9;
 }
-#banner-section .banner_btn_block .know_more_btn {
+#banner-section .banner_btn_block .know_more_btn,
+#cashCreditLineFormSection .form_btn_block .reach_us_btn {
     background-color: #2b90d9;
 }
 /*-------------------------------*/
@@ -1701,4 +1715,243 @@ footer .footer_download_link_block img {
         .loanmeet_testimonial_carousel .carousel-inner .prev {
           left: -100%;
         }*/
+}
+
+
+#banner-section.ccl_banner_section{
+    padding: 0;
+}
+
+#cashCreditLineContentSection p{
+    font-size: 18px;
+    font-family: roboto;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#cashCreditLineContentSection.ccl_content_section h1{
+    margin-bottom: 1em;
+}
+/*#cashCreditLineContentSection.ccl_content_section h1:after{
+    content: ' ';
+    display: block;
+    border: 1px solid #2b90d9;
+    width: 6%;
+    margin: 0 auto;
+}*/
+
+.Eligitbility_img_block img{
+     position: relative;
+    width: 60%;
+    margin-bottom: 3em;
+    margin-top: -1em;
+}
+
+.Eligitbility_img_block i.fa.fa-user{
+    position: absolute;
+    top: -4px;
+    left: 64px;
+    font-size: 12em;
+    color: #ededed;
+}
+
+.Eligitbility_img_block i.fa.fa-check{
+    position: absolute;
+    top: 70px;
+    left: 136px;
+    font-size: 6em;
+    color: #b5c8e0;
+    color: #2b90d9;
+}
+
+.Eligitbility_text_block{
+    margin-top: 2.5em;
+}
+
+.Eligitbility_text_block h4{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.58;
+    color: #282c37;
+}
+
+
+.doc_req_img_blk img.img_bg{
+     position: relative;
+    width: 60%;
+    margin-bottom: 3em;
+    margin-top: -1em;
+}
+.doc_req_img_blk img.doc_upload_bg{
+    position: absolute;
+    top: 16px;
+    left: 47px;
+    width: 40%;
+}
+
+.indv_checkbox_block{
+    margin-bottom: 1em;
+}
+
+.loanmneet_cb i{
+    font-size: 2.6em;
+    color: #b5c8d9;
+    display: inline-block;
+    margin-right: 0.3em;
+}
+.loanmneet_cb_txt{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #b5c8d9;
+}
+
+#cashCreditLineFormSection .form_btn_block .apply_btn:hover {
+    box-shadow: 0 2px 0 #2b90d9;
+    transform: translateY(2px);
+}
+
+#cashCreditLineFormSection .form_btn_block .reach_us_btn:hover {
+    box-shadow: 0 3px 0 #333;
+    transform: translateY(2px);
+}
+#cashCreditLineFormSection .form_btn_block .apply_btn {
+    background-color: #fff;
+    border: 1px solid #2b90d9;
+    color: #4291d9;
+    padding: 1em 2.5em;
+    width: 250px;
+    margin-right: 1em;
+}
+
+#cashCreditLineFormSection .form_btn_block .reach_us_btn {
+    background-color: #2b90d9;
+    padding: 1em 2.5em;
+    width: 250px;
+    margin-left: 1em;
+}
+
+.form_btn_block{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#cashCreditLineBenefitsSection,
+#cashCreditLineFeaturesSection{
+    padding-bottom: 3em;
+}
+
+.ccl_indv_fea img.ccl_indv_fea_bg
+.ccl_benefits_indv_block img.ccl_indv_benefit_bg{
+    width: 80%;
+    margin: 0 auto 2em;
+    position: relative;
+}
+
+.ccl_benefits_indv_block img.ccl_indv_benefit_main_img{
+    position: absolute;
+    width: 50%;
+    top: 60px;
+    left: 90px;
+}
+
+.ccl_benefits_indv_block img.ccl_indv_benefit_main_img.hg{
+    width: 36%;
+    top: 82px;
+    left: 30px;
+}
+
+.ccl_benefits_indv_block img.ccl_indv_benefit_main_img.money{
+        width: 26%;
+    top: 35px;
+    left: 111px;
+}
+
+.ccl_benefits_indv_block img.ccl_indv_benefit_main_img.sc_front{
+    width: 22%;
+    top: 92px;
+    left: 178px;
+}
+
+.ccl_benefits_indv_block img.ccl_indv_benefit_main_img.jew{
+    width: 22%;
+    top: 138px;
+    left: 134px;
+}
+
+
+
+.ccl_benefits_indv_block img.ccl_indv_benefit_main_img.proh{
+    width: 21%;
+    top: 100px;
+    left: 350px;
+}
+
+.ccl_indv_fea img.ccl_indv_fea_main_img{
+    width: 50%;
+    position: absolute;
+    top: 42px;
+    left: 50px;
+}
+
+.ccl_indv_fea img.ccl_indv_fea_main_img.f2{
+    top: 40px;
+    left: 72px;
+}
+
+.ccl_indv_fea img.ccl_indv_fea_main_img.f3{
+    left: 66px;
+    width: 60%;
+    top: 26px;
+}
+
+.ccl_indv_fea img.ccl_indv_fea_main_img.f4{
+    top: 30px;
+    left: 86px;
+}
+.ccl_indv_fea img.ccl_indv_fea_main_img.hrs{
+    width: 30%;
+    top: 82px;
+    left: 130px;
+}
+
+#borrowerLoanSection .loan_type_dd button{
+    text-align: left;
+    word-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+}
+
+#borrowerLoanSection .loan_type_dd button span.caret{
+    position: absolute;
+    right: 1.5em;
+    top: 1.1em;
+}
+
+#borrowerLoanSection .loan_type_dd .dropdown-menu{
+    width: 100%;
+    padding-left: 1em;
+}
+
+#borrowerLoanSection .loan_type_dd .dropdown-menu li{
+    padding: 0.3em 0;
+}
+
+.agree_tnc_checkbox{
+    margin: 2em auto 0;
+}
+
+.doc_req_imgs_sec i.fa.fa-file-text-o{
+
+}
+.doc_req_imgs_sec i.fa.fa-file-text-o.f1{
+    
+}
+.doc_req_imgs_sec i.fa.fa-file-text-o.f2{
+    
+}
+.doc_req_imgs_sec i.fa.fa-file-text-o.f3{
+    
 }
