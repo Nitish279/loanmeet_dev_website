@@ -4,6 +4,7 @@ body {
     width:100vw;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -32,7 +33,9 @@ section#cashCreditLineHIWSection,
 section#cashCreditLineFormSection,
 section#cashCreditLineDocsRequiredSection,
 section#cashCreditLineFeaturesSection {
-    background-color: rgba(217, 225, 232, 0.19);
+    /*background-color: rgba(217, 225, 232, 0.19);*/
+    background-color: #f7f9fa;
+    /*background-color: #f3f6f8;*/
 }
 #product-section h1,
 #features-section h1,
@@ -134,20 +137,23 @@ header .nav_block ul li {
     display: inline-block;
     margin: 0.15em 1em;
 }
-header .nav_block ul li.sign_up_btn {
+#loanmeet-header .navbar-nav>.sign_up_btn {
     margin-right: 0;
+    margin-top: 8px;
+    margin-left: 1em;
 }
-header .nav_block ul li.sign_up_btn a {
+#loanmeet-header .navbar-nav>.sign_up_btn a {
     color: #fff;
     background-color: #4291d9;
     font-size: 16px;
     font-weight: bold;
     word-spacing: 2px;
-    padding: 0.5em 2em;
+    padding: 0.6em 2em;
     display: inline-block;
     border-radius: 90px;
+
 }
-header .nav_block ul li a {
+#loanmeet-header .navbar-nav>li>a {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -155,19 +161,30 @@ header .nav_block ul li a {
     text-align: left;
     text-transform: uppercase;
     color: #838383;
+    padding: 18px 15px;
 }
-header .nav_block ul li a:hover,
-header .nav_block ul li a:visited {
+#loanmeet-header .navbar-nav>li>a:hover,
+#loanmeet-header .navbar-nav>li>a:visited {
     text-decoration: none;
 }
 
+header#loanmeet-header .navbar-header button span{
+    width: 30px;
+    height: 4px;
+    background-color: #4291d9;
+}
+
+header#loanmeet-header .main_nav .navbar{
+    min-height: auto;
+    margin-bottom: 0px;
+}
 
 /*-------------------------------*/
 /*   banner Block   */
 /*-------------------------------*/
 
 #banner-section {
-    padding: 2em 0 3em;
+    padding: 0em 0 3em;
 }
 #banner-section .banner_textual_block {
     margin-bottom: 0;
@@ -194,9 +211,9 @@ header .nav_block ul li a:visited {
     color: #ffffff;
     font-weight: bold;
     border-radius: 100px;
-    padding: 0.7em 2.5em;
+    padding: 0.9em 2.5em;
     transition: all .3s linear;
-    width: 165px;
+    width: 192px;
     text-align: center;
     word-spacing: 1px;
 }
@@ -1082,8 +1099,78 @@ footer .footer_download_link_block img {
 }
 
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 400px) and (max-width: 480px) {
+    header#loanmeet-header .navbar-header .navbar-toggle{
+        margin-top: 7px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+    }
+
+    header {
+        padding: 1em 0 0;
+    }
+
+    #banner-section .banner_btn_block .apply_btn, 
+    #banner-section .banner_btn_block .know_more_btn{
+        width: 170px;
+    }
+
+    #newsfeeds-carousel .carousel-inner{
+        height: 146px;
+    }
    
+}
+
+
+
+@media (min-width: 360px) and (max-width: 400px) {
+    #product-video-section .video_block iframe{
+        width: 236px;
+        height: 156px;
+        top: 77px;
+        left: 74px;
+    }
+    #product-video-section .product_video_textual_block {
+        margin-top: -2em;
+    }
+    #download_app_section .download_app_form input{
+
+    }
+    #download_app_section .download_app_form input {
+        display: inline-block;
+        width: 232px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+    header#loanmeet-header .navbar-header .navbar-toggle{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    header#loanmeet-header .navbar-header button span{
+        width: 24px;
+        height: 3px;
+    }
+    header#loanmeet-header .navbar-header .navbar-brand{
+        width: 74%;
+    }
+    header#loanmeet-header .navbar-header .navbar-brand img{
+        width: 84%;
+    }
+    #product-video-section .video_block iframe{
+        width: 192px;
+        height: 128px;
+        top: 93px;
+        left: 64px;
+    }
+    #product-video-section .product_video_textual_block {
+        margin-top: -4em;
+        padding-left: 1em;
+    }
+    #download_app_section .download_app_form input {
+        width: 170px;
+        display: inline-block;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 768px) {
@@ -1376,6 +1463,18 @@ footer .footer_download_link_block img {
         margin: 0.1em auto;
     }
 
+    header#loanmeet-header{
+        padding-bottom: 0px;
+    }
+
+    header#loanmeet-header .main_nav nav.navbar{
+        margin-bottom: 0px;
+    }
+
+    section#banner-section{
+        padding-top: 0;
+    }
+
    #banner-section .banner_textual_inner_block {
         margin-top: 0em;
     }
@@ -1499,17 +1598,17 @@ footer .footer_download_link_block img {
             top: 99px;
             left: 65px;*/
 
-            width: 227px;
+            /*width: 227px;
             height: 150px;
             top: 82px;
-            left: 74px;
+            left: 74px;*/
 
         }
 
-            #product-video-section .product_video_textual_block{
+            /*#product-video-section .product_video_textual_block{
             margin-top: -4em;
             padding-left: 3em;
-        }
+        }*/
         #product-video-section .app_flow_indicator{
             width: 24px;
             height: 24px;
@@ -1649,10 +1748,10 @@ footer .footer_download_link_block img {
         text-align: center;
     }
 
-        #download_app_section .download_app_form input{
+        /*#download_app_section .download_app_form input{
         width: 236px;
         display: inline-block;
-    }
+    }*/
 
     #download_app_section .download_app_form .app_link_btn{
         margin-top: -1px;
@@ -1716,6 +1815,17 @@ footer .footer_download_link_block img {
           left: -100%;
         }*/
 }
+
+
+@media (max-width: 300px) and (min-width: 360px) {
+   #product-video-section .video_block iframe {
+        width: 207px;
+        height: 142px;
+        top: 87px;
+        left: 69px;
+    } 
+}
+
 
 
 #banner-section.ccl_banner_section{
