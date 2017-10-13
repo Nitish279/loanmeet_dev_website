@@ -392,7 +392,17 @@
     #copyright-and-disclaimer-section .copyright_and_disclaimer_block p.dis{
         margin-top: 10px;
     }
+}
 
+@media only screen and (max-width : 375px) {
+    #product-video-section .product_video_image_block.visible-xs iframe.small_src {
+        width: 338px;
+        height: 192px;
+    }
+    #product-video-section .product_video_textual_block {
+        padding-left: 1em;
+        margin-top: 17em;
+    }
 }
 
 @media only screen and (max-width : 360px) {
