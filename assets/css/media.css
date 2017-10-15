@@ -3,10 +3,13 @@
     #banner-section .banner_textual_block h1 {
         font-size: 34px;
     }
-    #product-section .indv_prod h4{
+    #product-section .indv_prod h4,
+    .lm_pro_header_content p,
+    .lm_sub_header{
         font-size: 16px
     }
-    #product-section .indv_prod p{
+    #product-section .indv_prod p,
+    .lm_sub_header_conten{
         font-size: 14px
     }
     #features-section .indv_feature_block{
@@ -35,6 +38,22 @@
     #testimonial-section .testimonial_item {
         width: 24%;
         margin: 3em 2em 1.5em
+    }
+
+    /*products section style*/
+
+    .eligitbility_text_block{
+        margin-top: 4.5em;
+    }
+
+    .eligitbility_text_block h4{
+        font-size: 20px;
+    }
+    .eligitbility_img_block img, .doc_req_img_blk img{
+        margin-top: 0.9em;
+    }
+    .lm_doc_req_blk {
+        margin-top: 0;
     }
 }
 
@@ -67,7 +86,9 @@
     #cashCreditLineBenefitsSection h1, 
     #cashCreditLineEligibilitySection h1, 
     #cashCreditLineDocsRequiredSection h1, 
-    #cashCreditLineFormSection h1 {
+    #cashCreditLineFormSection h1,
+    #about-us-section h1,
+    #lm-team-section h1 {
         font-size: 28px;
         margin-bottom: 1em;
     }
@@ -155,6 +176,164 @@
         width: 122px;
         height: 120px;
     }*/
+
+
+    /*products section style*/
+    .lm_pro_header_content p{
+        padding: 0 1em;
+    }
+
+    .eligitbility_text_block h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .eligitbility_img_block img, .doc_req_img_blk img{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .eligitbility_img_block i.fa.fa-user {
+        top: 13px;
+        left: 128px;
+    }
+    .eligitbility_img_block i.fa.fa-check {
+        top: 76px;
+        left: 200px;
+    }
+
+    .doc_req_img_blk img.doc_upload_bg {
+        left: 110px;
+    }
+
+    .loanmneet_cb i{
+        font-size: 2em;
+    }
+
+    .loanmneet_cb_txt{
+        font-size: 1em;
+    }
+
+    .lm_doc_req_blk {
+        margin-top: 1.5em;
+    }
+
+    .indv_checkbox_block {
+        margin-bottom: 1em;
+    }
+
+    #cashCreditLineDocsRequiredSection h1{
+        margin-bottom: 1.5em;
+    }
+
+    .eligitbility_img_block i.fa.fa-user {
+        left: 142px;
+        font-size: 13em;
+    }
+
+    .eligitbility_img_block i.fa.fa-check {
+        top: 82px;
+        left: 232px;
+    }
+
+    .eligitbility_text_block {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .doc_req_img_blk img.doc_upload_bg {
+        left: 120px;
+        top: 34px;
+    }
+
+    .lm_doc_req_blk {
+        margin-top: 2em;
+        padding: 0 3em;
+    }
+
+    #privacy-section p{
+        /*padding: 0 1em;*/
+        line-height: 24px;
+    }
+
+    .emi_calculator_block,
+    .borrower_loan_form_block,
+    .investor_form_block {
+        border: none;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(204, 204, 204);
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        padding: 0;
+        background-color: #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 0px;
+        border-top: none;
+    }
+
+    .values_block {
+        margin: 0em auto;
+    }
+
+    .values_text_block {
+        padding-right: 1em;
+        text-align: justify;
+        padding-bottom: 2em;
+    }
+
+    .mission_block, .vision_block {
+        padding: 0 2em;
+        text-align: justify;
+    }
+
+    .mission_block h3, .vision_block h3{
+        text-align: center;
+    }
+
+    .mission_block a{
+        margin: 0 auto;
+        display: block;
+        width: 63%;
+    }
+
+    .mission_block a button{
+        margin: 0.5em auto 0;
+    }
+
+    #team_block p {
+        padding: 0 0em 2em;
+    }
+
+    #lm-team-section {
+        padding-bottom: 0em;
+    }
+
+    #team_block p.co_founders{
+        padding-bottom: 0em;
+    }
+
+    /*#about-us-section h1,
+    #lm-team-section h1{
+        margin-bottom: 1em;
+    }*/
+
+    #about-us-section {
+        margin: 0em auto 2em;
+    }
+
+    #mission-n-vision-section {
+        padding: 2em 0;
+    }
+
+    .mission_block a {        
+        width: 54%;
+    }
+
+    .mission_btn_block .apply_btn {
+        margin: 0.5em auto 3em;
+    }
 
 }
 
@@ -394,7 +573,7 @@
     }
 
     #download_app_section .download_img_block img.playstore_logo {
-        margin: 4em auto 2em;
+        margin: 5em auto 2em;
     }
 
     #download_app_section .download_textual_block h1 {
@@ -433,6 +612,144 @@
     #copyright-and-disclaimer-section .copyright_and_disclaimer_block{
         padding: 1em 0 2em;
     }
+
+    #privacy-section p{
+        font-size: 12px;
+    }
+
+    #privacy-section ol,
+    #privacy-section ul{
+        padding-left: 4em;
+    }
+
+    #privacy-section ol ol,
+    #privacy-section ul ul{
+        padding: 0 2em 0 2em;
+    }
+
+    #privacy-section ol ol li,
+    #privacy-section ul ul li{
+        margin: 1em auto;
+    }
+
+    #privacy-section ol p,
+    #privacy-section ul p{
+        padding-right: 2em;
+    }
+
+    .input_form_block,
+    .lm_address_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    .lm_send_btn{
+        float: none;
+        margin: 2em auto;
+        display: block;
+    }
+
+    .lm_address_block{
+        margin-top: 0;
+    }
+
+    #privacy-section h3{
+        margin: 1em auto;
+    }
+
+    #terms-section ol{
+        padding-left: 1em;
+    }
+
+
+    #terms-section p,
+    #terms-section ol,
+    #terms-section ol li,
+    #terms-section ol p{
+        font-size: 12px;
+        line-height: 1.6;
+        /*background-color: pink;*/
+    }
+
+
+    /*.emi_calculator_block,
+    .borrower_loan_form_block {
+        border: none;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(204, 204, 204);
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        padding: 0;
+        background-color: #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 0px;
+        border-top: none;
+    }*/
+
+    .get_loan_text_block h1,
+    .investor_text_block h1{
+        font-size: 24px;
+    }
+
+    .get_loan_text_block h4,
+    .investor_text_block h4{
+        font-size: 14px;
+    }
+
+    .center-title.gen_que{
+        margin-top: 2.5em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    .faq-box h4 {
+        font-size: 18px !important;
+    }
+
+    .faq-box p{
+        font-size: 14px !important;
+    }
+
+    .center-title h2{
+        font-size: 24px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .emi_calculator_block,
+    .borrower_loan_form_block {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+
+    #team_block p{
+        padding-bottom: 2em;
+    }
+
+    #counter h2{
+        font-size: 18px
+        margin-bottom: 0;
+    }
+
+    #counter h3{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .mission_block a {
+        width: 54%;
+    }
+    .mission_btn_block .apply_btn {
+        margin: 0.5em auto 3em;
+    }
+
+    .values_block h3, 
+    .mission_block h3, 
+    .vision_block h3 {
+        font-size: 20px;
+    }
+
 }
 
 @media only screen and (max-width : 375px) {
@@ -444,6 +761,21 @@
         padding-left: 1em;
         margin-top: 17em;
     }
+
+    #privacy-section ol p, #privacy-section ul p {
+        padding-right: 2em;
+        padding-left: 1em;
+    }
+
+    /*#privacy-section p{
+        font-size: 12px;
+    }*/
+
+    /*.emi_calculator_block,
+    .borrower_loan_form_block {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }*/
 }
 
 @media only screen and (max-width : 360px) {
@@ -537,6 +869,21 @@
         top: 168px;
         left: 11.5px;
     } 
+
+    #privacy-section ol p, #privacy-section ul p {
+        padding-right: 2em;
+        padding-left: 1em;
+    }
+
+    /*#privacy-section p{
+        font-size: 12px;
+    }*/
+
+    /*.emi_calculator_block,
+    .borrower_loan_form_block {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }*/
 }
 
 @media only screen and (max-width : 320px) {
@@ -587,7 +934,69 @@
     #download_app_section .download_app_form .app_link_btn{
         margin-top: -1px;
     }
-    #copyright-and-disclaimer-section .copyright_and_disclaimer_block p {
+
+    #download_app_section .download_img_block img.playstore_logo {
+        margin: 3.5em auto 2em;
+    }
+        #copyright-and-disclaimer-section .copyright_and_disclaimer_block p {
         font-size: 10px;
+    }
+
+    #cashCreditLineEligibilitySection, 
+    #cashCreditLineDocsRequiredSection {
+        padding-bottom: 1em;
+    }
+    .eligitbility_text_block {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .eligitbility_text_block h4 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /*#privacy-section p{
+        font-size: 12px;
+    }
+
+    #privacy-section ol ol,
+    #privacy-section ul ul{
+        padding: 0 2em 0 1em;
+    }
+
+    #privacy-section ol ol li,
+    #privacy-section ul ul li{
+        margin: 1em auto;
+    }
+
+    #privacy-section ol p,
+    #privacy-section ul p{
+        padding-right: 2em;
+    }*/
+
+
+    .emi_calculator_block,
+    .borrower_loan_form_block,
+    .investor_form_block {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+
+    .faq-box h4 {
+        font-size: 16px !important;
+    }
+
+    .faq-box p{
+        font-size: 12px !important;
+    }
+
+    /*.center-title h2{
+        font-size: 20px !important;
+        letter-spacing: 0 !important;
+    }*/
+
+    .mission_block a {
+        width: 82%;
     }
 }

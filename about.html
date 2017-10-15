@@ -39,55 +39,64 @@
         <link rel="stylesheet" href="assets/css/style.css"> 
 
         <!--Responsive Css Sheet Link-->        
-        <!-- <link rel="stylesheet" href="assets/css/media.css"> -->
+        <link rel="stylesheet" href="assets/css/media.css">
 
-        <style type="text/css">
+        <!-- <style type="text/css">
             .fake-div {
                 width:100%;
                 height: 850px;
                 position:relative;
             }
-        </style>
+        </style> -->
         
     </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body>
         <header id="loanmeet-header">
             <div class="container">
                 <div class="row">
-                    <div class="logo_block col-lg-6">
-                        <div class="logo">
-                            <img src="https://loanmeet.com/assets/images/loanmeet-logo.png" alt="loanmeet Logo">
-                        </div>
-                    </div>
-                    <div class="nav_block col-lg-6">
-                        <ul class="list-unstyled">
-                            <li><a href="#product-section">Product</a></li>
-                            <li><a href="#invest-with-us-section">Invest With Us</a></li>
-                            <li class="sign_up_btn"><a href="https://app.loanmeet.com/login_2">Sign Up</a></li>
-                        </ul>
-                    </div>
+                   <div class="main_nav">
+                        <nav class="navbar">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>                        
+                                </button>
+                                <a class="navbar-brand" href="index.html"><img class="img-responsive" src="https://www.loanmeet.com/assets/images/loanmeet-logo.png" alt="LoanMeet"></a>
+                            </div>
+                            <div>
+                                <div class="collapse navbar-collapse" id="myNavbar">
+                                    <ul class="nav navbar-nav navbar-right nav_block">
+                                        <li><a href="#product-section">Product</a></li>
+                                        <li><a href="#invest-with-us-section">Invest With Us</a></li>
+                                        <li class="sign_up_btn"><a href="https://app.loanmeet.com/login_2">Sign Up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div> 
                 </div>
             </div>
         </header>
         <section id="banner-section">
             <div class="container">
                 <div class="row">
-                    <div class="banner_textual_block col-md-6 col-xs-12 vertical_center">
+                    <div class="banner_image_block col-md-6 col-sm-5 visible-xs text-center">
+                        <img class="img-responsive pull-right" src="assets/img/banner_img.png" alt="" />
+                    </div>
+                    <div class="banner_textual_block col-md-6 col-sm-7 col-xs-12 vertical_center">
                         <div class="banner_textual_inner_block">
                             <h1 class="">Inventory Financing Simplified.</h1>
                             <p class="">We provide loans to distributors and retailers in less than 48 hrs.</p>
-                            <div class="banner_image_block visible-sm visible-xs text-center">
-                                <img class="img-responsive" src="assets/img/banner_img.png" alt="" />
-                            </div>
                             <div class="banner_btn_block">
                                 <a href="get_loan.html"><button type="button" class="btn apply_btn">Apply For Loan</button></a>
                                 <button type="button" class="btn know_more_btn">Know More</button>
                             </div>
                         </div>
                     </div>
-                    <div class="banner_image_block col-md-6 hidden-sm hidden-xs text-center">
-                        <img class="img-responsive" src="assets/img/banner_img.png" alt="" />
+                    <div class="banner_image_block col-md-6 col-sm-5 hidden-xs text-center">
+                        <img class="img-responsive pull-right" src="assets/img/banner_img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -96,59 +105,82 @@
         <section id="about-us-section">
             <div class="container">
                 <div class="row">
-                    <h1>About Us</h1>
-                    <div class="col-md-12">
-                        <div class="col-md-6">
+                    <h1 class="text-center">About Us</h1>
+                    <div class="col-md-12 values_block">
+                        <div class="col-md-6 values_text_block">
                             <h3>Our Values</h3>
-                            <p>Irrespective of salary, color, or religion, we will treat every customer with respect. We will listen to our customers, apologize for our mistakes, and build long-term relationships. We will accept our employees for who they are, and respect them. We will always encourage suggestions from employees, and let them experiment with new ideas.</p>
+                            <p>Irrespective of salary, color, or religion, we will treat every customer with respect. We will listen to our customers, apologize for our mistakes, and build long-term relationships. We will accept our employees for who they are, and respect them. We will always encourage suggestions from employees, and let them experiment with new ideas.</p><br>
                             <p>It is completely OK to fail, and start all over again. To our investors and board of directors, we will always tell truth, and provide timely update, good or bad, to them.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="https://loanmeet.com/assets/images/loanmeet-ys.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
-                    <div class="col-md-12">
-                      <div class="col-md-6">
-                          <h3>Our Mission</h3>
-                          <p>We at LoanMeet aim to empower the entire Indian population to accomplish their dreams by providing personal and business loans to them.</p>
-                          <a href="get-loan.html" class="btn btn-primary btn-lg">Get Loan</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="mission-n-vision-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mission_n_vision_block">
+                      <div class="col-sm-6 mission_block">
+                            <h3>Our Mission</h3>
+                              <p>We at LoanMeet aim to empower the entire Indian population to accomplish their dreams by providing personal and business loans to them.</p>
+                              <div class="mission_btn_block">
+                                <a href="get_loan.html"><button type="button" class="btn apply_btn">Apply For Loan</button></a>
+                            </div>
                       </div>  
-                      <div class="col-md-6">
+                      <div class="col-sm-6 vision_block">
                           <h3>Our Vision</h3>
                           <p>By 2018, we aim to provide personal and business loans to all individuals and small businesses from all Tier-1, Tier-2, and Tier-3 cities.</p>
                       </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="lm-team-section">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center">Meet Our Team</h1>
                     <div class="col-md-12" id="team_block">
                         <div class="col-md-6">
-                            <a href="https://in.linkedin.com/in/sunilkumar14"><img src="https://loanmeet.com/assets/images/Sunil.png" class="rounded-circle" alt=""></a>
+                            <a href="https://in.linkedin.com/in/sunilkumar14"><img src="https://loanmeet.com/assets/images/Sunil.png" class="img-circle" alt=""></a>
                             <h3>Sunil Kumar</h3>
                             <h5>CEO amd Co-founder</h5>
                             <br>
                             <p>IIT Mumbai Graduate; MBA from Xavier university, Cincinati; 15 Years of Work Experience; Worked in technology at Mercedes-Benz and other companies; Worked in risk department of Bank He is the one who has assembled our crazy bunch and transformed it into a superbly functioning team. A passionate leader. An awesome mentor. A workaholic. Had a beautiful life in United States but he thinks that personal financing in India needed an uplift as a vast majority of Indians still don't have access to bank loans and are stuck with a non transparent, unfair lending system. He has promised us that soon (but not soon enough for us) we will have a beer keg in our office.</p>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://in.linkedin.com/in/riteshsingh3"><img src="https://loanmeet.com/assets/images/ritesh.jpg" class="rounded-circle" alt=""></a>
+                            <a href="https://in.linkedin.com/in/riteshsingh3"><img src="https://loanmeet.com/assets/images/ritesh.jpg" class="img-circle" alt=""></a>
                             <h3>Ritesh Singh</h3>
                             <h5>CTO and Co-founder</h5>
                             <br>
-                            <p>A VJTI Graduate; Sold one startup to ICICI Bank; Worked at CISCO; Built another startup. He is passionate about technology and a total coffeeholic. Loves having random conversation on machine learning, latest javascript framework or pretty much anything tech. A footie by heart. When he is not working, most likely you will find him in some football arena of Bangalore. A hard core united fan. He strongly believes that India will soon produce a Google or Tesla of world. Loves backpacking and an avid biker.</p>
+                            <p class="co_founders">A VJTI Graduate; Sold one startup to ICICI Bank; Worked at CISCO; Built another startup. He is passionate about technology and a total coffeeholic. Loves having random conversation on machine learning, latest javascript framework or pretty much anything tech. A footie by heart. When he is not working, most likely you will find him in some football arena of Bangalore. A hard core united fan. He strongly believes that India will soon produce a Google or Tesla of world. Loves backpacking and an avid biker.</p>
                         </div> 
                     </div>
-                    <hr>
-                    <div class="fake-div"></div>
-                    <div id="counter">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="counter-section">
+            <div class="container">
+                <div class="row">
+                   <div id="counter">
                         <div class="col-md-12">
-                            <div class="col-md-6 text-center">
-                                <h2 class="counter-value lenders_counter" data-count="943">0</h2>
-                                <h1>Total Number of Lenders</h1>
+                            <div class="col-xs-6 text-center">
+                                <h2 class="counter-value lenders_counter">943</h2>
+                                <h3>Total Number of Lenders</h3>
                             </div>
-                            <div class="col-md-6 text-center">
-                                <h2 class="counter-value borrowers_counter" data-count="9959">0</h2>
-                                <h1>Total Number of Borrowers</h1>
+                            <div class="col-xs-6 text-center">
+                                <h2 class="counter-value borrowers_counter">9959</h2>
+                                <h3>Total Number of Borrowers</h3>
                             </div>
                         </div>
-                    </div>
-                    <!-- <div class="fake-div"></div> -->
+                    </div> 
                 </div>
             </div>
         </section>
@@ -157,20 +189,20 @@
             <div class="container">
                 <div class="row">
                     <div class="footer_textual_block col-md-8 col-xs-12">
-                        <div class="col-md-4 col-xs-4 product init_xs">
+                        <div class="col-md-4 col-sm-4 col-xs-4 product init_xs">
                             <h5>Products<strong></strong></h5>
                             <a href="working_capital.html"><p>Working Capital Loan</p></a>
                             <a href="b2b_marketplace_financing.html"><p>B2B Marketplace Financing</p></a>
                             <a href="cash_credit_line.html"><p>Cash Credit Line</p></a>
                             <a href="channel_financing.html"><p>Channel Financing</p></a>
                         </div>
-                        <div class="col-md-4 col-xs-4 blog init_xs">
+                        <div class="col-md-4 col-sm-4 col-xs-4 blog init_xs">
                             <a href="http://blog.loanmeet.com/"><h5>Blog<strong></strong></h5></a>
                             <a href="privacy.html"><p>Privacy Policy</p></a>
                             <a href="testimonials.html"><p>Testimonials</p></a>
                             <a href="contact.html"><p>Contact Us</p></a>
                         </div>
-                        <div class="col-md-4 col-xs-4 about init_xs">
+                        <div class="col-md-4 col-sm-4 col-xs-4 about init_xs">
                             <a href="about.html"><h5>About Us<strong></strong></h5></a>
                             <a href="terms.html"><p>Terms of Services</p></a>
                             <a href="emi-calculator.html"><p>EMI Calculator</p></a>
@@ -183,12 +215,13 @@
                 </div>
             </div>
         </footer>
+
         <section id="copyright-and-disclaimer-section">
             <div class="container">
                 <div class="row">
                     <div class="copyright_and_disclaimer_block">
                         <p class="small">Copyright &copy; Strivers Solutions Private Limited 2016.All rights reserved.</p>
-                        <p class="small">Disclaimer: I authorize LoanMeet.com/Bank/Financial Institution to call/SMS/email me to discuss my loan application. I am aware that my loan approval is at sole discretion of the financial institution/lenders.</p>
+                        <p class="small dis">Disclaimer: I authorize LoanMeet.com/Bank/Financial Institution to call/SMS/email me to discuss my loan application. I am aware that my loan approval is at sole discretion of the financial institution/lenders.</p>
                     </div>
                 </div>
             </div>
@@ -202,46 +235,8 @@
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
         <script src="assets/js/bootstrap.min.js"></script>
 
-        
-
         <!--Custom Js Link-->
         <script src="assets/js/main.js"></script>
-        <script type="text/javascript">
-            var a = 0;
-            $(window).scroll(function() {
-                
-              var qweTop = $("#team_block").offset().top - window.innerHeight;
-              var oTop = $("#counter").offset().top - window.innerHeight;
-              console.log("qweTop",qweTop);
-              console.log("oTop",oTop);
-              if (a == 0 && $(window).scrollTop() > oTop) {
-                $(".counter-value").each(function() {
-                  var $this = $(this),
-                    countTo = $this.attr("data-count");
-                  $({
-                    countNum: $this.text()
-                  }).animate(
-                    {
-                      countNum: countTo
-                    },
-
-                    {
-                      duration: 7000,
-                      easing: "swing",
-                      step: function() {
-                        $this.text(Math.floor(this.countNum));
-                      },
-                      complete: function() {
-                        $this.text(this.countNum);
-                        //alert('finished');
-                      }
-                    }
-                  );
-                });
-                a = 1;
-              }
-            });
-        </script>
         
     </body>
 

@@ -32,7 +32,8 @@ footer#loanmeet-footer,
 section#cashCreditLineHIWSection,
 section#cashCreditLineFormSection,
 section#cashCreditLineDocsRequiredSection,
-section#cashCreditLineFeaturesSection {
+section#cashCreditLineFeaturesSection,
+section#mission-n-vision-section {
     /*background-color: rgba(217, 225, 232, 0.19);*/
     background-color: #f7f9fa;
     /*background-color: #f3f6f8;*/
@@ -50,7 +51,9 @@ section#cashCreditLineFeaturesSection {
 #cashCreditLineBenefitsSection h1,
 #cashCreditLineEligibilitySection h1,
 #cashCreditLineDocsRequiredSection h1,
-#cashCreditLineFormSection h1
+#cashCreditLineFormSection h1,
+#about-us-section h1,
+#lm-team-section h1
  {
     font-size: 36px;
     font-weight: 100;
@@ -74,7 +77,9 @@ section#cashCreditLineFeaturesSection {
 #cashCreditLineBenefitsSection h1:after,
 #cashCreditLineEligibilitySection h1:after,
 #cashCreditLineDocsRequiredSection h1:after,
-#cashCreditLineFormSection h1:after {
+#cashCreditLineFormSection h1:after,
+#about-us-section h1:after,
+#lm-team-section h1:after {
     content: ' ';
     display: block;
     border: 1px solid #2b90d9;
@@ -166,6 +171,7 @@ header .nav_block ul li {
 #loanmeet-header .navbar-nav>li>a:hover,
 #loanmeet-header .navbar-nav>li>a:visited {
     text-decoration: none;
+    background-color: transparent;
 }
 
 header#loanmeet-header .navbar-header button span{
@@ -205,7 +211,8 @@ header#loanmeet-header .main_nav .navbar{
 #banner-section .banner_btn_block .apply_btn,
 #banner-section .banner_btn_block .know_more_btn,
 #cashCreditLineFormSection .form_btn_block .apply_btn,
-#cashCreditLineFormSection .form_btn_block .reach_us_btn
+#cashCreditLineFormSection .form_btn_block .reach_us_btn,
+.mission_btn_block .apply_btn
  {
     margin-right: 1em;
     color: #ffffff;
@@ -218,7 +225,8 @@ header#loanmeet-header .main_nav .navbar{
     word-spacing: 1px;
 }
 #banner-section .banner_btn_block .apply_btn:hover,
-#cashCreditLineFormSection .form_btn_block .apply_btn:hover {
+#cashCreditLineFormSection .form_btn_block .apply_btn:hover,
+.mission_btn_block .apply_btn:hover {
     box-shadow: 0 2px 0 #2b90d9;
     transform: translateY(2px);
 }
@@ -228,7 +236,8 @@ header#loanmeet-header .main_nav .navbar{
     transform: translateY(2px);
 }
 #banner-section .banner_btn_block .apply_btn,
-#cashCreditLineFormSection .form_btn_block .apply_btn {
+#cashCreditLineFormSection .form_btn_block .apply_btn,
+.mission_btn_block .apply_btn{
     background-color: #fff;
     border: 1px solid #2b90d9;
     color: #4291d9;
@@ -244,7 +253,8 @@ header#loanmeet-header .main_nav .navbar{
 #product-section .indv_prod {
     margin-bottom: 4em;
 }
-#product-section .indv_prod h4 {
+#product-section .indv_prod h4,
+.lm_sub_header {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.58;
@@ -253,7 +263,8 @@ header#loanmeet-header .main_nav .navbar{
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
-#product-section .indv_prod p {
+#product-section .indv_prod p,
+.lm_sub_header_content {
     height: 50px;
     opacity: 0.8;
     font-family: Roboto;
@@ -944,11 +955,11 @@ footer .footer_download_link_block img {
 
 
 
-#banner-section.ccl_banner_section{
+/*#banner-section.ccl_banner_section{
     padding: 0;
-}
+}*/
 
-#cashCreditLineContentSection p{
+.lm_pro_header_content p{
     font-size: 18px;
     font-family: roboto;
     line-height: 1.8;
@@ -956,8 +967,13 @@ footer .footer_download_link_block img {
     margin-bottom: 2em;
 }
 
-#cashCreditLineContentSection.ccl_content_section h1{
+#cashCreditLineContentSection h1{
     margin-bottom: 1em;
+}
+
+.lm_pro_indv_fea img,
+.lm_indv_benefit_sec img{
+    margin: 0 auto
 }
 /*#cashCreditLineContentSection.ccl_content_section h1:after{
     content: ' ';
@@ -967,35 +983,39 @@ footer .footer_download_link_block img {
     margin: 0 auto;
 }*/
 
-.Eligitbility_img_block img{
-     position: relative;
-    width: 60%;
-    margin-bottom: 3em;
-    margin-top: -1em;
+#cashCreditLineEligibilitySection,
+#cashCreditLineDocsRequiredSection{
+    padding-bottom: 3em;
 }
 
-.Eligitbility_img_block i.fa.fa-user{
+.eligitbility_img_block img,
+.doc_req_img_blk img{
+    position: relative;
+    width: 60%;
+}
+
+.eligitbility_img_block i.fa.fa-user{
     position: absolute;
-    top: -4px;
+    top: 13px;
     left: 64px;
     font-size: 12em;
     color: #ededed;
 }
 
-.Eligitbility_img_block i.fa.fa-check{
+.eligitbility_img_block i.fa.fa-check{
     position: absolute;
-    top: 70px;
+    top: 84px;
     left: 136px;
     font-size: 6em;
     color: #b5c8e0;
     color: #2b90d9;
 }
 
-.Eligitbility_text_block{
-    margin-top: 2.5em;
+.eligitbility_text_block{
+    margin-top: 3.5em;
 }
 
-.Eligitbility_text_block h4{
+.eligitbility_text_block h4{
     font-family: Roboto;
     font-size: 24px;
     font-weight: 300;
@@ -1004,17 +1024,21 @@ footer .footer_download_link_block img {
 }
 
 
-.doc_req_img_blk img.img_bg{
+/*.doc_req_img_blk img.img_bg{
      position: relative;
     width: 60%;
     margin-bottom: 3em;
     margin-top: -1em;
-}
+}*/
 .doc_req_img_blk img.doc_upload_bg{
     position: absolute;
-    top: 16px;
-    left: 47px;
-    width: 40%;
+    top: 30px;
+    left: 40px;
+    width: 42%;
+}
+
+.lm_doc_req_blk{
+    margin-top: 0.9em;
 }
 
 .indv_checkbox_block{
@@ -1069,7 +1093,7 @@ footer .footer_download_link_block img {
     padding-bottom: 3em;
 }
 
-.ccl_indv_fea img.ccl_indv_fea_bg
+/*.ccl_indv_fea img.ccl_indv_fea_bg
 .ccl_benefits_indv_block img.ccl_indv_benefit_bg{
     width: 80%;
     margin: 0 auto 2em;
@@ -1116,7 +1140,8 @@ footer .footer_download_link_block img {
 }
 
 .ccl_indv_fea img.ccl_indv_fea_main_img{
-    width: 50%;
+    width: 130px;
+    height: 130px;
     position: absolute;
     top: 42px;
     left: 50px;
@@ -1141,7 +1166,7 @@ footer .footer_download_link_block img {
     width: 30%;
     top: 82px;
     left: 130px;
-}
+}*/
 
 #borrowerLoanSection .loan_type_dd button{
     text-align: left;
@@ -1181,3 +1206,141 @@ footer .footer_download_link_block img {
 .doc_req_imgs_sec i.fa.fa-file-text-o.f3{
     
 }
+
+
+/*contact us*/
+
+#privacy-section h3{
+    margin: 2em auto 1em;
+    font-weight: 300;
+}
+.lm_address_block h4{
+
+}
+.lm_address_block{
+    margin-top: 3em;
+}
+
+.lm_address_block p.ofc_add{
+    margin-top: 1em;
+    line-height: 2;
+}
+
+.lm_send_btn{
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 0.9em 2.5em;
+    transition: all .3s linear;
+    width: 200px;
+    text-align: center;
+    word-spacing: 1px;
+    float: right;
+    margin-right: 0;
+    background-color: #2b90d9;
+}
+
+.lm_send_btn:hover{
+    color: #ffffff;
+    background-color: #2b90d9; 
+}
+
+
+/*emi_calculator*/
+
+
+.emi_calculator_block,
+.borrower_loan_form_block,
+.investor_form_block{
+    border: 1px solid #cccccc;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em 3em 2.5em 3em;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.borrower_loan_form_block,
+.investor_form_block{
+    margin-top: 5em;
+    margin-bottom: 2em; 
+}
+
+/*About Us*/
+
+.values_block{
+    margin: 4em auto;
+}
+
+.values_text_block {
+    padding-right: 4em;
+}
+
+.values_block h3,
+.mission_block h3,
+.vision_block h3{
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.values_block p,
+.mission_block p,
+.vision_block p,
+#team_block p{
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    line-height: 26px;
+}
+
+.mission_n_vision_block {
+    /*margin-bottom: 4em;*/
+    text-align: center;
+}
+
+.mission_btn_block .apply_btn{
+    margin-top: 1em;
+}
+
+#about-us-section {
+    margin: .5em auto 4em;
+}
+
+#mission-n-vision-section{
+    padding: 4em 0;
+}
+
+.mission_block,
+.vision_block{
+    padding: 0 4em;
+}
+
+#lm-team-section{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+#team_block h3,
+#team_block h5{
+    font-weight: 300;
+}
+
+#team_block p{
+    text-align: justify;
+    padding: 0 2em;
+}
+
+#counter-section{
+    margin: 1em auto 3em;
+}
+
