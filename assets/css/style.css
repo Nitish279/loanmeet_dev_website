@@ -198,10 +198,10 @@ label.error{
     font-size: 36px;
     font-weight: bold;
     position: absolute;
-    right: 42%;
+    right: 40%;
     z-index: 1;
     text-align: center;
-    left: 42%;
+    left: 40%;
 }
 
 #products{
@@ -269,6 +269,19 @@ p.prod_desc{
     color: #ffffff;
     cursor: pointer;
 }
+.docs_section_title{
+    font-size: 36px;
+    color: #1568a3;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+.doc_start_txt{
+    font-size: 16px;
+    color: #283e56;
+}
 
 
 
@@ -279,12 +292,47 @@ p.prod_desc{
 
 /*Documents*/
 
-.documents img{
-    margin: 0 auto;
+#documents{
+   background: url(../img/svg/docs_bg.svg) no-repeat top left;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+    margin-top: 12em;
 }
 
+.individual_doc_card_wrapper{
+    position: relative;
+}
 
+.individual_doc_card{
+    margin: 0 0.5rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 5.6rem;
+    /*border: 1px solid red; */
+}
 
+.individual_doc p.doc_numbers{
+    font-size: 6rem;
+    font-weight: bold;
+    color: #d0e0ea;
+}
+
+.individual_doc_card img{
+    margin: 0 auto 2rem;
+}
+.individual_doc_card h4{
+    color: #1568a3;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.individual_doc_card p.doc_detail{
+    color: #7c8893;
+}
 
 /*Rating*/
 .rating_block li{
