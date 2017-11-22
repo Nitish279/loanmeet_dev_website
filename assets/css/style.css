@@ -4,7 +4,7 @@ body {
     /*width:100vw;*/
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 body {
@@ -160,7 +160,7 @@ label.error{
 
 .apply_btn a{
     padding: 0.9em 2.4em;
-    background-color: red;
+    background-color: #5dcab7;
     float: right;
     color: #ffffff;
 }
@@ -191,12 +191,84 @@ label.error{
 
 
 
+/*Products*/
 
+.section_title {
+    color: #16a6df;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    right: 42%;
+    z-index: 1;
+    text-align: center;
+    left: 42%;
+}
 
+#products{
+    position: relative;
+}
 
+.product_bg1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 
+.product_bg2{
+    position: absolute;
+    bottom: -14em;
+    left:  0px;
+}
 
+.individual_product{
+    margin-bottom: 8em;
+}
 
+.individual_product:first-child{
+    margin-top: 12em;
+}
+
+.individual_product:last-child{
+    margin-bottom: 0; 
+}
+
+.indv_prod_img,
+.indv_prod_text{
+    padding-left: 4em;
+}
+
+.indv_prod_text h4{
+    color: #16a6df;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.indv_prod_text p.credit_tenure,
+p.prod_desc{
+    margin-bottom: 1em;
+    color: #283e56;
+}
+
+.indv_prod_text p.credit_limit{
+    margin-bottom: 3em;
+    color: #283e56;
+}
+
+.credit_tenure span,
+.credit_limit span{
+    color: #16a6df;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+.get_loan_btn a{
+    padding: 0.9em 2.4em;
+    background-color: #5dcab7;
+    color: #ffffff;
+    cursor: pointer;
+}
 
 
 
