@@ -311,7 +311,7 @@ p.prod_desc{
     background-color: #fff;
     border-radius: 20px;
     position: absolute;
-    top: 5.6rem;
+    top: 6rem;
     /*border: 1px solid red; */
 }
 
@@ -334,7 +334,263 @@ p.prod_desc{
     color: #7c8893;
 }
 
-/*Rating*/
-.rating_block li{
+.video_block_text{
+    /*background-color: aqua;*/
+    margin-top: 0.2rem;
+}
+
+.video_block_text h4{
+    font-style: 1.4em;
+    color: #283e56;
+}
+
+.download_app_form input{
+    width: 54%;
+    border-radius: 0;
+    border: 1px solid #5dcab7;
     display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.download_app_form a{
+    display: inline-block;
+    background-color: #5dcab7;
+    color: #ffffff;
+    border-radius: 0;
+    border: 1px solid #5dcab7;
+    box-sizing: border-box;
+    margin-left: -4px;
+    margin-top: -2px; 
+}
+
+.rating_stars_block{
+    margin-top: 0.8rem;
+}
+
+.rating_stars_block ul{
+    margin: 0;
+    padding: 0;
+}
+
+.rating_stars_block ul li{
+    display: inline-block;
+    margin-right: 0.5rem
+}
+
+.rating_textual_block{
+    margin-top: 0.3rem;
+}
+
+.rating_textual_block h3,
+.rating_textual_block p {
+    display: inline-block;
+}
+.rating_textual_block h3 {
+    font-size: 26px;
+    color: #282c37;
+    margin-right: 0.4rem;
+    line-height: 12px;
+}
+.rating_textual_block p {
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: left;
+    color: #9baec8;
+}
+.rating_textual_block p.rating_txt {
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    color: #9baec8;
+}
+
+.download_app_img_block{
+    margin-top: 1rem;
+}
+
+img.playstore{
+    display: inline-block;
+    margin-left: -12px;
+}
+
+img.app_store{
+    display: inline-block;
+    width: 134px;
+    height: 40px;
+}
+
+#product_video_block{
+    margin: 5rem 0 4.6rem; 
+}
+
+/*Invest With Us*/
+
+#invest_with_us{
+    position: relative;
+    background-color: #59c3c5;
+}
+
+.iwu_bg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#invest_with_us h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 4.7em;
+    margin-bottom: 1.5em;
+}
+
+.indv_reason .arrow_img_block img{
+    margin: 1em 0 1em auto;
+}
+
+.arrow_img_text_block h4,
+.arrow_img_text_block p{
+    color: #ffffff;
+}
+
+.arrow_img_text_block{
+    padding: 0 2rem 0 0.7rem;
+}
+
+.invest_with_us_btn{
+    display: block;
+    margin: 3em auto 2rem;
+    width: 12rem;
+    height: 2.6rem;
+    background-color: #fff;
+    color: #1568a3;
+}
+
+
+/*Newsfeed */
+
+#newsfeeds-section h1 {
+    color: #1568a3;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5em;
+}
+#newsfeeds-carousel .carousel-inner {
+    margin: 1.5em 0 4.5em;
+}
+.invd_newsfeed_item img {
+    margin: 0 auto;
+}
+.invd_newsfeed_item.the_economics_times {
+    margin-top: 2em;
+}
+.invd_newsfeed_item.knows_startups {
+    margin-top: 1.8em
+}
+.invd_newsfeed_item.p2p_banking {
+    margin-top: 2.4em;
+}
+.invd_newsfeed_item.medianama {
+    margin-top: 1.7em;
+}
+.invd_newsfeed_item.the_economics_times2 {
+    margin-top: 2.4em;
+}
+.invd_newsfeed_item.forbes {
+    margin-top: 0.8em;
+}
+#newsfeeds-section .carousel-inner .item{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -o-transition: -o-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    height: 75px;
+}
+
+/*Footer*/
+
+#loanmeet-footer{
+    background-color: #59c3c5;
+}
+
+.footer_textual_block{
+    clear: both;
+    overflow: hidden;
+}
+
+.footer_header_sec{
+    clear: both;
+    overflow: hidden;
+    margin: 2rem 1rem 1rem;
+}
+
+.footer_logo img{
+    margin-top: 0.6rem;
+}
+
+.footer_link_sec p{
+    color: #ffffff;
+    margin-bottom: 0.4rem;
+}
+
+.footer_link_sec p a{
+    color: #ffffff;
+}
+
+.footer_header_sec h4{
+    color: #ffffff;
+}
+
+.contact_number i.fa.fa-phone{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact_number i.fa.fa-envelope{
+    padding-right: 1rem;
+}
+
+.contact_number i.fa.fa-map-marker{
+    padding-right: 1rem;
+    font-size: 1.4rem;
+}
+
+
+.contact_heading{
+    padding-left: 1.3rem;
+}
+
+.contact_add_margin{
+    display: block;
+    margin-left: 2.1rem;
+}
+
+.copyright_and_disclaimer_block{
+    color: #ffffff;
+    margin: 3.5rem auto 1rem;
+}
+
+.social_icons{
+    margin: 3.5rem auto 1rem;
+}
+
+p.social_icons_cover{
+    color: #1568a3;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 20px;
 }
