@@ -1,13 +1,8 @@
 html,
 body {    
-    /*height:100vh;*/
-    /*width:100vw;*/
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
-
-body {
     font-family: 'Lato', sans-serif;
 }
 
@@ -35,575 +30,658 @@ label.error{
 }
 
 
-/*Nav*/
-
-#loanmeet-header .navbar{
-    margin-bottom: 0;
-}
-
-#myNavbar li a {
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 0.8rem;
-}
-
-#myNavbar li a:hover{
-    background-color: transparent;
-}
-
-/*Banner Block css*/
-
-/*#trapezoid {
-    border-bottom: 90vh solid red;
-    border-left: 52vw solid transparent;
-    border-right: 0px solid transparent;
-    height: 0;
-    width: 85%;
-    float: right;
-    position: relative;
-}
-
-#triangle-bottomright {
-    width: 0;
-    height: 0;
-    border-bottom: 12vw solid #fff;
-    border-left: 24vh solid transparent;
-    position: absolute;
-    right: 45em;
-    top: 10em;
-    -ms-transform: rotate(4.5deg);
-    -webkit-transform: rotate(4.5deg);
-    transform: rotate(4.5deg);
-}*/
-
-#loanmeet_banner_section{
-    max-height: 100vh;
-}
-
-.bg_block.banner{
-    position: absolute;
-    /*max-height: 100vh;*/
-    /*clear: both;
-    overflow: hidden;*/
-}
-
-.bg_block .banner_img{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-}
-
-.bg_block .carousel-caption{
-    width: 35%;
-    position: absolute;
-    /*right: 40em;*/
-    bottom: 0em;
-    left: 49em;
-    text-shadow: none; 
-    /*background-color: red;*/
-}
-
-.bg_block .carousel-caption h4{
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 24px;
-    color: #2d68a3;
-}
-
-.bg_block .carousel-caption p{
-    margin-left: 3.5em;
-    margin-bottom: 0px;
-    color: #2d68a3;
-    font-size: 16px;
-}
-
-.bg_block .carousel-caption p.user_type{
-    font-weight: lighter;
-}
-
-.bg_block .carousel-indicators{
-    left: 67em;
-    bottom: 0em;
-}
-
-.bg_block .carousel-indicators li{
-    width: 14px;
-    height: 14px;
-    margin: 4px;
-    border: 1px solid #2d68a3;
-}
-
-.carousel-indicators .active{
-    width: 14px;
-    height: 14px;
-    background-color: #2d68a3;
-}
-
-.banner_text_block{
-    position: absolute;
-    top: 15em;
-    left: 7em;
-}
-
-.banner_text_block h1{
-    color: #1568a3;
-    font-size: 2.1em;
-    margin-bottom: 0;
-}
-
-.banner_text_block h3{
-    color: #283e56;
-    font-size: 1.4em;
-    margin-top: 0.4em;
-}
-
-.apply_btn a{
-    padding: 0.9em 2.4em;
-    background-color: #5dcab7;
-    float: right;
-    color: #ffffff;
-}
-/*.bg_block.banner,
-.bg_block.why_loanmeet{
-    background: url(../img/svg/landing_page_slider.svg) no-repeat top left;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
-
-.bg_block.why_loanmeet{
-    background: url(../img/svg/why_loanmeet.svg) no-repeat top right;
-}*/
-.why_loanmeet_block{
-    background: url(../img/svg/bg2.svg) no-repeat top left;
-    background-size: cover;
-    width: 100vw;
-    position: relative;
-}
-
-.why_loanmeet_text_block{
-    position: absolute;
-    right: 3em;
-    top: 18em;
-}
-
-
-
-
-/*Products*/
-
-.section_title {
-    color: #16a6df;
-    font-size: 36px;
-    font-weight: bold;
-    position: absolute;
-    right: 40%;
-    z-index: 1;
-    text-align: center;
-    left: 40%;
-}
-
-#products{
-    position: relative;
-}
-
-.product_bg1{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-.product_bg2{
-    position: absolute;
-    bottom: -14em;
-    left:  0px;
-}
-
-.individual_product{
-    margin-bottom: 8em;
-}
-
-.individual_product:first-child{
-    margin-top: 12em;
-}
-
-.individual_product:last-child{
-    margin-bottom: 0; 
-}
-
-.indv_prod_img,
-.indv_prod_text{
-    padding-left: 4em;
-}
-
-.indv_prod_text h4{
-    color: #16a6df;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 1em;
-}
-
-.indv_prod_text p.credit_tenure,
-p.prod_desc{
-    margin-bottom: 1em;
-    color: #283e56;
-}
-
-.indv_prod_text p.credit_limit{
-    margin-bottom: 3em;
-    color: #283e56;
-}
-
-.credit_tenure span,
-.credit_limit span{
-    color: #16a6df;
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 0.5em;
-}
-
-.get_loan_btn a{
-    padding: 0.9em 2.4em;
-    background-color: #5dcab7;
-    color: #ffffff;
-    cursor: pointer;
-}
-.docs_section_title{
-    font-size: 36px;
-    color: #1568a3;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 0.3em;
-}
-
-.doc_start_txt{
-    font-size: 16px;
-    color: #283e56;
-}
-
-
-
-
-
-
-
-
-/*Documents*/
-
-#documents{
-   background: url(../img/svg/docs_bg.svg) no-repeat top left;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: relative; 
-    margin-top: 12em;
-}
-
-.individual_doc_card_wrapper{
-    position: relative;
-}
-
-.individual_doc_card{
-    margin: 0 0.5rem;
-    padding: 1.5rem;
-    background-color: #fff;
-    border-radius: 20px;
-    position: absolute;
-    top: 6rem;
-    /*border: 1px solid red; */
-}
-
-.individual_doc_card:hover{
-    /*box-shadow: 0px 0px 150px #000000;*/
-    z-index: 2;
-    -webkit-transition: all 1000ms ease-in;
-    -webkit-transform: scale(1.1);
-    -ms-transition: all 1000ms ease-in;
-    -ms-transform: scale(1.1);   
-    -moz-transition: all 1000ms ease-in;
-    -moz-transform: scale(1.1);
-    transition: all 1000ms ease-in;
-    transform: scale(1.1);
-}
-
-.individual_doc p.doc_numbers{
-    font-size: 6rem;
-    font-weight: bold;
-    color: #d0e0ea;
-}
-
-.individual_doc_card img{
-    margin: 0 auto 2rem;
-}
-.individual_doc_card h4{
-    color: #1568a3;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 0.8rem;
-}
-.individual_doc_card p.doc_detail{
-    color: #7c8893;
-}
-
-.video_block_text{
-    /*background-color: aqua;*/
-    margin-top: 0.2rem;
-}
-
-.video_block_text h4{
-    font-style: 1.4em;
-    color: #283e56;
-}
-
-.download_app_form input{
-    width: 54%;
-    border-radius: 0;
-    border: 1px solid #5dcab7;
-    display: inline-block;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.download_app_form a{
-    display: inline-block;
-    background-color: #5dcab7;
-    color: #ffffff;
-    border-radius: 0;
-    border: 1px solid #5dcab7;
-    box-sizing: border-box;
-    margin-left: -4px;
-    margin-top: -2px; 
-}
-
-.rating_stars_block{
-    margin-top: 0.8rem;
-}
-
-.rating_stars_block ul{
-    margin: 0;
-    padding: 0;
-}
-
-.rating_stars_block ul li{
-    display: inline-block;
-    margin-right: 0.5rem
-}
-
-.rating_textual_block{
-    margin-top: 0.3rem;
-}
-
-.rating_textual_block h3,
-.rating_textual_block p {
-    display: inline-block;
-}
-.rating_textual_block h3 {
-    font-size: 26px;
-    color: #282c37;
-    margin-right: 0.4rem;
-    line-height: 12px;
-}
-.rating_textual_block p {
-    margin-bottom: 0;
-    font-size: 16px;
-    text-align: left;
-    color: #9baec8;
-}
-.rating_textual_block p.rating_txt {
-    display: block;
-    font-size: 16px;
-    text-align: left;
-    color: #9baec8;
-}
-
-.download_app_img_block{
-    margin-top: 1rem;
-}
-
-img.playstore{
-    display: inline-block;
-    margin-left: -12px;
-}
-
-img.app_store{
-    display: inline-block;
-    width: 134px;
-    height: 40px;
-}
-
-#product_video_block{
-    margin: 5rem 0 4.6rem; 
-}
-
-/*Invest With Us*/
-
-#invest_with_us{
-    position: relative;
-    background-color: #59c3c5;
-}
-
-.iwu_bg{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-#invest_with_us h1{
-    text-align: center;
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: bold;
-    padding-right: 4.7em;
-    margin-bottom: 1.5em;
-}
-
-.indv_reason .arrow_img_block img{
-    margin: 1em 0 1em auto;
-}
-
-.arrow_img_text_block h4,
-.arrow_img_text_block p{
-    color: #ffffff;
-}
-
-.arrow_img_text_block{
-    padding: 0 2rem 0 0.7rem;
-}
-
-.invest_with_us_btn{
-    display: block;
-    margin: 3em auto 2rem;
-    width: 12rem;
-    height: 2.6rem;
-    background-color: #fff;
-    color: #1568a3;
-}
-
-
-/*Newsfeed */
-
-#newsfeeds-section h1 {
-    color: #1568a3;
-    font-size: 2.2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1.5em;
-}
-#newsfeeds-carousel .carousel-inner {
-    margin: 1.5em 0 4.5em;
-}
-.invd_newsfeed_item img {
-    margin: 0 auto;
-}
-.invd_newsfeed_item.the_economics_times {
-    margin-top: 2em;
-}
-.invd_newsfeed_item.knows_startups {
-    margin-top: 1.8em
-}
-.invd_newsfeed_item.p2p_banking {
-    margin-top: 2.4em;
-}
-.invd_newsfeed_item.medianama {
-    margin-top: 1.7em;
-}
-.invd_newsfeed_item.the_economics_times2 {
-    margin-top: 2.4em;
-}
-.invd_newsfeed_item.forbes {
-    margin-top: 0.8em;
-}
-#newsfeeds-section .carousel-inner .item{
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    -o-transition: -o-transform .8s ease-in-out;
-    transition: transform .8s ease-in-out;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-    height: 75px;
-}
-
-/*Footer*/
-
-#loanmeet-footer{
-    background-color: #59c3c5;
-}
-
-.footer_textual_block{
-    clear: both;
-    overflow: hidden;
-}
-
-.footer_header_sec{
-    clear: both;
-    overflow: hidden;
-    margin: 2rem 1rem 1rem;
-}
-
-.footer_logo img{
-    margin-top: 0.6rem;
-}
-
-.footer_link_sec p{
-    color: #ffffff;
-    margin-bottom: 0.4rem;
-}
-
-.footer_link_sec p a{
-    color: #ffffff;
-}
-
-.footer_header_sec h4{
-    color: #ffffff;
-}
-
-.contact_number i.fa.fa-phone{
-    padding-right: 1rem;
-    font-size: 1.1rem;
-}
-
-.contact_number i.fa.fa-envelope{
-    padding-right: 1rem;
-}
-
-.contact_number i.fa.fa-map-marker{
-    padding-right: 1rem;
-    font-size: 1.4rem;
-}
-
-
-.contact_heading{
-    padding-left: 1.3rem;
-}
-
-.contact_add_margin{
-    display: block;
-    margin-left: 2.1rem;
-}
-
-.copyright_and_disclaimer_block{
-    color: #ffffff;
-    margin: 3.5rem auto 1rem;
-}
-
-.social_icons{
-    margin: 3.5rem auto 1rem;
-}
-
-p.social_icons_cover{
-    color: #1568a3;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-right: 0.5rem;
-    font-size: 1rem;
-    background-color: #fff;
-    border: 1px solid #ffffff;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    line-height: 32px;
-    border-radius: 20px;
-}
+/*====== Loanmeet Header Style Block ======*/
+
+    #loanmeet-header .navbar{
+        margin-bottom: 0;
+    }
+
+    #myNavbar li a {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.8rem;
+    }
+
+    #myNavbar li a:hover{
+        background-color: transparent;
+    }
+
+/*====== Loanmeet Header Style Block ======*/
+
+
+
+/*====== Loanmeet Banner Style Block ======*/
+
+    #loanmeet_banner_section{
+        /*height: 100vh;*/
+        clear: both;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #loanmeet_banner_section .carousel-caption{
+        /* background-color: red; */
+        width: 26rem;
+        position: absolute;
+        /*bottom: 7rem;*/
+        bottom: 2rem;
+        left: 47rem;
+        text-shadow: none;
+        padding-bottom: 0;
+        right: 0;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    #loanmeet_banner_section .carousel-caption h4{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 24px;
+        color: #2d68a3;
+    }
+
+    #loanmeet_banner_section .carousel-caption p{
+        margin-bottom: 0px;
+        margin-top: 1rem;
+        color: #2d68a3;
+        font-size: 1rem;
+    }
+
+    #loanmeet_banner_section .carousel-caption p.user_type{
+        font-weight: lighter;
+        margin-top: 0;
+    }
+
+    #loanmeet_banner_section .carousel-indicators{
+        left: 46rem;
+        /*bottom: 5.8rem;*/
+        bottom: 1rem;
+        right: 0rem;
+        width: 26rem;
+        margin: 0px;
+        /* background-color: red; */
+    }
+
+    #loanmeet_banner_section .carousel-indicators li{
+        width: 14px;
+        height: 14px;
+        margin: 4px;
+        border: 1px solid #2d68a3;
+    }
+
+    .carousel-indicators .active{
+        width: 14px;
+        height: 14px;
+        background-color: #2d68a3;
+    }
+
+    #loanmeet_banner_section .banner_img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .banner_text_block{
+        position: absolute;
+        top: 13.15rem;
+        left: 3.65rem;
+    }
+
+    .banner_text_block h1{
+        color: #1568a3;
+        font-size: 2.1rem;
+        margin-bottom: 0;
+    }
+
+    .banner_text_block h3{
+        color: #283e56;
+        font-size: 1.4rem;
+        margin-top: 0.4rem;
+    }
+
+    .apply_btn a{
+        padding: 0.7rem 2.4rem;
+        background-color: #5dcab7;
+        float: right;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .apply_btn a:hover{
+        text-decoration: none;
+    }
+
+/*====== Loanmeet Banner Style Block ======*/
+
+
+
+/*====== Loanmeet Feature Style Block ======*/
+
+    .why_loanmeet_block{
+        background: url(../img/svg/bg2.svg) no-repeat top left;
+        background-size: cover;
+        width: 100vw;
+        position: relative;
+    }
+
+    .why_loanmeet_text_block{
+        position: absolute;
+        right: 2rem;
+        top: 16rem;
+    }
+
+    .why_loanmeet_inv_item img{
+        height: 76px; 
+    }
+
+    .why_loanmeet_inv_item h4{
+        font-size: 1.2rem;
+        color: #16a6df;
+        font-weight: bold;
+    }
+
+    .why_loanmeet_inv_item p{
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+/*====== Loanmeet Feature Style Block ======*/
+
+
+
+/*====== Loanmeet Product Style Block ======*/
+
+    #loanmeet-products{
+        position: relative;
+    }
+
+    .section_title {
+        color: #16a6df;
+        font-size: 36px;
+        font-weight: bold;
+        position: absolute;
+        right: 35rem;
+        z-index: 1;
+        text-align: center;
+        left: 35rem;
+        margin: 0;
+        top: 1rem;
+    }
+
+    .product_bg1{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .product_bg2{
+        position: absolute;
+        bottom: 0px;
+        left:  0px;
+    }
+
+    .products_block{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+
+    .indv_prod_img,
+    .indv_prod_text{
+        padding-left: 4rem;
+    }
+
+    .indv_prod_img.img_right{
+        padding-left: 2rem;
+    }
+
+    .indv_prod_text h4{
+        color: #16a6df;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .indv_prod_text p.credit_tenure,
+    .indv_prod_text p.prod_desc{
+        margin-bottom: 0.7rem;
+        color: #283e56;
+    }
+
+    .credit_tenure span,
+    .credit_limit span{
+        color: #16a6df;
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 0.5rem;
+    }
+
+    .indv_prod_text p.credit_limit{
+        margin-bottom: 1.7rem;
+        color: #283e56;
+    }
+
+    .get_loan_btn{
+        display: block;
+    }
+
+    .get_loan_btn a{
+        padding: 0.6rem 1.8rem;
+        background-color: #5dcab7;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .individual_product{
+        margin-bottom: 8rem;
+    }
+
+    .individual_product:last-child{
+        margin-bottom: 0;
+    }
+    
+/*====== Loanmeet Product Style Block ======*/
+
+
+
+/*====== Loanmeet Documents Required Style Block ======*/
+
+    #docs-required{
+        position: relative;
+        background: url(../img/svg/docs_bg.svg) no-repeat top left;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .docs_section_title{
+        font-size: 2.2rem;
+        color: #1568a3;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .doc_start_txt{
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+    .document_block{
+        margin: 2rem auto 6rem;
+    }
+
+    .individual_doc{
+        position: relative;
+        height: 420px;
+    }
+
+    .individual_doc p.doc_numbers{
+        font-size: 6rem;
+        font-weight: bold;
+        color: #d0e0ea;
+    }
+
+    .individual_doc_card img{
+        margin: 0 auto 2rem;
+    }
+
+    .individual_doc_card h4{
+        color: #1568a3;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .individual_doc_card p.doc_detail{
+        color: #7c8893;
+    }
+
+    .individual_doc_card{
+        margin: 0 0.5rem;
+        padding: 1.5rem;
+        background-color: #fff;
+        border-radius: 20px;
+        position: absolute;
+        top: 6rem;
+    }
+
+    .individual_doc_card:hover{
+        z-index: 2;
+        -webkit-transition: all 1000ms ease-in;
+        -webkit-transform: scale(1.1);
+        -ms-transition: all 1000ms ease-in;
+        -ms-transform: scale(1.1);   
+        -moz-transition: all 1000ms ease-in;
+        -moz-transform: scale(1.1);
+        transition: all 1000ms ease-in;
+        transform: scale(1.1);
+    }
+
+/*====== Loanmeet Documents Required Style Block ======*/
+
+
+
+
+/*====== Loanmeet Product video and download App Style Block ======*/    
+
+    .video_block_text{
+        /*background-color: aqua;*/
+        margin-top: 0.2rem;
+    }
+
+    .video_block_text h4 {
+        font-size: 1.4rem;
+        color: #283e56;
+        font-weight: bold;
+    }   
+
+    .download_app_form input{
+        width: 54%;
+        border-radius: 0;
+        border: 1px solid #5dcab7;
+        display: inline-block;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .download_app_form a{
+        display: inline-block;
+        background-color: #5dcab7;
+        color: #ffffff;
+        border-radius: 0;
+        border: 1px solid #5dcab7;
+        box-sizing: border-box;
+        margin-left: -4px;
+        margin-top: -2px; 
+    }
+
+    .rating_stars_block{
+        margin-top: 0.8rem;
+    }
+
+    .rating_stars_block ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .rating_stars_block ul li{
+        display: inline-block;
+        margin-right: 0.5rem
+    }
+
+    .rating_textual_block{
+        margin-top: 0.3rem;
+    }
+
+    .rating_textual_block h3,
+    .rating_textual_block p {
+        display: inline-block;
+    }
+    .rating_textual_block h3 {
+        font-size: 26px;
+        color: #282c37;
+        margin-right: 0.4rem;
+        line-height: 12px;
+    }
+    .rating_textual_block p {
+        margin-bottom: 0;
+        font-size: 16px;
+        text-align: left;
+        color: #9baec8;
+    }
+    .rating_textual_block p.rating_txt {
+        display: block;
+        font-size: 16px;
+        text-align: left;
+        color: #9baec8;
+    }
+
+    .download_app_img_block{
+        margin-top: 1rem;
+    }
+
+    img.playstore{
+        display: inline-block;
+        margin-left: -12px;
+    }
+
+    img.app_store{
+        display: inline-block;
+        width: 134px;
+        height: 40px;
+    }
+
+    #product_video_block{
+        margin: 5rem 0 4.6rem; 
+    }
+
+/*====== Loanmeet Product video and download App Style Block ======*/
+
+
+
+
+/*====== Loanmeet Invest With Us Style Block ======*/
+
+    #invest_with_us{
+        position: relative;
+        background: -moz-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(66,209,181,1)), color-stop(100%, rgba(22,166,223,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ie10+ */
+        background: linear-gradient(109deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42D1B5', endColorstr='#16A6DF',GradientType=1 ); /* ie6-9 */
+    }
+
+    .iwu_bg{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .iwu_content_block,
+    .indv_reason_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    #invest_with_us h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: bold;
+        padding-right: 4.7em;
+        margin-bottom: 1.5em;
+    }
+
+    .indv_reason .arrow_img_block img{
+        margin: 1em 0 1em auto;
+    }
+
+    .arrow_img_text_block h4,
+    .arrow_img_text_block p{
+        color: #ffffff;
+    }
+
+    .arrow_img_text_block{
+        padding: 0 2rem 0 0.7rem;
+    }
+
+    .iws_btn_block{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: -9rem;
+        margin-right: auto;
+    }
+
+    .iws_btn_block a{
+        display: block;
+        margin: 0 auto;
+        width: 11rem;
+        height: 2.6rem;
+        background-color: #fff;
+        color: #1568a3;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0px;
+    }
+
+/*====== Loanmeet Invest With Us Style Block ======*/
+
+
+
+
+/*====== Loanmeet News Feeds Style Block ======*/
+
+    #newsfeeds-section h1 {
+        color: #1568a3;
+        font-size: 2.2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+    #newsfeeds-carousel .carousel-inner {
+        margin: 1.5em 0 4.5em;
+    }
+    .invd_newsfeed_item img {
+        margin: 0 auto;
+    }
+    .invd_newsfeed_item.the_economics_times {
+        margin-top: 2em;
+    }
+    .invd_newsfeed_item.knows_startups {
+        margin-top: 1.8em
+    }
+    .invd_newsfeed_item.p2p_banking {
+        margin-top: 2.4em;
+    }
+    .invd_newsfeed_item.medianama {
+        margin-top: 1.7em;
+    }
+    .invd_newsfeed_item.the_economics_times2 {
+        margin-top: 2.4em;
+    }
+    .invd_newsfeed_item.forbes {
+        margin-top: 0.8em;
+    }
+    #newsfeeds-section .carousel-inner .item{
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        -o-transition: -o-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        height: 75px;
+    }
+
+/*====== Loanmeet News Feeds Style Block ======*/
+
+
+
+
+/*====== Loanmeet Footer Style Block ======*/
+
+    #loanmeet-footer{
+        background: -moz-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(66,209,181,1)), color-stop(100%, rgba(22,166,223,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ie10+ */
+        background: linear-gradient(109deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42D1B5', endColorstr='#16A6DF',GradientType=1 ); /* ie6-9 */
+    }
+
+    .footer_textual_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    .footer_header_sec{
+        clear: both;
+        overflow: hidden;
+        margin: 2rem 1rem 1rem;
+    }
+
+    .footer_logo img{
+        margin-top: 0.6rem;
+    }
+
+    .footer_link_sec p{
+        color: #ffffff;
+        margin-bottom: 0.4rem;
+    }
+
+    .footer_link_sec p a{
+        color: #ffffff;
+    }
+
+    .footer_header_sec h4{
+        color: #ffffff;
+    }
+
+    .contact_number i.fa.fa-phone{
+        padding-right: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .contact_number i.fa.fa-envelope{
+        padding-right: 1rem;
+    }
+
+    .contact_number i.fa.fa-map-marker{
+        padding-right: 1rem;
+        font-size: 1.4rem;
+    }
+
+
+    .contact_heading{
+        padding-left: 1.3rem;
+    }
+
+    .contact_add_margin{
+        display: block;
+        margin-left: 2.1rem;
+    }
+
+    .copyright_and_disclaimer_block{
+        color: #ffffff;
+        margin: 3.5rem auto 1rem;
+    }
+
+    .social_icons{
+        margin: 3.5rem auto 1rem;
+    }
+
+    p.social_icons_cover{
+        color: #1568a3;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+        font-size: 1rem;
+        background-color: #fff;
+        border: 1px solid #ffffff;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        border-radius: 20px;
+    }
+
+/*====== Loanmeet Footer Style Block ======*/
