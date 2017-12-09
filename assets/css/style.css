@@ -14,6 +14,14 @@ body {
     padding: 0px !important;
 }
 
+.p-right-init{
+    padding-right: 0 !important;
+}
+
+.p-left-init{
+    padding-left: 0 !important;
+}
+
 .m-init{
     margin: 0px !important;
 }
@@ -40,7 +48,12 @@ label.error{
         text-transform: uppercase;
         letter-spacing: 0.05em;
         font-size: 0.8rem;
+        padding: 0.6rem 0.8rem;
     }
+
+    /*#myNavbar li a:last-child{
+        padding-right: 0;
+    }  */  
 
     #myNavbar li a:hover{
         background-color: transparent;
@@ -53,9 +66,20 @@ label.error{
 /*====== Loanmeet Banner Style Block ======*/
 
     #loanmeet_banner_section{
-        /*height: 100vh;*/
+        /*background: rgba(0, 0, 0, 0) url("../img/svg/landing_page_slider1.svg") no-repeat scroll left top / auto;*/
+        width: 100vw;
+        height: 91.5vh;
         clear: both;
         overflow: hidden;
+        position: relative;
+    }
+
+    #loanmeet_banner_section .item.second_banner{
+        background: rgba(0, 0, 0, 0) url("../img/svg/bg12.svg") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
+        width: 100vw;
+        height: 91.5vh;
         position: relative;
     }
 
@@ -64,8 +88,8 @@ label.error{
         width: 26rem;
         position: absolute;
         /*bottom: 7rem;*/
-        bottom: 2rem;
-        left: 47rem;
+        bottom: 0.3rem;
+        left: 48rem;
         text-shadow: none;
         padding-bottom: 0;
         right: 0;
@@ -74,7 +98,7 @@ label.error{
     }
 
     #loanmeet_banner_section .carousel-caption h4{
-        font-size: 18px;
+        font-size: 1.1rem;
         font-weight: bold;
         line-height: 24px;
         color: #2d68a3;
@@ -82,9 +106,9 @@ label.error{
 
     #loanmeet_banner_section .carousel-caption p{
         margin-bottom: 0px;
-        margin-top: 1rem;
+        margin-top: 0.6rem;
         color: #2d68a3;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     #loanmeet_banner_section .carousel-caption p.user_type{
@@ -95,7 +119,7 @@ label.error{
     #loanmeet_banner_section .carousel-indicators{
         left: 46rem;
         /*bottom: 5.8rem;*/
-        bottom: 1rem;
+        bottom: 0rem;
         right: 0rem;
         width: 26rem;
         margin: 0px;
@@ -124,8 +148,8 @@ label.error{
 
     .banner_text_block{
         position: absolute;
-        top: 13.15rem;
-        left: 3.65rem;
+        top: 210px;
+        left: 60px;
     }
 
     .banner_text_block h1{
