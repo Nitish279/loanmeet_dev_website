@@ -37,6 +37,10 @@ label.error{
     word-spacing: 1px;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 
 /*====== Loanmeet Header Style Block ======*/
 
