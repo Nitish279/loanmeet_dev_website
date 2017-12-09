@@ -1,0 +1,167 @@
+@media (max-width: 1199px) {
+	#loanmeet-header{
+		margin-top: 0.4rem;
+	}
+
+	#myNavbar li a {
+	    font-size: 1.1rem;
+	    color: #2d68a3;
+	    font-weight: bold;
+	}
+
+	#loanmeet_banner_section{
+		height: auto;
+	}
+
+	#loanmeet_banner_section .item.first_banner,
+	#loanmeet_banner_section .item.second_banner,
+	#loanmeet_banner_section .item.third_banner{
+		height: 41vh;
+	}
+
+	#loanmeet_banner_section .carousel-caption{
+		bottom: 1.5rem;
+		left: 32.8rem;
+	}
+
+	#loanmeet_banner_section .carousel-caption p{
+        font-size: 1rem;
+    }
+
+    #loanmeet_banner_section .carousel-caption p.user_type {
+	    font-weight: normal;
+	}
+
+	#loanmeet_banner_section .carousel-indicators {
+	    left: 31rem;
+	    bottom: 0.7rem;
+	}
+
+	.banner_text_block{
+		top: 135px;
+		left: 45px;
+	}
+
+	.banner_text_block h1{
+		font-size: 1.6rem;
+		font-weight: bold;
+		word-spacing: 4px;
+		letter-spacing: 1px;
+	}
+
+	.banner_text_block h3{
+		font-size: 1rem;
+    	font-weight: bold;
+	}
+
+
+
+
+
+
+
+
+
+
+	#loanmeet-features{
+		height: 41.5vh;
+	}
+
+	.why_loanmeet_block img.fea_bg{
+		height: auto;
+    	width: 95%;
+	}
+
+	.why_loanmeet_text_block {
+	    right: 2rem;
+	    top: 0.5rem;
+	}
+
+	.why_loanmeet_title,
+	.why_loanmeet_inv_item.first_row{
+		margin-bottom: 1.5rem;
+	}
+
+	.why_loanmeet_inv_item img{
+		width: 60px;
+	}
+
+	.why_loanmeet_inv_item.second_row h4{
+		margin-top: 1.5rem;
+	}
+
+
+
+
+	#docs-required,
+	#invest_with_us{
+		margin-top: -2px;
+	}
+
+
+
+
+
+	.section_title{
+		font-size: 2rem;
+		color: #1568a3;
+		font-weight: bold;
+		top: 0.6rem;
+	}
+
+	.indv_prod_img, .indv_prod_text {
+	    padding-left: 1rem;
+	}
+
+	.individual_product {
+	    margin-bottom: 6rem;
+	}
+
+	.products_block {
+	    margin-top: 9rem;
+	    margin-bottom: 7rem;
+	}
+
+
+
+
+
+
+	.individual_doc_card img{
+		height: 110px;
+	}
+
+	.individual_doc_card h4{
+		font-size: 1.1rem;
+	}
+
+	.individual_doc_card{
+		margin-top: 0;
+		padding: 1rem;
+	}
+
+	.product_video_image_block .video_block_video iframe{
+		width: 420px;
+		height: 284px;
+	}
+
+
+
+
+
+	.iwu_bg{
+		top: -1px;
+	}
+
+
+
+	.social_icons{
+		text-align: center;
+		padding: 0;
+	}
+
+	p.social_icons_cover{
+		margin-right: 0.2rem;
+	}
+
+}
