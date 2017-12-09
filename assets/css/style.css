@@ -48,7 +48,8 @@ label.error{
         text-transform: uppercase;
         letter-spacing: 0.05em;
         font-size: 0.8rem;
-        padding: 0.6rem 0.8rem;
+        /*padding: 0.6rem 0.8rem;*/
+        padding: 0.8em 1em;
     }
 
     /*#myNavbar li a:last-child{
@@ -74,14 +75,46 @@ label.error{
         position: relative;
     }
 
-    #loanmeet_banner_section .item.second_banner{
-        background: rgba(0, 0, 0, 0) url("../img/svg/bg12.svg") no-repeat scroll center center / cover;
+    #loanmeet_banner_section .item.first_banner{
+        background: rgba(0, 0, 0, 0) url("../img/png/bg1_1.png") no-repeat scroll center center / cover;
         /*background: url(../img/svg/bg12.svg) no-repeat top right;
         background-size: contain;*/
         width: 100vw;
         height: 91.5vh;
         position: relative;
+        -webkit-transition-duration: 2s;
+        -moz-transition-duration: 2s;
+        -o-transition-duration: 2s;
+        transition-duration: 2s;
     }
+
+    #loanmeet_banner_section .item.second_banner{
+        background: rgba(0, 0, 0, 0) url("../img/svg/bg1_2.svg") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
+        width: 100vw;
+        height: 91.5vh;
+        position: relative;
+        -webkit-transition-duration: 2s;
+        -moz-transition-duration: 2s;
+        -o-transition-duration: 2s;
+        transition-duration: 2s;
+    }
+
+    #loanmeet_banner_section .item.third_banner{
+        background: rgba(0, 0, 0, 0) url("../img/png/bg1_3.png") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
+        width: 100vw;
+        height: 91.5vh;
+        position: relative;
+        -webkit-transition-duration: 2s;
+        -moz-transition-duration: 2s;
+        -o-transition-duration: 2s;
+        transition-duration: 2s;
+    }
+
+
 
     #loanmeet_banner_section .carousel-caption{
         /* background-color: red; */
@@ -119,7 +152,7 @@ label.error{
     #loanmeet_banner_section .carousel-indicators{
         left: 46rem;
         /*bottom: 5.8rem;*/
-        bottom: 0rem;
+        bottom: 0.5rem;
         right: 0rem;
         width: 26rem;
         margin: 0px;
@@ -156,6 +189,8 @@ label.error{
         color: #1568a3;
         font-size: 2.1rem;
         margin-bottom: 0;
+            word-spacing: 6px;
+    letter-spacing: 2px;
     }
 
     .banner_text_block h3{
@@ -220,6 +255,7 @@ label.error{
 
     .why_loanmeet_inv_item img{
         height: 76px; 
+        margin: 0 auto;
     }
 
     .why_loanmeet_inv_item h4{
@@ -245,13 +281,13 @@ label.error{
 
     .section_title {
         color: #16a6df;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: bold;
         position: absolute;
-        right: 35rem;
+        right: 30rem;
         z-index: 1;
         text-align: center;
-        left: 35rem;
+        left: 30rem;
         margin: 0;
         top: 1rem;
     }
@@ -292,13 +328,14 @@ label.error{
     .indv_prod_text p.credit_tenure,
     .indv_prod_text p.prod_desc{
         margin-bottom: 0.7rem;
+        font-size: 1rem;
         color: #283e56;
     }
 
     .credit_tenure span,
     .credit_limit span{
         color: #16a6df;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: bold;
         padding-left: 0.5rem;
     }
@@ -318,6 +355,7 @@ label.error{
         color: #ffffff;
         cursor: pointer;
         display: inline-block;
+        font-size: 1rem;
     }
 
     .individual_product{
@@ -342,7 +380,7 @@ label.error{
     }
 
     .docs_section_title{
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: #1568a3;
         font-weight: bold;
         text-align: center;
@@ -361,7 +399,7 @@ label.error{
 
     .individual_doc{
         position: relative;
-        height: 420px;
+        height: 460px;
     }
 
     .individual_doc p.doc_numbers{
@@ -378,11 +416,14 @@ label.error{
         color: #1568a3;
         font-weight: bold;
         font-size: 1.2rem;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1.5rem;
     }
 
     .individual_doc_card p.doc_detail{
         color: #7c8893;
+        font-size: 1rem;
+        line-height: 24px;
+    padding-bottom: 1rem;
     }
 
     .individual_doc_card{
@@ -392,17 +433,25 @@ label.error{
         border-radius: 20px;
         position: absolute;
         top: 6rem;
+        -webkit-transition: all 1000ms ease-in-out;
+        -webkit-transform: scale(1);
+        -ms-transition: all 1000ms ease-in-out;
+        -ms-transform: scale(1);   
+        -moz-transition: all 1000ms ease-in-out;
+        -moz-transform: scale(1);
+        transition: all 1000ms ease-in-out;
+        transform: scale(1);
     }
 
     .individual_doc_card:hover{
         z-index: 2;
-        -webkit-transition: all 1000ms ease-in;
+        -webkit-transition: all 1000ms ease-in-out;
         -webkit-transform: scale(1.1);
-        -ms-transition: all 1000ms ease-in;
+        -ms-transition: all 1000ms ease-in-out;
         -ms-transform: scale(1.1);   
-        -moz-transition: all 1000ms ease-in;
+        -moz-transition: all 1000ms ease-in-out;
         -moz-transform: scale(1.1);
-        transition: all 1000ms ease-in;
+        transition: all 1000ms ease-in-out;
         transform: scale(1.1);
     }
 
@@ -537,7 +586,7 @@ label.error{
     #invest_with_us h1{
         text-align: center;
         color: #ffffff;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: bold;
         padding-right: 4.7em;
         margin-bottom: 1.5em;
@@ -547,9 +596,15 @@ label.error{
         margin: 1em 0 1em auto;
     }
 
-    .arrow_img_text_block h4,
+    .arrow_img_text_block h4{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
     .arrow_img_text_block p{
         color: #ffffff;
+        font-size: 1rem;
     }
 
     .arrow_img_text_block{
@@ -598,7 +653,7 @@ label.error{
 
     #newsfeeds-section h1 {
         color: #1568a3;
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: bold;
         text-align: center;
         margin-top: 1.5em;
@@ -667,7 +722,7 @@ label.error{
     }
 
     .footer_logo img{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
     }
 
     .footer_link_sec p{
@@ -677,10 +732,13 @@ label.error{
 
     .footer_link_sec p a{
         color: #ffffff;
+        font-size: 1rem;
     }
 
     .footer_header_sec h4{
         color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
 
     .contact_number i.fa.fa-phone{
