@@ -88,7 +88,7 @@ label.error{
         width: 26rem;
         position: absolute;
         /*bottom: 7rem;*/
-        bottom: 0.3rem;
+        bottom: 0.5rem;
         left: 48rem;
         text-shadow: none;
         padding-bottom: 0;
@@ -182,17 +182,40 @@ label.error{
 
 /*====== Loanmeet Feature Style Block ======*/
 
-    .why_loanmeet_block{
-        background: url(../img/svg/bg2.svg) no-repeat top left;
-        background-size: cover;
+    #loanmeet-features{
+        background: rgba(0, 0, 0, 0) url("../img/png/ref_img2.png") no-repeat scroll left top / contain;
         width: 100vw;
+        height: 100vh;
         position: relative;
+        clear: both;
+        overflow: hidden;
+        /*background-color: red;*/
+    }
+
+    .why_loanmeet_block img.fea_bg{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        height: 100vh;
+        width: 96%;
+        /*background: url(../img/svg/bg2.svg) no-repeat top left;*/
+        /*background: rgba(0, 0, 0, 0) url("../img/png/ref_img2.png") no-repeat scroll left top / auto;*/
+        /*width: auto;
+        height: 100vh;*/
+    }
+
+    .why_loanmeet_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        margin-bottom: 3.2rem;
+        padding-left: 0.8rem;
     }
 
     .why_loanmeet_text_block{
         position: absolute;
-        right: 2rem;
-        top: 16rem;
+        right: 0.5rem;
+        top: 1.5rem;
     }
 
     .why_loanmeet_inv_item img{
