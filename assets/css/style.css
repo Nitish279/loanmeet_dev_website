@@ -30,6 +30,12 @@ body {
     visibility: hidden;
 }
 
+.m-1{
+    height: 1rem;
+    clear: both;
+    overflow: hidden;
+}
+
 label.error{
     font-size: 0.5rem;
     color: red;
@@ -37,9 +43,9 @@ label.error{
     word-spacing: 1px;
 }
 
-::-webkit-scrollbar { 
+/*::-webkit-scrollbar { 
     display: none; 
-}
+}*/
 
 
 /*====== Loanmeet Header Style Block ======*/
@@ -86,10 +92,10 @@ label.error{
         width: 100vw;
         height: 91.5vh;
         position: relative;
-        -webkit-transition-duration: 2s;
-        -moz-transition-duration: 2s;
-        -o-transition-duration: 2s;
-        transition-duration: 2s;
+        -webkit-transition-duration: 4s;
+        -moz-transition-duration: 4s;
+        -o-transition-duration: 4s;
+        transition-duration: 4s;
     }
 
     #loanmeet_banner_section .item.second_banner{
@@ -99,10 +105,10 @@ label.error{
         width: 100vw;
         height: 91.5vh;
         position: relative;
-        -webkit-transition-duration: 2s;
-        -moz-transition-duration: 2s;
-        -o-transition-duration: 2s;
-        transition-duration: 2s;
+        -webkit-transition-duration: 4s;
+        -moz-transition-duration: 4s;
+        -o-transition-duration: 4s;
+        transition-duration: 4s;
     }
 
     #loanmeet_banner_section .item.third_banner{
@@ -112,10 +118,10 @@ label.error{
         width: 100vw;
         height: 91.5vh;
         position: relative;
-        -webkit-transition-duration: 2s;
-        -moz-transition-duration: 2s;
-        -o-transition-duration: 2s;
-        transition-duration: 2s;
+        -webkit-transition-duration: 4s;
+        -moz-transition-duration: 4s;
+        -o-transition-duration: 4s;
+        transition-duration: 4s;
     }
 
 
