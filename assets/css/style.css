@@ -413,7 +413,7 @@ label.error{
 
     .individual_doc{
         position: relative;
-        height: 460px;
+        height: 560px;
     }
 
     .individual_doc p.doc_numbers{
@@ -438,6 +438,7 @@ label.error{
         font-size: 1rem;
         line-height: 24px;
     padding-bottom: 1rem;
+    height: 260px;
     }
 
     .individual_doc_card{
