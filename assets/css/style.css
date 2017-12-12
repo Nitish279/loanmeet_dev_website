@@ -314,7 +314,7 @@ label.error{
 
     .product_bg2{
         position: absolute;
-        bottom: 0px;
+        bottom: -2px;
         left:  0px;
     }
 

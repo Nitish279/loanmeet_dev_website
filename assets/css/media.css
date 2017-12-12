@@ -1,11 +1,4 @@
-@media (max-width: 1199px) {
-	
-}
-
-
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px)  {
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
 	#loanmeet-header{
 		margin-top: 0.4rem;
 	}
@@ -61,15 +54,6 @@ and (max-device-width : 1366px)  {
     	font-weight: bold;
 	}
 
-
-
-
-
-
-
-
-
-
 	#loanmeet-features{
 		height: 41.5vh;
 	}
@@ -97,17 +81,10 @@ and (max-device-width : 1366px)  {
 		margin-top: 1.5rem;
 	}
 
-
-
-
 	#docs-required,
 	#invest_with_us{
 		margin-top: -2px;
 	}
-
-
-
-
 
 	.section_title{
 		font-size: 2rem;
@@ -129,11 +106,6 @@ and (max-device-width : 1366px)  {
 	    margin-bottom: 7rem;
 	}
 
-
-
-
-
-
 	.individual_doc_card img{
 		height: 110px;
 	}
@@ -152,15 +124,14 @@ and (max-device-width : 1366px)  {
 		height: 284px;
 	}
 
-
-
-
-
 	.iwu_bg{
 		top: -1px;
 	}
 
-
+	.indv_reason,
+    .arrow_img_text_block{
+        padding: 0;
+    }
 
 	.social_icons{
 		text-align: center;
@@ -172,15 +143,12 @@ and (max-device-width : 1366px)  {
 	}
 }
 
-
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px) 
-and (orientation : landscape) { 
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+	#loanmeet_banner_section,
 	#loanmeet_banner_section .item.first_banner, 
 	#loanmeet_banner_section .item.second_banner,
 	#loanmeet_banner_section .item.third_banner{
-		height: 71.6vh;
+		height: 71.5vh;
 	}
 
 	.banner_text_block {
@@ -209,12 +177,403 @@ and (orientation : landscape) {
 		left: 46rem;
 	}
 
-
-
-
-	#loanmeet-features {
+	#loanmeet-features,
+	.why_loanmeet_block img.fea_bg {
 	    height: 74vh;
 	}
 
-	
+	.why_loanmeet_text_block {
+	    right: 2rem;
+	    top: 5rem;
+	}
+
+
+	.section_title{
+		top: 1.4rem;
+	}
+
+	.product_bg2{
+		bottom: -2px;
+	}
+
+	.iwu_bg {
+	    top: -2px;
+	}
+
+	.indv_reason,
+    .arrow_img_text_block{
+        padding: 0;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+	#myNavbar li a{
+		letter-spacing: 0.02em;
+		font-size: 1rem;
+		font-weight: bold;
+		padding: 1rem 0.8rem;
+	}
+
+	#loanmeet_banner_section{
+		height: 40vh;
+	}
+
+	#loanmeet_banner_section .item.first_banner, 
+	#loanmeet_banner_section .item.second_banner,
+	#loanmeet_banner_section .item.third_banner{
+		height: 40.5vh;
+	}
+
+	.banner_text_block{
+		top: 103px;
+    	left: 30px;
+	}
+
+	.banner_text_block h1{
+		font-size: 1rem;
+		word-spacing: 2px;
+		letter-spacing: 2px;
+	}
+
+	.banner_text_block h3 {
+	    font-size: 0.8rem;
+	    margin-top: 0.2rem;
+	}
+
+	.apply_btn a {
+	    padding: 0.5rem 2rem 0.7rem;
+	    font-size: 1rem;
+	}
+
+	#loanmeet_banner_section .carousel-indicators{
+		left: 31rem;
+		bottom: 0.6rem;
+		width: 4rem;
+	}
+
+	#loanmeet_banner_section .carousel-indicators li{
+		width: 12px;
+		height: 12px;
+		margin: 2px;
+	}
+
+	#loanmeet_banner_section .carousel-caption{
+		width: 18rem;
+		bottom: 0.8rem;
+		left: 25rem;
+	}
+
+	#loanmeet_banner_section .carousel-caption h4{
+		font-size: 0.8rem;
+		margin-bottom: 0.6rem;
+		line-height: 16px;
+	}
+
+	#loanmeet_banner_section .carousel-caption p{
+		margin-bottom: 0px;
+		margin-top: 0rem;
+		font-size: 0.8rem;
+	}
+
+	#loanmeet-features{
+		height: 40vh;
+	}
+
+	.why_loanmeet_block img.fea_bg{
+		height: 40vh;
+		width: 100%;
+	}
+
+	.why_loanmeet_text_block{
+		right: 0rem;
+		top: 0rem;
+	}
+
+	.why_loanmeet_title{
+		font-size: 1.5rem;
+    	margin: 1.6rem auto;
+	}
+
+	.why_loanmeet_inv_item img {
+	    height: 50px;
+	}
+
+	.why_loanmeet_inv_item.first_row {
+	    margin-bottom: 1.2rem;
+	}	
+
+	.why_loanmeet_inv_item h4{
+		font-size: 0.8rem;
+		margin-bottom: 0.4rem;
+	}
+
+	.why_loanmeet_inv_item p {
+	    font-size: 0.8rem;
+	}
+
+	.section_title{
+		font-size: 1.5rem;
+	}
+
+	.products_block {
+	    margin-top: 8rem;
+	    margin-bottom: 8rem;
+	}
+
+	.individual_product {
+	    margin-bottom: 4rem;
+	}
+
+	.indv_prod_img, .indv_prod_text{
+		padding: 0 1rem;
+	}
+
+	.indv_prod_text p.credit_tenure, .indv_prod_text p.prod_desc {
+	    margin-bottom: 0.3rem;
+	    font-size: 0.9rem;
+	    line-height: 22px;
+	}
+
+	.indv_prod_text p.credit_limit {
+	    margin-bottom: 1rem;	
+	}
+
+	.get_loan_btn a {
+	    padding: 0.6rem 2.4rem;
+	    font-size: 0.8rem;
+	}
+
+	.product_bg2 {
+	    bottom: -2px;
+	}
+
+	.document_block {
+	    margin: 0rem auto 4rem;
+	}
+
+	.doc_start_txt {
+	    font-size: 0.8rem;
+	}
+
+	.docs_section_title {
+    	font-size: 1.5rem;
+    }
+
+	.individual_doc {
+	    height: 590px;
+	}
+
+	.individual_doc_card {	    
+		padding: 2rem;
+	}
+
+	.individual_doc_card p.doc_detail {
+	    height: 200px;
+	}
+
+	.video_block_video iframe{
+		width: 360px;
+	}
+
+
+	.video_block_text{
+		padding-left: 4rem;
+		margin-top: 0;
+	}
+
+	#invest_with_us .row{
+		margin: 0;
+		padding: 0;
+	}
+
+	.iwu_bg {
+	    top: -2px;
+	}
+
+	.arrow_img_text_block{
+        padding: 0;
+    }
+
+    #invest_with_us h1{
+	    padding-right: 1rem;
+	    margin-bottom: 2rem;
+	   font-size: 1.5rem;
+    }
+
+    .iws_btn_block {
+    	margin: 2rem auto;
+	}
+
+	#newsfeeds-carousel .carousel-inner{
+		height: 260px;
+	}
+
+	.invd_newsfeed_item.the_economics_times2 {
+	    margin-top: 4.4em;
+	}
+
+	.invd_newsfeed_item.p2p_banking {
+	    margin-top: 5em;
+	}
+
+	.invd_newsfeed_item.live_mint{
+		margin-top: 3rem;
+	}
+
+	.invd_newsfeed_item.the_economics_times {
+	    margin-top: 2.4em;
+	}
+
+	.office_address{
+		padding: 0px;
+	}
+
+	.social_icons {
+	    margin: 2rem auto 0rem;
+	}
+
+	.copyright_and_disclaimer_block {
+	    margin: 1rem auto 2rem;
+	    text-align: center;
+	}
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+	#myNavbar li a{
+		letter-spacing: 0.02em;
+		font-size: 1rem;
+		font-weight: bold;
+		padding: 1rem 0.8rem;
+	}
+
+	#loanmeet_banner_section{
+		height: 71.5vh;
+	}
+
+	#loanmeet_banner_section .item.first_banner, 
+	#loanmeet_banner_section .item.second_banner,
+	#loanmeet_banner_section .item.third_banner{
+		height: 71.5vh;
+	}
+
+	.banner_text_block {
+	    top: 143px;
+	    left: 45px;
+	}
+
+	.banner_text_block h1 {
+	    font-size: 1.6rem;
+	    word-spacing: 2px;
+	    letter-spacing: 1px;
+	}
+
+	.banner_text_block h3 {
+	    font-size: 1.05rem;
+	}
+
+	#loanmeet_banner_section .carousel-caption{
+		left: 33rem;
+	}
+
+	#loanmeet_banner_section .carousel-indicators {
+    	left: 30.5rem;
+    }
+
+    #loanmeet-features,
+    .why_loanmeet_block img.fea_bg{
+    	height: 77vh;
+    }
+
+    .why_loanmeet_text_block {
+	    right: 2rem;
+	    top: 0.3em;
+	}
+
+	.why_loanmeet_title {
+	    font-size: 2rem;
+	    margin-bottom: 2rem;
+	}
+
+	.why_loanmeet_inv_item.first_row {
+	    margin-bottom: 3rem;
+	}
+
+	.section_title{
+		top: 0.7rem;
+	}
+
+	.indv_prod_img, .indv_prod_text {
+	    padding-left: 1rem;
+	}
+
+	.individual_product {
+	    margin-bottom: 6rem;
+	}
+   .document_block {
+        margin: 2rem auto 8rem;
+        padding: 0;
+	}
+
+    .individual_doc {
+	    position: relative;
+	    height: 560px;
+	    padding: 0;
+	}
+	.individual_doc_card p.doc_detail {
+        height: 280px;
+	}
+
+	.individual_doc_card {
+	    margin: 0 0.5rem;
+	    padding: 1rem;
+	}
+
+	.product_bg2 {
+	    bottom: -2px;
+	}
+
+	.document_block,
+	.individual_doc{
+		padding: 0;
+	}
+
+	.document_block{
+		    margin: 1rem auto 8rem;
+	}
+
+	.individual_doc_card{
+		padding: 1rem;
+	}
+
+	.individual_doc_card {
+	    margin: 0 0.5rem;
+	    padding: 1rem;
+	}
+
+	.video_block_video iframe{
+		width: 400px;
+	}
+
+	.iwu_bg {
+	    top: -2px;
+	}
+
+	.footer_link_sec p.ofc_adr{
+		font-size: 0.85rem;
+	}
+
+	.copyright_and_disclaimer_block,
+	.social_icons{
+		margin: 2.5rem auto 1rem;
+	}
+
+	p.social_icons_cover {
+	    margin-right: 0.4rem;
+	    font-size: 0.8rem;
+	    width: 26px;
+	    height: 26px;
+	    line-height: 24px;
+	}
+   
 }
