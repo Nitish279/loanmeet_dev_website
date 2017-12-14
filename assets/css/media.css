@@ -81,6 +81,15 @@
 		margin-top: 1.5rem;
 	}
 
+	.doc_detail{
+		height: 300px;
+	}
+
+	.individual_doc {
+	    height: 600px;
+	    padding: 0;
+	}
+
 	#docs-required,
 	#invest_with_us{
 		margin-top: -2px;
@@ -575,5 +584,343 @@
 	    height: 26px;
 	    line-height: 24px;
 	}
-   
 }
+
+@media only screen and (max-width : 480px) {
+	.navbar-toggle{
+		margin-top: 0.4rem;
+	}
+
+	.navbar-toggle span.icon-bar{
+		width: 30px;
+		height: 4px;
+		background-color: #2d68a3;
+	}
+
+	#loanmeet_banner_section{
+		height: auto;
+	}
+
+	#loanmeet_banner_section{
+		background: rgba(0, 0, 0, 0) url("../img/png/Image1-01.png") no-repeat scroll center center / cover;
+		height: 38vh;
+		position: relative;
+	}
+
+	.banner_text_block{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #00000087;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 2rem;
+	}
+
+	.banner_text_block h1{
+		font-size: 1.4rem;
+		word-spacing: 2px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	.banner_text_block h3{
+		font-size: 1.2rem;
+		margin-top: 0.6rem;
+		margin-bottom: 1.5rem;
+		line-height: 25px;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	.apply_btn{
+		display: inline-block;
+	}
+
+	.apply_btn a {
+	    padding: 0.7rem 2.4rem 0.8rem;
+	}
+
+	#loanmeet-features{
+		background: none;
+		height: auto;
+	}
+
+	.fea_bg{
+		display: none;
+	}
+
+	.why_loanmeet_text_block {
+	    position: unset;
+	}
+
+	.why_loanmeet_title{
+		font-size: 1.5rem;
+		margin: 1.5rem auto;
+	}
+
+	.why_loanmeet_inv_item {
+	    margin-bottom: 2rem;
+	    text-align: left;
+	}
+
+	#loanmeet-products {
+	    background-color: #cbf0f0;
+	}
+
+	.product_bg1,
+	.product_bg2{
+		display: none;
+	}
+
+	.section_title{
+		top: 0;
+		font-size: 1.5rem;
+		margin: 1.5rem auto;
+	}
+
+	.products_block {
+	    margin-top: 6rem;
+	    margin-bottom: 6rem;
+	}
+
+	.individual_product{
+		text-align: center;
+	}
+
+	.indv_prod_img, .indv_prod_text{
+		padding-left: 1rem;
+	}
+
+	.indv_prod_img img{
+		margin: 0 auto;
+	}
+
+	#docs-required{
+		margin-top: -2px;
+	}
+
+	.document_block {
+	    margin: 0rem auto 5rem;
+	}
+
+	.video_block_video iframe{
+		width: 380px;
+		height: 220px;
+	}
+
+	#product_video_block {
+	    margin: 3rem auto;
+	}
+
+	.video_block_text{
+		text-align: center;
+	}
+
+	#invest_with_us .row{
+		margin: 0;
+		padding: 0;
+	}
+
+	.iwu_bg{
+		top: -2px;
+		right: -2px;
+	}
+
+	#invest_with_us h1{
+		font-size: 1.5rem;
+		margin: 1.5rem auto;
+		padding: 0;
+	}
+
+
+
+
+	.arrow_img_text_block{
+		padding: 0 0rem 0 1rem;
+	}
+
+	.indv_reason .arrow_img_block img {
+	    margin: 1em 0 1em 0;
+	    width: 14px;
+	}
+
+	.arrow_img_block{
+		padding: 0;
+	}
+
+	.indv_reason{
+		margin-bottom: 1.5rem;
+	}
+
+	.m-1{
+		display: none;
+	}
+
+	.iwu_content_block, .indv_reason_block{
+		margin-top: 1rem;
+	}
+
+	.iws_btn_block{
+		margin: 0rem auto 3rem;
+	}
+
+
+	#newsfeeds-section{
+		height: 320px;
+	}
+
+	.abt_blk{
+	    margin: 2rem auto;
+	}
+
+	.abt_blk img{
+		margin-top: 2rem;
+    	margin-bottom: 1rem;
+	}
+
+	.abt_blk p{
+		font-size: 1rem;
+    	font-weight: bold;
+	}
+
+	.prod_blk h4,
+	.office_address h4{
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: #fff;
+		margin-bottom: 1.5rem;
+	}
+
+	.ln_blk{
+		margin: 0rem auto 2rem;
+	}
+
+	.social_icons {
+	    margin: 1.5rem auto 0rem;
+	}
+
+	.copyright_and_disclaimer_block {
+		text-align: center;
+	    margin: 1.5rem auto 3rem;
+	}
+
+
+	.indv_prod_img, .indv_prod_text {
+	    padding-bottom: 2rem;
+	    margin: 0 auto;
+    }
+    .indv_prod_img img {
+	    margin: 0 auto;
+	    height: 200px;
+	    width: 200px;
+	}
+    .individual_product {
+        margin-bottom: 3rem;
+    }
+    .indv_prod_text h4 {
+	    font-size: 1.5rem;
+	    font-weight: bold;
+	}
+	.indv_prod_text p.credit_tenure, .indv_prod_text p.prod_desc {
+	    font-size: 1.1rem;
+	    padding: 0 15px;
+	    line-height: 1.7rem;
+	}
+    
+	.video_block_text h4 {
+	    font-size: 1.2rem;
+	    padding: 10px 0;
+	}
+	.rating_stars_block {
+	    margin-top: 2rem;
+	}
+	.rating_textual_block h3 {
+	    font-size: 30px;
+	    margin-right: 0.4rem;
+	    line-height: 30px;
+	}
+	.rating_textual_block p.rating_txt {
+	    font-size: 20px;
+	    text-align: center;
+	}
+	.rating_textual_block {
+	    margin-top: 0.3rem;
+	}
+	.rating_textual_block p.rating_txt {
+	    font-size: 20px;
+	}
+		
+}
+
+@media only screen and (min-width : 320px) {
+	.banner_text_block h1 {
+	    font-size: 1rem;
+	    word-spacing: 1px;
+	}
+
+	.banner_text_block h3 {
+	    font-size: 1rem;
+    }
+    
+    .navbar-brand {
+    	padding: 17px 0 0 20px;
+    }
+    .navbar-brand img {
+    	width: 75%;
+    	height: 64%;
+    }
+    .navbar-toggle {
+	    margin-top: 1rem;
+	    padding: 0;
+	    margin-right: 10px;
+	}
+	.why_loanmeet_title {
+	    margin-bottom: 0.8rem;
+	}
+     .why_loanmeet_inv_item h4 {
+	    font-size: 1.0rem;
+	}
+    .why_loanmeet_inv_item {
+	    margin-bottom: 0.7rem;
+	}
+    .section_title {
+        padding-top: 12px;
+    }
+	.indv_prod_img, .indv_prod_text {
+	    padding-bottom: 1rem;
+	}
+	.indv_prod_text h4 {
+	    font-size: 1.2rem;
+	}
+   .products_block {
+        margin-top: 5rem;
+    }
+	.indv_prod_img img {
+	    height: 170px;
+	    width: 170px;
+	 }
+	.indv_prod_text p.credit_tenure, .indv_prod_text p.prod_desc {
+	    padding: 0;
+	 }
+	.video_block_video iframe {
+	    width: 288px;
+	    height: 160px;
+    }
+    #product_video_block {
+	    margin: 1rem auto;
+
+	}
+
+	#invest_with_us h1 {
+	    font-size: 1.4rem;
+	    margin: 2.5rem 0 0 0;
+	}
+}
+
+

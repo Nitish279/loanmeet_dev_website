@@ -78,7 +78,7 @@
         <section id="loanmeet_banner_section">
             <div class="container-fluid">
                 <div class="row">
-                    <div id="myCarousel" class="carousel slide">
+                    <div id="myCarousel" class="carousel slide hidden-xs">
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="" contenteditable="false"></li>
                             <li data-target="#myCarousel" data-slide-to="1" class="active" contenteditable="false"></li>
@@ -108,12 +108,23 @@
                             </div>
                         </div>
                     </div>
-                    <img class="img-responsive banner_img" src="assets/img/svg/landing_page_slider.svg">
-                    <div class="banner_text_block">
+                    <img class="img-responsive banner_img hidden-xs" src="assets/img/svg/landing_page_slider.svg">
+
+                    <div class="banner_text_block visible-md visible-lg">
                         <h1>Inventory Financing Simplified.</h1>
                         <h3>We provide loans to Bengaluru based retailers in 48 hrs.</h3>
                         <div class="apply_btn">
                             <a href="">Apply for Loan</a>
+                        </div>
+                    </div>
+
+                    <div class="banner_text_block hidden-md hidden-lg">
+                        <div class="banner_text_inner_block">
+                            <h1>Inventory Financing Simplified.</h1>
+                            <h3>We provide loans to Bengaluru based retailers in 48 hrs.</h3>
+                            <div class="apply_btn">
+                                <a href="">Apply for Loan</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -124,7 +135,8 @@
                 <div class="row">
                     <div class="why_loanmeet_block">
                         <img src="assets/img/svg/why_loanmeet.svg" alt="" class="img-responsive fea_bg" height="" width="">
-                        <div class="why_loanmeet_text_block col-md-offset-6 col-md-6 col-sm-offset-5 col-sm-7 text-center">
+
+                        <div class="why_loanmeet_text_block col-md-offset-6 col-md-6 col-sm-offset-5 col-sm-7 text-center hidden-xs">
                             <h1 class="why_loanmeet_title">Why Loanmeet?</h1>
                             <div class="col-sm-6 why_loanmeet_inv_item first_row" style="">
                                 <img src="assets/img/svg/f1.svg" alt="" class="img-responsive" width="87">
@@ -136,7 +148,6 @@
                                 <h4>Easy Access To Funds</h4>
                                 <p>Apply today and get your loan in 48 working hours.</p>
                             </div>
-                            <br><br>
                             <div class="col-sm-6 why_loanmeet_inv_item second_row">
                                 <img src="assets/img/svg/f3.svg" alt="" class="img-responsive" width="55">
                                 <h4>Hassle Free Process</h4>
@@ -148,6 +159,47 @@
                                 <p>No need to pledge any personal or business asset to avail loan.</p>
                             </div>
                         </div>
+
+                        <div class="why_loanmeet_text_block text-center visible-xs">
+                            <h1 class="why_loanmeet_title">Why Loanmeet?</h1>
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f1.svg" alt="" class="img-responsive" width="87">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>Increase Sales & Profits</h4>
+                                    <p>Avail our tailer made credit products to boost your sales</p>
+                                </div>
+                            </div>  
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f2.svg" alt="" class="img-responsive" width="76">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>Easy Access To Funds</h4>
+                                    <p>Apply today and get your loan in 48 working hours.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f3.svg" alt="" class="img-responsive" width="55">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>Hassle Free Process</h4>
+                                    <p>A smartphone & our mobile app is all you need to apply for a loan</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f4.svg" alt="" class="img-responsive" width="68">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>No Collateral</h4>
+                                    <p>No need to pledge any personal or business asset to avail loan.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -218,8 +270,8 @@
                         </div>
 
                         <div class="products_block container hidden-md hidden-lg">
-                            <div class="individual_product row">
-                                <div class="indv_prod_img col-md-offset-1 col-md-4 col-sm-5">
+                            <!-- <div class="individual_product row">
+                                <div class="indv_prod_img col-md-offset-1 col-md-4 col-sm-5 col-xs-12">
                                     <img src="assets/img/svg/p1.svg" alt="" class="img-responsive" width="250">
                                 </div>
                                 <div class="indv_prod_text col-md-6 col-sm-7">
@@ -231,9 +283,9 @@
                                         <a href="">Get Loan</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="individual_product row">
-                                <div class="indv_prod_img col-md-offset-1 col-md-4 col-sm-5">
+                                <div class="indv_prod_img col-md-offset-1 col-md-4 col-sm-5 col-xs-12">
                                     <img src="assets/img/svg/p1.svg" alt="" class="img-responsive" width="250">
                                 </div>
                                 <div class="indv_prod_text col-md-6 col-sm-7">
@@ -261,7 +313,7 @@
                                 </div>
                             </div>
                             <div class="individual_product row">
-                                <div class="indv_prod_img col-md-offset-1 col-md-4 col-sm-5">
+                                <div class="indv_prod_img col-md-offset-1 col-md-4 col-sm-5 col-xs-12">
                                     <img src="assets/img/svg/p3.svg" alt="" class="img-responsive" width="250">
                                 </div>
                                 <div class="indv_prod_text col-md-6 col-sm-7">
@@ -299,7 +351,8 @@
                 <div class="row">
                     <h1 class="docs_section_title">How it works?</h1>
                     <p class="text-center doc_start_txt">Get started in just four steps</p>
-                    <div class="document_block container">
+
+                    <div class="document_block container visible-sm visible-md visible-lg">
                         <div class="individual_doc col-md-3 col-sm-6 text-center">
                             <p class="doc_numbers">1</p>
                             <div class="individual_doc_card">
@@ -333,6 +386,57 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="document_block container hidden-sm hidden-md hidden-lg">
+                        <div class="carousel slide" id="docs_required_carousel" data-ride="carousel" data-interval="5000">
+                            <div class="carousel-inner col-md-12">
+                                <div class="active item text-center">
+                                    <div class="individual_doc col-md-3 col-sm-6 text-center">
+                                        <p class="doc_numbers">1</p>
+                                        <div class="individual_doc_card">
+                                            <img src="assets/img/svg/Aadhar.svg" alt="" class="img-responsive" width="80">
+                                            <h4>Aadhar Submission</h4>
+                                            <p class="doc_detail text-justify">You need to provide basic KYC information on our mobile app/website. Just enter your PAN card number, Aadhar card number and upload a scan copies of both and you are all set for the next step.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                   <div class="individual_doc col-md-3 col-sm-6 text-center">
+                                        <p class="doc_numbers">2</p>
+                                        <div class="individual_doc_card">
+                                            <img src="assets/img/svg/Bankstatement.svg" alt="" class="img-responsive" width="110">
+                                            <h4>Bank Statement</h4>
+                                            <p class="doc_detail text-justify">You are a small business and providing us company balance sheet, P&L statements seems like a huge burden. No issues, all that we require for your business evaluation is bank statement of your business. Just upload last 3 month bank statement on our mobile app and done.</p>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item text-center">
+                                    <div class="individual_doc col-md-3 col-sm-6 text-center">
+                                        <p class="doc_numbers">3</p>
+                                        <div class="individual_doc_card">
+                                            <img src="assets/img/svg/Approval.svg" alt="" class="img-responsive" width="111">
+                                            <h4>Approval</h4>
+                                            <p class="doc_detail text-justify">No we don’t take forever to process your loan application. After you have provided us KYC information and submitted all the documents mentioned above we will have loan decision within 48 hours and that’s our promise.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item text-center">
+                                    <div class="individual_doc col-md-3 col-sm-6 text-center">
+                                        <p class="doc_numbers">4</p>
+                                        <div class="individual_doc_card">
+                                            <img src="assets/img/svg/Disbursal.svg" alt="" class="img-responsive" width="176">
+                                            <h4>Disbursal</h4>
+                                            <p class="doc_detail text-justify">Once a loan/credit line is approved, we disburse money within 1 working day. We offer flexible repayment options based on nature and size of business. Even after loan disbursal, our team would keep on supporting you for all financial assistance that you may require.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </section>
@@ -340,10 +444,10 @@
             <div class="container">
                 <div class="row">
                     <div class="product_video_image_block ">
-                        <div class="video_block_video col-md-offset-1 col-md-6 col-sm-6">
+                        <div class="video_block_video col-md-offset-1 col-md-6 col-sm-6 col-xs-12">
                             <iframe width="496" height="280" src="https://www.youtube.com/embed/YDeW-rus7RQ?rel=0&amp;modestbranding=0&amp;controls=0&amp;autoplay=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div class="video_block_text col-md-4 col-sm-6">
+                        <div class="video_block_text col-md-4 col-sm-6 col-xs-12">
                             <h4>Download our mobile app.</h4>
                             <form class="download_app_form">
                                 <div class="form-group">
@@ -381,39 +485,39 @@
                     <h1>Why Invest With Us?</h1>
                     <div class="iwu_content_block">
                         <div class="indv_reason_block">
-                            <div class="indv_reason col-md-5 col-sm-6">
-                                <div class="arrow_img_block col-md-2 col-sm-2">
+                            <div class="indv_reason col-md-5 col-sm-6 col-xs-12">
+                                <div class="arrow_img_block col-md-2 col-sm-2 col-xs-1">
                                     <img src="assets/img/png/Invest_in_us_arrows.png" alt="arrow Icon" class="img-responsive" width="20">
                                 </div>
-                                <div class="arrow_img_text_block col-md-10 col-sm-10">
+                                <div class="arrow_img_text_block col-md-10 col-sm-10 col-xs-11">
                                     <h4>Diversify Payments</h4>
                                     <p>Ensuring a portfolio is diversified is key to spreading risk and LOANMEET offers another asset class for investors</p>
                                 </div>
                             </div>
-                            <div class="indv_reason col-md-5 col-sm-6">
-                                <div class="arrow_img_block col-md-2 col-sm-2">
+                            <div class="indv_reason col-md-5 col-sm-6 col-xs-12">
+                                <div class="arrow_img_block col-md-2 col-sm-2 col-xs-1">
                                     <img src="assets/img/png/Invest_in_us_arrows.png" alt="arrow Icon" class="img-responsive" width="20">
                                 </div>
-                                <div class="arrow_img_text_block col-md-10 col-sm-10">
+                                <div class="arrow_img_text_block col-md-10 col-sm-10 col-xs-11">
                                     <h4>No Lockin period</h4>
                                     <p>There is no minimum or lock-in period for Investment with. We provide option to withdraw invested money any time</p>
                                 </div>
                             </div>
                             <dir class="m-1"></dir>
-                            <div class="indv_reason col-md-5 col-sm-6">
-                                <div class="arrow_img_block col-md-2 col-sm-2">
+                            <div class="indv_reason col-md-5 col-sm-6 col-xs-12">
+                                <div class="arrow_img_block col-md-2 col-sm-2 col-xs-1">
                                     <img src="assets/img/png/Invest_in_us_arrows.png" alt="arrow Icon" class="img-responsive" width="20">
                                 </div>
-                                <div class="arrow_img_text_block col-md-10 col-sm-10">
+                                <div class="arrow_img_text_block col-md-10 col-sm-10 col-xs-11">
                                     <h4>Good Solid Returns</h4>
                                     <p>You can start earning 15% per annum, or 1.25% per month, from the next month with LOANMEET</p>
                                 </div>
                             </div>
-                            <div class="indv_reason col-md-5 col-sm-6">
-                                <div class="arrow_img_block col-md-2 col-sm-2">
+                            <div class="indv_reason col-md-5 col-sm-6 col-xs-12">
+                                <div class="arrow_img_block col-md-2 col-sm-2 col-xs-1">
                                     <img src="assets/img/png/Invest_in_us_arrows.png" alt="arrow Icon" class="img-responsive" width="20">
                                 </div>
-                                <div class="arrow_img_text_block col-md-10 col-sm-10">
+                                <div class="arrow_img_text_block col-md-10 col-sm-10 col-xs-11">
                                     <h4>Transparency</h4>
                                     <p>We provide complete transparency so that Investors can easily track health of their investment portfolio in realtime</p>
                                 </div>
@@ -470,7 +574,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer_textual_block">
-                        <div class="footer_header_sec">
+                        <div class="footer_header_sec visible-md visible-lg">
                             <div class="col-sm-3 p-init footer_logo">
                                 <img src="assets/img/svg/logofooter.svg" alt="Loanmeet Logo" class="img-responsive" width="60%">
                             </div>
@@ -486,7 +590,8 @@
                         </div>
 
                         <div class="footer_link_sec">
-                            <div class="col-sm-3">
+                            <div class="col-sm-3 abt_blk">
+                                <img src="assets/img/svg/logofooter.svg" alt="Loanmeet Logo" class="img-responsive visible-xs" width="60%">
                                 <p><a href="about.html">About Us</a></p>
                                 <p><a href="http://blog.loanmeet.com">Blog</a></p>
                                 <p><a href="faq.html">FAQs</a></p>
@@ -494,13 +599,14 @@
                                 <p><a href="terms.html">Terms of Services</a></p>
                                 <p><a href="testimonials.html">Testimonials</a></p>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-3 prod_blk">
+                                <h4 class="visible-xs"><strong>Products</strong></h4>
                                 <p><a href="working_capital.html">Working Capital Loan</a></p>
                                 <p><a href="b2b_marketplace_financing.html">B2B Marketplace Financing</a></p>
                                 <p><a href="cash_credit_line.html">Cash Credit Line</a></p>
                                 <p><a href="channel_financing.html">Channel Financing</a></p>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-3 ln_blk">
                                 <p><a href="get_loan.html">Get Loan</a></p>
                                 <p><a href="invest.html">Invest With Us</a></p>
                                 <p><a href="emi-calculator.html">EMI Calculator</a></p>
@@ -508,6 +614,7 @@
 
                             </div>
                             <div class="col-sm-3 office_address">
+                                <h4 class="visible-xs"><strong>Contact Us on</strong></h4>
                                 <p class="contact_number">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                     <span>+91 9969798664</span>
