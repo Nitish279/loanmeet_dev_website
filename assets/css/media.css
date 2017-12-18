@@ -150,6 +150,43 @@
 	p.social_icons_cover{
 		margin-right: 0.2rem;
 	}
+
+	#docs-required .individual_doc {
+	    height: 640px;
+	}
+
+	#docs-required .individual_doc_card p.doc_detail{
+		height: 320px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#product_banner_section{
+		height: 38.5vh;
+	}
+
+	#what_we_offer .iwu_bg {
+	    top: -2px;
+	}
+
+	#why_us .individual_doc_card{
+		padding: 1rem;
+	}
+
+	#why_us .individual_doc{
+		height: auto;
+	}
 }
 
 @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
@@ -213,6 +250,25 @@
     .arrow_img_text_block{
         padding: 0;
     }
+
+
+
+
+    #product_banner_section{
+		height: 55vh;
+	}
+
+	#what_we_offer .iwu_bg {
+	    top: -2px;
+	}
+
+	#why_us .individual_doc_card{
+		padding: 1rem;
+	}
+
+	#why_us .individual_doc{
+		height: auto;
+	}
 }
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
@@ -445,6 +501,47 @@
 	    margin: 1rem auto 2rem;
 	    text-align: center;
 	}
+
+	.footer_textual_block .footer_header_sec{
+		display: block !important;
+	}
+
+	#docs-required .individual_doc{
+		margin-bottom: 4rem;
+	}
+
+
+
+
+	#product_banner_section{
+		height: 43vh;
+	}
+
+	#what_we_offer .iwu_bg {
+	    top: -2px;
+	}
+
+	#why_us .individual_doc_card{
+		padding: 1rem;
+		margin: 0;
+	}
+
+	#why_us .individual_doc{
+		height: auto;
+	}
+
+	#why_us .individual_doc_card p.doc_detail{
+		height: 160px;
+		padding-bottom: 0rem;
+	}
+
+	#why_us .individual_doc_card img {
+	    width: 80%;
+	}
+
+	#why_us .individual_doc_card h4 {
+	    height: 44px;
+	}
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
@@ -583,6 +680,61 @@
 	    width: 26px;
 	    height: 26px;
 	    line-height: 24px;
+	}
+
+	#docs-required .individual_doc {
+	    height: 640px;
+	}
+
+	#docs-required .individual_doc_card p.doc_detail{
+		height: 320px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#product_banner_section{
+		height: 68.5vh;
+	}
+
+	#what_we_offer .iwu_bg {
+	    top: -4px;
+	}
+
+	#why_us .individual_doc_card{
+		padding: 1rem;
+		margin: 0 1rem;
+	}
+
+	#why_us .individual_doc{
+		height: auto;
+	}
+
+	#why_us .individual_doc_card p.doc_detail{
+		height: 160px;
+		padding-bottom: 0rem;
+	}
+
+	#why_us .individual_doc_card img {
+	    width: 50%;
+	}
+
+	#why_us .individual_doc_card h4 {
+	    height: 44px;
+	    font-size: 1.5rem;
 	}
 }
 
@@ -855,10 +1007,91 @@
 	.rating_textual_block p.rating_txt {
 	    font-size: 20px;
 	}
+
+
+
+
+	#product_banner_section{
+		height: 55vh;
+	}
+
+	#what_we_offer .iwu_bg {
+	    top: -6px;
+	}
+
+	#what_we_offer h1{
+		margin-bottom: 0;
+	}
+
+	.iwu_content_block, .indv_reason_block{
+		margin-top: 0;
+	}
+
+	#what_we_offer .indv_reason_block {
+	    margin-bottom: 0rem;
+	}
+
+	#why_us .individual_doc_card{
+		padding: 1rem;
+		margin: 0 1rem;
+	}
+
+	#why_us .individual_doc{
+		height: 460px;
+	}
+
+	#why_us .document_block {
+	    margin: 2.5rem auto 6rem;
+	}
+
+	.why_us_bg {
+	    width: 34%;
+	}
+
+	#why_us .individual_doc_card p.doc_detail{
+		height: 160px;
+		padding-bottom: 0rem;
+	}
+
+	#why_us .individual_doc_card img {
+	    width: 50%;
+	}
+
+	#why_us .individual_doc_card h4 {
+	    height: 44px;
+	    font-size: 1.5rem;
+	}
+
+	.eligibility_indv_item_img.hide_from_screen{
+		display: none;
+	}
+
+	.eligibility_indv_item_text.bank_stmt{
+		height: 56px;
+	}
+
+	.eligibility_content_1st_row{
+		margin-bottom: 0;
+	}
+
+	.eligible_businesses,
+	.docs_required_businesses_loan,
+	.business_vintage,
+	.business_turnover{
+		margin-bottom: 1rem;
+	}
+
+	#product_how_it_works .download_app_form .form-group {
+	    margin: 0rem auto 4rem;
+	}
+
+	.eligibility_title.avil_loan_txt {
+	    margin: 2rem auto;
+	}
 		
 }
 
-@media only screen and (min-width : 320px) {
+@media only screen and (max-width : 320px) {
 	.banner_text_block h1 {
 	    font-size: 1rem;
 	    word-spacing: 1px;
@@ -921,6 +1154,139 @@
 	    font-size: 1.4rem;
 	    margin: 2.5rem 0 0 0;
 	}
-}
 
+	#product_banner_section {
+	    height: 59vh;
+	}
+
+	.navbar-brand {
+	    padding: 17px 0 0 15px;
+	}
+
+	#product_banner_section img{
+		padding: 0 1rem;
+		margin-top: 1rem;
+	}
+
+	.product_banner_content {
+	    margin-top: 1.5rem;
+	}
+
+	.product_banner_content p{
+		margin-bottom: 1.5rem;
+		font-size: 0.8rem;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.product_banner_content .apply_btn {
+    	margin: 0rem auto 2rem;
+	}
+	.product_banner_content .apply_btn a {
+	    padding: 0.6rem 3rem 0.8rem;
+	}
+	#what_we_offer h1 {
+		font-size: 1.4rem;
+	}
+	#what_we_offer .indv_reason_block {
+	    margin-bottom: 0rem;
+	    margin: 1.5rem 0;
+   }
+   #what_we_offer .indv_reason img {
+	    width: 50px;
+	    height: 50px;
+	}
+	.arrow_img_text_block h4 {
+	    font-size: 1.1rem;
+	}
+	.arrow_img_text_block p {
+	    font-size: 0.8rem;
+	    line-height: 20px;
+	}
+	.indv_reason {
+	    margin-bottom: 1rem;
+	}
+
+	.indv_reason {
+	    margin-bottom: 1rem;
+	    padding: 0;
+	}
+	#why_us .docs_section_title {
+	    font-size: 1.4rem;
+	}
+	#why_us .document_block {
+	    margin: 1.5rem auto 4rem;
+	}
+	#why_us .individual_doc {
+	    height: 385px;
+	    padding: 1rem;
+	}
+	#why_us .individual_doc_card {
+	    padding: 1rem;
+	    margin: 0;
+	}
+	#why_us .individual_doc_card img {
+	    width: 40%;
+	    margin-top: 1rem;
+	}
+	#why_us .individual_doc_card h4 {
+	    height: 30px;
+	    font-size: 1.1rem;
+	}
+	#why_us .individual_doc_card p.doc_detail {
+	    height: 120px;
+	    padding-bottom: 0rem;
+	}
+	.eligibility_title.avil_loan_txt {
+	    font-size: 1.4rem;
+	    margin: 2rem auto 1rem;
+	}
+	.eligible_businesses, .docs_required_businesses_loan, .business_vintage, .business_turnover {
+	    margin-bottom: 0rem;
+	}
+	.eligibility_indv_item {
+	    margin-bottom: 1.5rem;
+	}
+	.eligibility_indv_item_img {
+	    vertical-align: middle;
+	    padding: 0;
+	}
+	.eligibility_indv_item_img img {
+	    height: 30px;
+	    margin: 0 auto;
+	}
+	.eligibility_indv_item_text {
+	    height: 30px;
+	}
+	.eligibility_indv_item.title .eligibility_indv_item_text p {
+	    font-size: 1.2rem;
+	  }
+	  .eligibility_indv_item_text p {
+	    font-size: 1.1rem;
+	}
+	   .eligibility_content_2nd_row {
+        margin-top: 0;
+    }
+    .business_vintage .eligibility_indv_item_text, .business_turnover .eligibility_indv_item_text {
+       height: 41px;
+    }
+    #product_how_it_works .download_app_form input {
+	    width: 50%;
+	}
+	#product_how_it_works .download_app_form .form-group {
+		margin: 0rem 0.5rem 2.5rem;
+		padding: 0 1rem;
+		width: 360px;
+	}
+
+	#product_how_it_works .download_app_form a {
+	    height: 40px;
+	    line-height: 24px;
+	    font-size: 0.8rem;
+	}
+
+	.eligibility_title {
+    	font-size: 1.4rem;
+	}
+}
 

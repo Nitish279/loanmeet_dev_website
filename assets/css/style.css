@@ -76,7 +76,8 @@ label.error{
 
 /*====== Loanmeet Banner Style Block ======*/
 
-    #loanmeet_banner_section{
+    #loanmeet_banner_section,
+    #product_banner_section{
         /*background: rgba(0, 0, 0, 0) url("../img/svg/landing_page_slider1.svg") no-repeat scroll left top / auto;*/
         width: 100vw;
         height: 91.5vh;
@@ -393,7 +394,7 @@ label.error{
         width: 100vw;
     }
 
-    .docs_section_title{
+    #docs-required .docs_section_title{
         font-size: 2rem;
         color: #1568a3;
         font-weight: bold;
@@ -402,38 +403,38 @@ label.error{
         margin-bottom: 0.3rem;
     }
 
-    .doc_start_txt{
+    #docs-required .doc_start_txt{
         font-size: 1rem;
         color: #283e56;
     }
 
-    .document_block{
+    #docs-required .document_block{
         margin: 2rem auto 6rem;
     }
 
-    .individual_doc{
+    #docs-required .individual_doc{
         position: relative;
         height: 560px;
     }
 
-    .individual_doc p.doc_numbers{
+    #docs-required .individual_doc p.doc_numbers{
         font-size: 6rem;
         font-weight: bold;
         color: #d0e0ea;
     }
 
-    .individual_doc_card img{
+    #docs-required .individual_doc_card img{
         margin: 0 auto 2rem;
     }
 
-    .individual_doc_card h4{
+    #docs-required .individual_doc_card h4{
         color: #1568a3;
         font-weight: bold;
         font-size: 1.2rem;
         margin-bottom: 1.5rem;
     }
 
-    .individual_doc_card p.doc_detail{
+    #docs-required .individual_doc_card p.doc_detail{
         color: #7c8893;
         font-size: 1rem;
         line-height: 24px;
@@ -441,7 +442,7 @@ label.error{
     height: 260px;
     }
 
-    .individual_doc_card{
+    #docs-required .individual_doc_card{
         margin: 0 0.5rem;
         padding: 1.5rem;
         background-color: #fff;
@@ -458,7 +459,7 @@ label.error{
         transform: scale(1);
     }
 
-    .individual_doc_card:hover{
+    #docs-required .individual_doc_card:hover{
         z-index: 2;
         -webkit-transition: all 1000ms ease-in-out;
         -webkit-transform: scale(1.1);
@@ -750,6 +751,10 @@ label.error{
         font-size: 1rem;
     }
 
+    .footer_link_sec p a:hover{
+        text-decoration: none;
+    }
+
     .footer_header_sec h4{
         color: #ffffff;
         font-size: 1.2rem;
@@ -805,3 +810,279 @@ label.error{
     }
 
 /*====== Loanmeet Footer Style Block ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product_banner_section img{
+    margin-top: 2rem;
+    /*background: rgba(0, 0, 0, 0) url("../img/png/cashcredit_main_illus.png") no-repeat scroll center top / contain;*/
+}
+
+.product_banner_content{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.product_banner_content .apply_btn{
+    margin: 1rem auto 2rem;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+} 
+
+
+
+
+    #what_we_offer .row{
+        padding: 0;
+    }
+
+#what_we_offer{
+        position: relative;
+        background-color: #e6ecee;
+    }
+
+    #what_we_offer .iwu_bg{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #what_we_offer .iwu_content_block,
+    #what_we_offer .indv_reason_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    #what_we_offer .indv_reason_block{
+        margin-bottom: 3rem;
+    }
+
+    #what_we_offer h1{
+        text-align: center;
+        color: #1568a3;
+        font-size: 2rem;
+        font-weight: bold;
+        /*padding-right: 7em;*/
+        margin-bottom: 1.5em;
+    }
+
+    #what_we_offer .indv_reason img{
+        margin: 1em auto;
+        width: 70px;
+        height: 70px;
+    }
+
+    #what_we_offer .arrow_img_text_block h4{
+        color: #1568a3;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #what_we_offer .arrow_img_text_block p{
+        color: #283e56;
+        font-size: 1rem;
+    }
+
+    #what_we_offer .arrow_img_text_block{
+        padding: 0 1rem;
+    }
+
+
+
+
+
+    #why_us{
+        position: relative;
+        /*background: url(../img/svg/docs_bg.svg) no-repeat top left;
+        background-size: cover;*/
+        width: 100vw;
+    }
+
+    .why_us_bg{
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 17%;
+    }
+
+     #why_us .docs_section_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+    }
+
+     #why_us .doc_start_txt{
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+     #why_us .document_block{
+        margin: 4.5rem auto 10rem;
+    }
+
+     #why_us .individual_doc{
+    }
+
+     #why_us .individual_doc p.doc_numbers{
+        font-size: 6rem;
+        font-weight: bold;
+        color: #d0e0ea;
+    }
+
+     #why_us .individual_doc_card img{
+        margin: 0 auto 2rem;
+        width: 50%;
+    }
+
+     #why_us .individual_doc_card h4{
+        color: #1568a3;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+     #why_us .individual_doc_card p.doc_detail{
+        color: #7c8893;
+        font-size: 1rem;
+        line-height: 24px;
+        padding-bottom: 2rem;
+        height: 106px;
+    }
+
+     #why_us .individual_doc_card{
+        margin: 0 0.5rem;
+        padding: 1.5rem;
+        background-color: #fff;
+        border-radius: 20px;
+        z-index: 2;
+        -webkit-box-shadow: 0px -1px 27px 1px rgba(135, 146, 150, 0.9);
+        -moz-box-shadow:    0px -1px 27px 1px rgba(135, 146, 150, 0.9);
+        box-shadow:         0px -1px 27px 1px rgba(135, 146, 150, 0.9);
+    }
+
+    #why_us .individual_doc_card:hover{
+        
+    }
+
+
+    #eligibility{
+        position: relative;
+        background-color: #e6ecee;
+    }
+
+
+    .eligibility_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        text-align: center;
+        margin: 2rem auto 3rem;
+    }
+
+    .eligibility_indv_item.title .eligibility_indv_item_text p{
+        font-size: 1.5rem;
+    color: #4ca7df;
+    font-weight: bold;
+    height: auto;
+    margin: 1rem 0;
+    }
+
+    .eligibility_indv_item,
+    .eligibility_content_1st_row,
+    .eligibility_content_2nd_row{
+            clear: both;
+    overflow: hidden;
+    /*background-color: red;*/
+        margin-bottom: 2rem;
+    }
+
+    .eligibility_indv_item{
+        margin-bottom: 2rem;
+    }
+
+    .eligibility_indv_item_img{
+        vertical-align: middle;
+            /*background-color: aliceblue;*/
+    }
+    .eligibility_indv_item_img img{
+            height: 40px;
+            margin: 0 auto;
+    }
+
+    .eligibility_indv_item_text{
+        vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 40px;
+    box-sizing: border-box;
+    /*background-color: pink;*/
+    }
+
+    .eligibility_content_2nd_row{
+        /*margin-top: 1rem;*/
+    }
+
+    .business_vintage .eligibility_indv_item_img img,
+    .business_turnover .eligibility_indv_item_img img{
+        margin: 0.5rem auto;
+    }
+
+    .business_vintage .eligibility_indv_item_text,
+    .business_turnover .eligibility_indv_item_text{
+        height: 56px;
+    }
+
+    .eligibility_indv_item_text p{
+        font-size: 1.4rem;
+    font-weight: lighter;
+    word-spacing: 2px;
+    margin: 0;
+    }
+
+
+    .eligibility_title.avil_loan_txt{
+        margin: 4rem auto 2rem;
+    }
+
+    #product_how_it_works .download_app_form .form-group{
+            margin: 0rem auto 8rem;
+    width: 360px;
+    }
+
+    #product_how_it_works{
+        position: relative;
+    }
+
+    .product_how_it_works_bg{
+        position: absolute;
+        top: -2px;
+        right: 0;
+        width: 19%;
+    }
+    
+    #product_how_it_works .download_app_form input{
+            width: 68%;
+            height: 40px;
+    }
+
+    #product_how_it_works .download_app_form a{
+                height: 40px;
+    line-height: 24px;
+    }
