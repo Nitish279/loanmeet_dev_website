@@ -58,6 +58,7 @@ label.error{
         text-transform: uppercase;
         letter-spacing: 0.05em;
         font-size: 0.8rem;
+        font-weight: bold;
         /*padding: 0.6rem 0.8rem;*/
         padding: 0.8em 1em;
     }
@@ -68,6 +69,20 @@ label.error{
 
     #myNavbar li a:hover{
         background-color: transparent;
+    }
+
+    #myNavbar .dropdown-menu{
+        background-color: #4ca7df;
+    }
+
+    #myNavbar .dropdown-menu li a{
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    #myNavbar .dropdown-toggle .caret{
+        margin-top: -3px;
+        margin-left: 6px;
     }
 
 /*====== Loanmeet Header Style Block ======*/
