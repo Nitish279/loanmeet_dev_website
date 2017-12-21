@@ -840,8 +840,7 @@ label.error{
 
 
 #product_banner_section img{
-    margin-top: 2rem;
-    /*background: rgba(0, 0, 0, 0) url("../img/png/cashcredit_main_illus.png") no-repeat scroll center top / contain;*/
+    margin: 2.5rem auto;
 }
 
 .product_banner_content{

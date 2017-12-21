@@ -173,7 +173,7 @@
 
 
 	#product_banner_section{
-		height: 38.5vh;
+		height: auto;
 	}
 
 	#what_we_offer .iwu_bg {
@@ -186,6 +186,10 @@
 
 	#why_us .individual_doc{
 		height: auto;
+	}
+
+	#product_banner_section .b2b_marketplace_financing .product_banner_content {
+	    margin-top: 0rem;
 	}
 }
 
@@ -254,8 +258,12 @@
 
 
 
-    #product_banner_section{
-		height: 55vh;
+    #product_banner_section {
+	    height: auto;
+	}
+
+	.product_banner_content {
+	    margin-top: 0rem;
 	}
 
 	#what_we_offer .iwu_bg {
@@ -514,7 +522,11 @@
 
 
 	#product_banner_section{
-		height: 43vh;
+		height: auto;
+	}
+
+	.product_banner_content {
+	    margin-top: 0rem;
 	}
 
 	#what_we_offer .iwu_bg {
@@ -541,6 +553,13 @@
 
 	#why_us .individual_doc_card h4 {
 	    height: 44px;
+	}
+
+
+
+	#terms-section p, #terms-section ol ol li, #privacy-section p, #privacy-section ol ol li{
+		margin-right: 1rem;
+    	margin-left: 1rem;
 	}
 }
 
@@ -707,7 +726,11 @@
 
 
 	#product_banner_section{
-		height: 68.5vh;
+		height: auto;
+	}
+
+	.product_banner_content {
+	    margin-top: 0rem;
 	}
 
 	#what_we_offer .iwu_bg {
@@ -835,6 +858,10 @@
 		font-size: 1.5rem;
 		margin: 1.5rem auto;
 	}
+
+	.indv_prod_text p.prod_desc{
+    	text-align: justify;
+    }
 
 	.products_block {
 	    margin-top: 6rem;
@@ -1012,7 +1039,19 @@
 
 
 	#product_banner_section{
-		height: 55vh;
+		height: auto;
+	}
+
+	.product_banner_content {
+		margin-top: 0;
+	}
+
+	.product_banner_content p{
+		text-align: justify;
+	}
+
+	.eligibility_indv_item_text.itr_txt{
+		height: 56px;
 	}
 
 	#what_we_offer .iwu_bg {
@@ -1088,7 +1127,82 @@
 	.eligibility_title.avil_loan_txt {
 	    margin: 2rem auto;
 	}
-		
+
+	#terms-section ol,
+	#privacy-section ol{
+		padding-left: 1rem;
+	}
+
+	#terms-section .container{
+		padding: 0 1.5rem;
+	}
+
+	#privacy-section p{
+		margin: 0 1rem;
+	}
+
+	#privacy-section ol{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	
+	.center-title{
+		margin: 3rem auto;
+	}
+
+	.misc-box{
+		padding: 1rem;
+	}	
+}
+
+@media only screen and (max-width : 414px) {
+	#product_banner_section {
+	    height: auto;
+	}
+}
+
+@media only screen and (max-width : 375px) {
+	.banner_text_block h1 {
+    	font-size: 1.2rem;
+	}
+
+	.banner_text_block h3 {
+    	font-size: 1rem;
+    }
+
+    .indv_prod_text p.prod_desc{
+    	text-align: justify;
+    }
+
+    .video_block_video iframe {
+	    width: 345px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.video_block_video iframe {
+	    width: 330px;
+	}
+
+	#product_banner_section {
+	    height: auto;
+	}
+
+	#product_how_it_works .download_app_form input {
+	    width: 59%;
+	}
+
+	#product_how_it_works .download_app_form .form-group {
+	    margin: 0rem 1rem 4rem;
+	}
+
+	.eligibility_title{
+		margin: 2rem 1rem 3rem;
+	}
+
+	.eligibility_indv_item_text.eli_busi{
+		height: 56px;
+	}
 }
 
 @media only screen and (max-width : 320px) {
@@ -1125,6 +1239,9 @@
     .section_title {
         padding-top: 12px;
     }
+    .indv_prod_text p.prod_desc{
+    	text-align: justify;
+    }
 	.indv_prod_img, .indv_prod_text {
 	    padding-bottom: 1rem;
 	}
@@ -1156,7 +1273,7 @@
 	}
 
 	#product_banner_section {
-	    height: 59vh;
+	    height: auto;
 	}
 
 	.navbar-brand {
@@ -1288,5 +1405,30 @@
 	.eligibility_title {
     	font-size: 1.4rem;
 	}
+
+	#terms-section ol,
+	#privacy-section ol{
+		padding-left: 1rem;
+	}
+
+	#terms-section .container,
+	#privacy-section .container{
+		padding: 0 1.5rem;
+	}
+
+	.center-title{
+		margin: 3rem auto;
+	}
+
+	.misc-box{
+		padding: 1rem;
+	}
 }
+
+
+
+
+
+
+
 
