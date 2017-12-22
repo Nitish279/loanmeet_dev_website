@@ -282,6 +282,115 @@
 
         <!--Custom Js Link-->
         <script src="assets/js/main.js"></script>
+
+        <script type="text/javascript">
+            //Production
+            var APIRoot = "https://loanmeet.herokuapp.com";
+
+            //Staging
+            //var APIRoot = "https://loanmeet-staging.herokuapp.com";
+            //Local 
+            //var APIRoot = "http://localhost:3000";
+
+            var registration = "/v1/users";
+            var ApiUrl = APIRoot + registration;
+
+            function _onSubmit() {
+                // alert("Hello");
+                var errors = [];
+                var valid = true;
+                var errorsArr = [];
+                var dataStatus = $('.data-status');
+                var letterNumber_regx = /^[0-9a-zA-Z]+$/;
+                var number_regx = /^[1-9]{1}[0-9]{9}$/;
+                var number = /^[0-9]{4,}$/;
+                var characters = /^[a-zA-Z ]+$/;
+                var password_regx = /(?=.*[0-9a-zA-Z]).{8,}$/;
+                var email_regx = /^.+@.+\..+$/;
+                var user_type = "Lender";
+                var name = $("#fname").val();
+
+                if (!characters.test(name)) {
+                    valid = false;
+                    errorsArr.push('Invalid Name: Can contains only characters');
+                }
+
+                var email = $('#email').val();
+                if (!email_regx.test(email)) {
+                    valid = false;
+                    errorsArr.push('Invalid Email Address');
+                }
+
+                var phone_number = $('#phone_number').val();
+                if (!number_regx.test(phone_number)) {
+                    valid = false;
+                    errorsArr.push('Invalid Phone Number, Only numbers and 10 digits are allowed');
+                }
+
+                var city = $('#city').val();
+                if (!characters.test(city)) {
+                    valid = false;
+                    errorsArr.push('City can contain only characters');
+                }
+
+                var address = $('#address').val();
+                var password = $('#password').val();
+                if (!password_regx.test(password)) {
+                    valid = false;
+                    errorsArr.push('Invalid Password Must Contain 8 Characters or numbers');
+                }
+                var passwordConfirmation = password;
+
+                var checkboxTC = $("#check_id").prop('checked');
+                if (!checkboxTC) {
+                    alert("Please accept Terms and Conditions before registering");
+                }
+                var source_of_loanmeet = $('#source_of_loanmeet option:selected').val();
+                if (!valid) {
+                    dataStatus.show().html('<div class="alert alert-info"><div id="errors"><strong></strong></div></div>');
+                    $("#errors").text(errorsArr);
+
+                }
+                if (valid) {
+                    var my_user = {
+                        "email": email,
+                        "password": password,
+                        "password_confirmation": passwordConfirmation,
+                        "name": name,
+                        "phone_number": phone_number,
+                        "address": address,
+                        "city": city,
+                        "source_of_loanmeet": source_of_loanmeet,
+                        "type": user_type
+                    }
+                    $.ajax({
+                        url: "https://loanmeet.herokuapp.com/v1/users",
+                        type: 'POST',
+                        data: {
+                            "user": my_user
+                        },
+
+                        dataType: "json",
+                        headers: {
+                            'Accept': 'gzip, deflate'
+                        },
+                        success: function(data) {
+                            dataStatus.show().html('<div class="alert alert-info"><div id="success"><strong>Successfully Registered</strong></div></div>');
+                            var registered_user = data;
+                            var param = email + "," + password;
+                            var encodedData = window.btoa(param);
+                            window.location.href = "https://app.loanmeet.com/login_2?param=" + encodedData;
+                        },
+                        error: function(data) {
+                            dataStatus.show().html('<div class="alert alert-info"><div id="sign-up-errors"><strong>Successfully Registered</strong></div></div>');
+                            var loginErrors = JSON.parse(data.responseText);
+
+                            $("#sign-up-errors").text(loginErrors.error);
+                        },
+                    });
+                }
+            }
+        </script>
         
     </body>
 

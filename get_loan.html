@@ -306,6 +306,242 @@
 
         <!--Custom Js Link-->
         <script src="assets/js/main.js"></script>
+
+        <script type="text/javascript">
+            //Production
+            var APIRoot = "https://loanmeet.herokuapp.com";
+
+            //Staging
+            //var APIRoot = "https://loanmeet-staging.herokuapp.com";
+            //Local 
+            //var APIRoot = "http://localhost:3000";
+
+            var distributor_list = "/v1/credit/distributor/getAllDistributors";
+            var url = APIRoot + distributor_list;
+
+            $("#Businessturnover").hide();
+            $("#DistributorList").hide();
+
+            $("#loan_type").change(function() {
+                if ($('#loan_type option:selected').text() == "Business" || $('#loan_type option:selected').text() == "Working Capital Loan") {
+                    $("#salary").hide();
+                    $("#Businessturnover").show();
+                } else if ($('#loan_type option:selected').text() == "Distributor Credit Line") {
+                    // $("#salary").hide();
+                    // $("#LoanAmout").hide();
+                    fetch(url)
+                        .then((resp) => resp.json()) // Transform the data into json
+                        .then(function(data) {
+                            console.log("inside data fetching function");
+                            console.log(data.users[0]);
+                            var distributor_data = JSON.stringify(data.users);
+                            localStorage.setItem("distributor_data", distributor_data);
+                            var options = "";
+                            for (var i = 0; i < data.users.length; i++) {
+                                options += '<option value ="' + data.users[i].id + '">' + data.users[i].partner_name + '</option>';
+                            }
+                            $("#distributor_list").append(options);
+
+                        })
+                    $("#DistributorList").show();
+
+                } else {
+                    $("#salary").show();
+                    $("#Businessturnover").hide();
+                }
+            });
+
+
+            var registration = "/v1/users";
+            var ApiUrl = APIRoot + registration;
+
+            function goog_snippet_vars() {
+                var w = window;
+                w.google_conversion_id = 952367113;
+                w.google_conversion_label = "Y_6DCLys12AQifCPxgM";
+                w.google_conversion_value = 100.00;
+                w.google_conversion_currency = "INR";
+                w.google_remarketing_only = false;
+            }
+            // DO NOT CHANGE THE CODE BELOW.
+            function goog_report_conversion(url) {
+                this.goog_snippet_vars();
+                window.google_conversion_format = "3";
+                window.google_is_call = true;
+                var opt = new Object();
+                opt.onload_callback = function() {
+                    if (typeof(url) != 'undefined') {
+                        window.location = url;
+                    }
+                }
+                var conv_handler = window['google_trackConversion'];
+                if (typeof(conv_handler) == 'function') {
+                    conv_handler(opt);
+                }
+            }
+
+            function _onSubmit() {
+                var errors = [];
+                //goog_report_conversion();
+
+                var letterNumber_regx = /^[0-9a-zA-Z]+$/;
+                var number_regx = /^[1-9]{1}[0-9]{9}$/;
+                var number = /^[0-9]{4,}$/;
+                var characters = /^[a-zA-Z ]+$/
+                // either lowercase or uppercase or number 
+                // at least 8 characters
+                var password_regx = /(?=.*[0-9a-zA-Z]).{8,}$/;
+                var email_regx = /^.+@.+\..+$/;
+                var valid = true;
+                var user_type = "Borrower";
+                var pre_approved_loan_amount = 0;
+                var errorsArr = [];
+                var email = $('#email').val();
+                var dataStatus = $('.data-status');
+
+                var promo_code = $('#promo').val();
+
+                if (!email_regx.test(email)) {
+                    valid = false;
+                    errorsArr.push('Invalid Email Address');
+                }
+
+
+                var password = $('#password').val();
+                if (!password_regx.test(password)) {
+                    valid = false;
+                    errorsArr.push('Invalid Password Must Contain 8 Characters or numbers');
+                }
+
+                var passwordConfirmation = password;
+                var loan_principal = $('#loan_amount').val();
+                var net_monthly_income = $('#monthly_in_hand_salary').val();
+                var name = $('#fname').val();
+
+                if (!characters.test(name)) {
+                    valid = false;
+                    errorsArr.push('Name Can contain only Characters');
+                }
+
+                var phone_number = $('#phone_number').val();
+                if (!number_regx.test(phone_number)) {
+                    valid = false;
+                    errorsArr.push('Invalid Phone Number, Only numbers and 10 digits are allowed');
+                }
+                var loan_type = $('#loan_type option:selected').val();
+                var distributor_id = $('#distributor_list option:selected').val();
+                if (distributor_id == null || distributor_id == undefined) {
+                    distributor_id = 0;
+                }
+                if (loan_type == "distributor_credit_line") {
+                    console.log("inside distributor credit line test");
+                    annual_turnover = 1000;
+                    net_monthly_income = 10000;
+                    loan_principal = 10000;
+                    var distributor_data = JSON.parse(localStorage.getItem("distributor_data"));
+                    var i = 0;
+                    for (i = 0; i < distributor_data.length; i++) {
+                        if (distributor_data[i].id == distributor_id)
+                            loan_type = "credit_line_distributor_" + distributor_data[i].short_name;
+                    }
+                }
+
+                if (!number.test(loan_principal)) {
+                    valid = false;
+                    errorsArr.push('Loan Principal can only be number and Loan Principal must be more then 1000');
+                } else if (loan_principal.length < 4) {
+                    valid = false;
+                    errorsArr.push('');
+                }
+                var city = $('#city').val();
+                if (!characters.test(city)) {
+                    valid = false;
+                    errorsArr.push('City can contain only characters');
+                }
+
+
+                if (!number.test(net_monthly_income)) {
+                    valid = false;
+                    errorsArr.push('Income can only be number and Income must be more then 1000');
+                }
+
+                var annual_turnover = 0;
+                if (loan_type == "business") {
+                    annual_turnover = $('#turnover').val();
+                    net_monthly_income = 1000;
+                }
+
+
+                var checkboxTC = $("#check_id").prop('checked');
+
+                if (!checkboxTC) {
+                    alert("Please accept Terms and Conditions before registering");
+                }
+
+                if (!valid) {
+                    var i = 0;
+
+                    dataStatus.show().html('<div class="alert alert-info"><div id="errors"><strong></strong></div></div>');
+                    $("#errors").text(errorsArr);
+
+                }
+
+                if (valid) {
+
+                    var my_user = {
+                        "email": email,
+                        "password": password,
+                        "password_confirmation": passwordConfirmation,
+                        "name": name,
+                        "distributor_id": distributor_id,
+                        "phone_number": phone_number,
+                        "loan_principal": loan_principal,
+                        "net_monthly_income": net_monthly_income,
+                        "annual_turnover": annual_turnover,
+                        "loan_type": loan_type,
+                        "city": city,
+                        "type": user_type,
+                        "pre_approved_loan_amount": 25000,
+                        "promo_code": promo_code,
+                        "campaign_id": null,
+                        "ad_group_id": null,
+                        "keywords": null,
+                        "ad_position": null,
+                        "url": "http://loanmeet.com/borrower/signup",
+
+                    }
+
+                    $.ajax({
+                        url: "https://loanmeet.herokuapp.com/v1/users",
+                        type: 'POST',
+                        data: {
+                            "user": my_user
+                        },
+                        beforeSend: function() {
+                            alert('Please note that we are providing loans to Bangalore based retailers at this time');
+                        },
+                        dataType: "json",
+                        headers: {
+                            'Accept': 'gzip, deflate'
+                        },
+                        success: function(data) {
+                            dataStatus.show().html('<div class="alert alert-info"><div id="success"><strong>Successfully Registered</strong></div></div>');
+
+                            var param = email + "," + password;
+                            var encodedData = window.btoa(param);
+                            window.location.href = "https://app.loanmeet.com/login_2?param=" + encodedData;
+                        },
+                        error: function(data) {
+                            dataStatus.show().html('<div class="alert alert-info"><div id="sign-up-errors"></div></div>');
+                            var loginErrors = JSON.parse(data.responseText);
+
+                            $("#sign-up-errors").text(loginErrors.error);
+                        },
+                    });
+
+                }
+            }
+        </script>
         
     </body>
 

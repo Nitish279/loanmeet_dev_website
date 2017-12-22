@@ -254,6 +254,32 @@
 
         <!--Custom Js Link-->
         <script src="assets/js/main.js"></script>
+
+        <script>
+            function calculateEmi() {
+                var rate = 0;
+                var loanAmount = document.getElementById("loan_amount").value;
+                var interestRate = document.getElementById("interest_rate").value;
+                var loanTenure = document.getElementById("tenure").value;
+                if (interestRate > 0) {
+                    rate = interestRate / (100 * 12);
+                }
+
+                if (rate > 0) {
+                    emicalc = (loanAmount * rate * (Math.pow((1 + rate), loanTenure))) / (Math.pow((1 + rate), loanTenure) - 1);
+                } else {
+                    emicalc = loanAmount / loanTenure;
+                }
+                emiResult = Math.ceil(parseInt(emicalc));
+                interestRate = 0;
+                loanAmount = 0;
+                loanTenure = 0;
+                rate = 0;
+
+                document.getElementById("calculated_emi").innerHTML = emiResult;
+
+            }
+        </script>
         
     </body>
 
