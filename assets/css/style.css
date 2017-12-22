@@ -845,7 +845,7 @@ label.error{
 
 .product_banner_content{
     font-size: 1rem;
-    margin-top: 2rem;
+    /*margin-top: 2rem;*/
 }
 
 .product_banner_content .apply_btn{
@@ -894,9 +894,9 @@ label.error{
     }
 
     #what_we_offer .indv_reason img{
-        margin: 1em auto;
-        width: 70px;
-        height: 70px;
+        margin: 0em auto;
+        width: 150px;
+        height: 150px;
     }
 
     #what_we_offer .arrow_img_text_block h4{
