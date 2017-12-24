@@ -1,0 +1,133 @@
+<section id="loanmeet_banner_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="myCarousel" class="carousel slide hidden-xs">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="" contenteditable="false"></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class="active" contenteditable="false"></li>
+                            <li data-target="#myCarousel" data-slide-to="2" class="" contenteditable="false"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item first_banner" style="">
+                                <div class="carousel-caption">
+                                    <h4 class="">"Thanks Loanmeet for the fast and great service. <br> You have supported me through real hard times"</h4>
+                                    <p class="borrower_name text-left">- Ashim Ghosh</p>
+                                    <p class="user_type text-left">Borrower</p>
+                                </div>
+                            </div>
+                            <div class="item second_banner active">
+                                <div class="carousel-caption">
+                                    <h4 class="">"Thanks Loanmeet for the fast and great service. <br> You have supported me through real hard times"</h4>
+                                    <p class="borrower_name text-left">- Ashim Ghosh</p>
+                                    <p class="user_type text-left">Borrower</p>
+                                </div>
+                            </div>
+                            <div class="item third_banner" style="">
+                                <div class="carousel-caption">
+                                    <h4 class="">"Thanks Loanmeet for the fast and great service. <br> You have supported me through real hard times"</h4>
+                                    <p class="borrower_name text-left">- Ashim Ghosh</p>
+                                    <p class="user_type text-left">Borrower</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img-responsive banner_img hidden-xs" src="assets/img/png/homepage_img1.png">
+                    <!-- <div class="container">
+                        <div class="row"> -->
+                            <div class="banner_text_block visible-md visible-lg">
+                                <h1>Inventory Financing Simplified.</h1>
+                                <h3>We provide loans to Bengaluru based retailers in 48 hrs.</h3>
+                                <div class="apply_btn">
+                                    <a href="">Apply for Loan</a>
+                                </div>
+                            </div>
+
+                            <div class="banner_text_block hidden-md hidden-lg">
+                                <div class="banner_text_inner_block">
+                                    <h1>Inventory Financing Simplified.</h1>
+                                    <h3>We provide loans to Bengaluru based retailers in 48 hrs.</h3>
+                                    <div class="apply_btn">
+                                        <a href="">Apply for Loan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </section>
+        <section id="loanmeet-features">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="why_loanmeet_block">
+                        <img src="assets/img/svg/why_loanmeet.svg" alt="" class="img-responsive fea_bg" height="" width="">
+
+                        <div class="why_loanmeet_text_block col-md-offset-6 col-md-6 col-sm-offset-5 col-sm-7 text-center hidden-xs">
+                            <h1 class="why_loanmeet_title">Why Loanmeet?</h1>
+                            <div class="col-sm-6 why_loanmeet_inv_item first_row" style="">
+                                <img src="assets/img/svg/f1.svg" alt="" class="img-responsive" width="87">
+                                <h4>Increase Sales & Profits</h4>
+                                <p>Avail our tailor made credit products to boost your sales</p>
+                            </div>  
+                            <div class="col-sm-6 why_loanmeet_inv_item first_row" style="">
+                                <img src="assets/img/svg/f2.svg" alt="" class="img-responsive" width="76">
+                                <h4>Easy Access To Funds</h4>
+                                <p>Apply today and get your loan in 48 working hours.</p>
+                            </div>
+                            <div class="col-sm-6 why_loanmeet_inv_item second_row">
+                                <img src="assets/img/svg/f3.svg" alt="" class="img-responsive" width="55">
+                                <h4>Hassle Free Process</h4>
+                                <p>A smartphone & our mobile app is all you need to apply for a loan</p>
+                            </div>
+                            <div class="col-sm-6 why_loanmeet_inv_item second_row">
+                                <img src="assets/img/svg/f4.svg" alt="" class="img-responsive" width="68">
+                                <h4>No Collateral</h4>
+                                <p>No need to pledge any personal or business asset to avail loan.</p>
+                            </div>
+                        </div>
+
+                        <div class="why_loanmeet_text_block text-center visible-xs">
+                            <h1 class="why_loanmeet_title">Why Loanmeet?</h1>
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f1.svg" alt="" class="img-responsive" width="87">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>Increase Sales & Profits</h4>
+                                    <p>Avail our tailer made credit products to boost your sales</p>
+                                </div>
+                            </div>  
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f2.svg" alt="" class="img-responsive" width="76">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>Easy Access To Funds</h4>
+                                    <p>Apply today and get your loan in 48 working hours.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f3.svg" alt="" class="img-responsive" width="55">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>Hassle Free Process</h4>
+                                    <p>A smartphone & our mobile app is all you need to apply for a loan</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 why_loanmeet_inv_item" style="">
+                                <div class="indv_fea_img_blk col-xs-3">
+                                    <img src="assets/img/svg/f4.svg" alt="" class="img-responsive" width="68">
+                                </div>
+                                <div class="indv_fea_txt_blk col-xs-9">
+                                    <h4>No Collateral</h4>
+                                    <p>No need to pledge any personal or business asset to avail loan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>

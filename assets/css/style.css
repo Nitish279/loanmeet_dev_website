@@ -88,26 +88,22 @@ label.error{
 /*====== Loanmeet Header Style Block ======*/
 
 
-
 /*====== Loanmeet Banner Style Block ======*/
 
     #loanmeet_banner_section,
     #product_banner_section{
         /*background: rgba(0, 0, 0, 0) url("../img/svg/landing_page_slider1.svg") no-repeat scroll left top / auto;*/
         width: 100vw;
-        /*height: 91.5vh;*/
-        height: 93.5vh;
+        height: 91.5vh;
         clear: both;
         overflow: hidden;
         position: relative;
     }
 
-    #loanmeet_banner_section{
-        background: rgba(0, 0, 0, 0) url("../img/png/homepage_img1.png") no-repeat scroll left top / cover;
-    }
-
-    /* #loanmeet_banner_section .item.first_banner{
+    #loanmeet_banner_section .item.first_banner{
         background: rgba(0, 0, 0, 0) url("../img/png/bg1_1.png") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
         width: 100vw;
         height: 91.5vh;
         position: relative;
@@ -119,6 +115,8 @@ label.error{
 
     #loanmeet_banner_section .item.second_banner{
         background: rgba(0, 0, 0, 0) url("../img/svg/bg1_2.svg") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
         width: 100vw;
         height: 91.5vh;
         position: relative;
@@ -130,6 +128,8 @@ label.error{
 
     #loanmeet_banner_section .item.third_banner{
         background: rgba(0, 0, 0, 0) url("../img/png/bg1_3.png") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
         width: 100vw;
         height: 91.5vh;
         position: relative;
@@ -142,8 +142,10 @@ label.error{
 
 
     #loanmeet_banner_section .carousel-caption{
+        /* background-color: red; */
         width: 26rem;
         position: absolute;
+        /*bottom: 7rem;*/
         bottom: 0.5rem;
         left: 48rem;
         text-shadow: none;
@@ -174,10 +176,12 @@ label.error{
 
     #loanmeet_banner_section .carousel-indicators{
         left: 46rem;
+        /*bottom: 5.8rem;*/
         bottom: 0.5rem;
         right: 0rem;
         width: 26rem;
         margin: 0px;
+        /* background-color: red; */
     }
 
     #loanmeet_banner_section .carousel-indicators li{
@@ -191,29 +195,24 @@ label.error{
         width: 14px;
         height: 14px;
         background-color: #2d68a3;
-    }*/
+    }
 
-    /*#loanmeet_banner_section .banner_img{
+    #loanmeet_banner_section .banner_img{
         position: absolute;
         top: 0px;
         left: 0px;
         width: 100%;
-    }*/
+    }
 
-    /*.banner_text_block{
+    .banner_text_block{
         position: absolute;
         top: 210px;
         left: 60px;
-    }*/
-
-    .banner_text_block{
-        /*background-color: red;*/
-        padding: 0;
-        margin-top: 14rem;
     }
+
     .banner_text_block h1{
         color: #1568a3;
-        font-size: 1.8rem;
+        font-size: 2.1rem;
         margin-bottom: 0;
             word-spacing: 6px;
     letter-spacing: 2px;
@@ -221,7 +220,7 @@ label.error{
 
     .banner_text_block h3{
         color: #283e56;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-top: 0.4rem;
     }
 
@@ -332,6 +331,7 @@ label.error{
         position: absolute;
         bottom: -2px;
         left:  0px;
+        z-index: -1;
     }
 
     .products_block{
@@ -962,6 +962,13 @@ label.error{
      #why_us .individual_doc_card img{
         margin: 0 auto 2rem;
         width: 50%;
+    }
+
+    #why_us .individual_doc_card img.easy_emi,
+    #why_us .individual_doc_card img.shopping_bag{
+        margin: 0 auto 0rem;
+        width: 70%;
+        height: 167px;
     }
 
      #why_us .individual_doc_card h4{
