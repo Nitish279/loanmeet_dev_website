@@ -762,6 +762,54 @@
 	}
 }
 
+@media all and (device-width: 2560px) and (device-height: 1600px) {
+	#loanmeet_banner_section,
+	#loanmeet_banner_section .item.second_banner{
+    	height: 97.5vh;
+	}
+
+	.banner_text_block {
+	    position: absolute;
+	    top: 26.5rem;
+	    left: 4rem;
+	}
+
+	.banner_text_block h1 {
+	    font-size: 4rem;
+	}
+
+	.banner_text_block h3 {
+	    font-size: 2.7rem;
+	}
+
+	#loanmeet_banner_section .carousel-indicators {
+	    left: 100rem;
+	    bottom: 3.5rem;
+	}
+
+	#loanmeet_banner_section .carousel-indicators li {
+	    width: 20px;
+	    height: 20px;
+	    margin: 10px;
+	}
+
+	#loanmeet_banner_section .carousel-caption {	    
+		width: 44rem;
+	    bottom: 6rem;
+	    left: 92rem;
+	}
+
+	#loanmeet_banner_section .carousel-caption h4 {
+	    font-size: 2rem;
+	    font-weight: bold;
+	    line-height: 36px;
+	}
+
+	#loanmeet_banner_section .carousel-caption p {
+	    font-size: 1.5rem;
+	}	
+}
+
 @media only screen and (max-width : 480px) {
 	.navbar-toggle{
 		margin-top: 0.4rem;
