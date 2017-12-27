@@ -762,7 +762,7 @@
 	}
 }
 
-@media all and (device-width: 2560px) and (device-height: 1600px) {
+/*@media all and (device-width: 2560px) and (device-height: 1600px) {
 	#loanmeet_banner_section,
 	#loanmeet_banner_section .item.second_banner{
     	height: 97.5vh;
@@ -808,7 +808,7 @@
 	#loanmeet_banner_section .carousel-caption p {
 	    font-size: 1.5rem;
 	}	
-}
+}*/
 
 @media only screen and (max-width : 480px) {
 	.navbar-toggle{
