@@ -244,7 +244,7 @@ label.error{
 /*====== Loanmeet Feature Style Block ======*/
 
     #loanmeet-features{
-        background: rgba(0, 0, 0, 0) url("../img/png/B2.png") no-repeat scroll left top / contain;
+        background: rgba(0, 0, 0, 0) url("../img/svg/B2.svg") no-repeat scroll left top / contain;
         width: 100vw;
         height: 100vh;
         position: relative;
