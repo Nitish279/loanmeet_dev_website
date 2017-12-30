@@ -94,7 +94,7 @@ label.error{
     #product_banner_section{
         /*background: rgba(0, 0, 0, 0) url("../img/svg/landing_page_slider1.svg") no-repeat scroll left top / auto;*/
         width: 100vw;
-        height: 91.5vh;
+        height: 98vh;
         clear: both;
         overflow: hidden;
         position: relative;
@@ -114,11 +114,11 @@ label.error{
     }
 
     #loanmeet_banner_section .item.second_banner{
-        background: rgba(0, 0, 0, 0) url("../img/png/B1.png") no-repeat scroll center center / cover;
+        background: rgba(0, 0, 0, 0) url("../img/png/B1.png") no-repeat scroll right top / cover;
         /*background: url(../img/svg/bg12.svg) no-repeat top right;
         background-size: contain;*/
         width: 100vw;
-        height: 91.5vh;
+        height: 98vh;
         position: relative;
         -webkit-transition-duration: 4s;
         -moz-transition-duration: 4s;
@@ -146,7 +146,7 @@ label.error{
         width: 26rem;
         position: absolute;
         /*bottom: 7rem;*/
-        bottom: 2.5rem;
+        bottom: 3.5rem;
         font-weight: bold;
         left: 48rem;
         text-shadow: none;
@@ -244,7 +244,7 @@ label.error{
 /*====== Loanmeet Feature Style Block ======*/
 
     #loanmeet-features{
-        background: rgba(0, 0, 0, 0) url("../img/png/B2.png") no-repeat scroll left top / contain;
+        background: rgba(0, 0, 0, 0) url("../img/png/img2-01-min.png") no-repeat scroll left top / contain;
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -258,7 +258,7 @@ label.error{
         top: 0;
         right: 0px;
         height: 100vh;
-        width: 96%;
+        width: 100%;
         /*background: url(../img/svg/bg2.svg) no-repeat top left;*/
         /*background: rgba(0, 0, 0, 0) url("../img/png/ref_img2.png") no-repeat scroll left top / auto;*/
         /*width: auto;
@@ -275,7 +275,7 @@ label.error{
 
     .why_loanmeet_text_block{
         position: absolute;
-        right: 0.5rem;
+        right: 2.2rem;
         top: 1.5rem;
     }
 
@@ -319,7 +319,7 @@ label.error{
         text-align: center;
         left: 0rem;
         margin: 0;
-        top: 0.6rem;
+        top: 1.4rem;
     }
 
     .product_bg1{
@@ -343,6 +343,10 @@ label.error{
     .indv_prod_img,
     .indv_prod_text{
         padding-left: 4rem;
+    }
+
+    .indv_prod_text{
+        padding-right: 4rem;
     }
 
     .indv_prod_img.img_right{
