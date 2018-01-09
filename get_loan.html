@@ -57,7 +57,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>                        
                                 </button>
-                                <a class="navbar-brand" href="index.html"><img class="img-responsive" src="https://www.loanmeet.com/assets/images/loanmeet-logo.png" alt="LoanMeet"></a>
+                                <a class="navbar-brand" href="index.html"><img class="img-responsive" src="assets/img/png/loanmeet-logo.png" alt="LoanMeet"></a>
                             </div>
                             <div>
                                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -114,11 +114,10 @@
                                 <div class="form-group col-sm-6 col-xs-12" id="dropdown">
                                     <label for="loan_type">Type of Loan*:</label>
                                     <select class="form-control" id="loan_type" required>
-                                                <option value="personal_loan">Personal Loan</option>
+                                                <!-- <option value="personal_loan">Personal Loan</option>
                                                 <option value="vehicle_loan">Vehicle Loan</option>
-                                                <option value="business">Business</option>
+                                                <option value="business">Business</option> -->
                                                 <option value="working_capital_loan">Working Capital Loan</option>
-                                                <option value="shotang_credit_line">Shotang Credit Line</option>
                                                 <option value="credit_line_cash">Cash Credit Line</option>
                                                 <option value="credit_line_distributor">Distributor Credit Line</option>
 
@@ -140,15 +139,15 @@
                                     <label for="loan_amount">Loan Amount</label>
                                     <input type="number" class="form-control" id="loan_amount" required>
                                 </div>
-                                <div class="form-group col-sm-6 col-xs-12" id="salary">
+                                <!-- <div class="form-group col-sm-6 col-xs-12" id="salary">
                                     <label for="monthly_in_hand_salary">Monthly In Hand Salary</label>
                                     <input type="number" class="form-control" id="monthly_in_hand_salary" required>
-                                </div>
+                                </div> -->
                                 <div class="form-group col-sm-6 col-xs-12" id="Businessturnover">
                                     <label for="turnover">Previous year turnover</label>
                                     <input type="number" class="form-control" id="turnover">
                                 </div>
-                                <div class="form-group col-sm-12" id="form_pass">
+                                <div class="form-group col-sm-6" id="form_pass">
                                     <label for="password">Password</label>
                                     <input type="password" class="form-control" id="password" required>
                                 </div>
@@ -260,9 +259,7 @@
                         <p class="social_icons_cover">
                             <a href="https://www.linkedin.com/company/6470059/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </p>
-                        <p class="social_icons_cover">
-                            <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </p>
+                        
                         <p class="social_icons_cover">
                             <a href="https://plus.google.com/+LoanMeetBengaluru" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </p>
@@ -284,9 +281,7 @@
                         <p class="social_icons_cover">
                             <a href="https://www.linkedin.com/company/6470059/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </p>
-                        <p class="social_icons_cover">
-                            <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </p>
+                        
                         <p class="social_icons_cover">
                             <a href="https://plus.google.com/+LoanMeetBengaluru" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </p>
@@ -319,16 +314,14 @@
             var distributor_list = "/v1/credit/distributor/getAllDistributors";
             var url = APIRoot + distributor_list;
 
-            $("#Businessturnover").hide();
+            // $("#Businessturnover").hide();
             $("#DistributorList").hide();
 
             $("#loan_type").change(function() {
-                if ($('#loan_type option:selected').text() == "Business" || $('#loan_type option:selected').text() == "Working Capital Loan") {
-                    $("#salary").hide();
-                    $("#Businessturnover").show();
+                if ($('#loan_type option:selected').text() == "Cash Credit Line" || $('#loan_type option:selected').text() == "Working Capital Loan") {
+                    $("#DistributorList").hide();
                 } else if ($('#loan_type option:selected').text() == "Distributor Credit Line") {
-                    // $("#salary").hide();
-                    // $("#LoanAmout").hide();
+                    
                     fetch(url)
                         .then((resp) => resp.json()) // Transform the data into json
                         .then(function(data) {
@@ -344,10 +337,6 @@
 
                         })
                     $("#DistributorList").show();
-
-                } else {
-                    $("#salary").show();
-                    $("#Businessturnover").hide();
                 }
             });
 
