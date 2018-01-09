@@ -277,7 +277,7 @@
 	#loanmeet_banner_section .item.first_banner,
 	#loanmeet_banner_section .item.second_banner,
 	#loanmeet_banner_section .item.third_banner{
-		height: 41vh;
+		height: 40vh;
 	}
 
 	#loanmeet_banner_section .carousel-caption{
@@ -316,12 +316,12 @@
 	}
 
 	#loanmeet-features{
-		height: 41.5vh;
+		height: 43.5vh;
 	}
 
 	.why_loanmeet_block img.fea_bg{
 		height: auto;
-    	width: 95%;
+    	width: 100%;
 	}
 
 	.why_loanmeet_text_block {
@@ -459,7 +459,7 @@
 	#loanmeet_banner_section .item.first_banner, 
 	#loanmeet_banner_section .item.second_banner,
 	#loanmeet_banner_section .item.third_banner{
-		height: 71.5vh;
+		height: 78vh;
 	}
 
 	.banner_text_block {
@@ -555,7 +555,7 @@
 	#loanmeet_banner_section .item.first_banner, 
 	#loanmeet_banner_section .item.second_banner,
 	#loanmeet_banner_section .item.third_banner{
-		height: 40.5vh;
+		height: 40vh;
 	}
 
 	.banner_text_block{
@@ -610,17 +610,17 @@
 	}
 
 	#loanmeet-features{
-		height: 40vh;
+		height: 44vh;
 	}
 
 	.why_loanmeet_block img.fea_bg{
-		height: 40vh;
+		height: 44vh;
 		width: 100%;
 	}
 
 	.why_loanmeet_text_block{
-		right: 0rem;
-		top: 0rem;
+		right: -0.2rem;
+		top: 0.4rem;
 	}
 
 	.why_loanmeet_title{
@@ -868,8 +868,8 @@
 
     #loanmeet-features,
     .why_loanmeet_block img.fea_bg{
-    	height: 77vh;
-    	width: 103vw;
+		height: 77vh;
+		width: 100vw;
     }
 
     .why_loanmeet_text_block {
